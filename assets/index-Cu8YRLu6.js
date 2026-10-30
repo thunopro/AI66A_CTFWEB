@@ -1,10 +1,1637 @@
-(function(){const o=document.createElement("link").relList;if(o&&o.supports&&o.supports("modulepreload"))return;for(const m of document.querySelectorAll('link[rel="modulepreload"]'))S(m);new MutationObserver(m=>{for(const g of m)if(g.type==="childList")for(const L of g.addedNodes)L.tagName==="LINK"&&L.rel==="modulepreload"&&S(L)}).observe(document,{childList:!0,subtree:!0});function l(m){const g={};return m.integrity&&(g.integrity=m.integrity),m.referrerPolicy&&(g.referrerPolicy=m.referrerPolicy),m.crossOrigin==="use-credentials"?g.credentials="include":m.crossOrigin==="anonymous"?g.credentials="omit":g.credentials="same-origin",g}function S(m){if(m.ep)return;m.ep=!0;const g=l(m);fetch(m.href,g)}})();const _i={"/media/archive/2017-2017-01.webp":"d7f806b5","/media/archive/2017-2017-02.webp":"63ea8d4a","/media/archive/2017-2017-03.webp":"343ca029","/media/archive/2017-2017-04.webp":"b45815f8","/media/archive/2017-2017-05.webp":"1ebb7c53","/media/archive/2017-2017-06.webp":"b67f99bf","/media/archive/2017-2017-07.webp":"75741add","/media/archive/2017-2017-08.webp":"a2ece7ae","/media/archive/2017-2017-09.webp":"077324b0","/media/archive/2017-2017-10.webp":"bb15dbdb","/media/archive/2017-2017-11.webp":"3e8f7c79","/media/archive/2017-2017-12.webp":"feb8fb35","/media/archive/2018-2018-01.webp":"1aefd610","/media/archive/2018-2018-02.webp":"4c394462","/media/archive/2018-2018-03.webp":"529dd5d3","/media/archive/2018-2018-04.webp":"ca17fe99","/media/archive/2018-2018-06.webp":"a364f10a","/media/archive/2018-2018-07.webp":"cb2b611c","/media/archive/2018-2018-08.webp":"e643d8e9","/media/archive/2018-2018-09.webp":"93532045","/media/archive/2018-2018-10.webp":"f6ee695a","/media/archive/2018-2018-11.webp":"49c3f798","/media/archive/2018-2018-12.webp":"1150c72d","/media/archive/2018-2018-13.webp":"8c1775ed","/media/archive/2018-2018-14.webp":"bd83684b","/media/archive/2018-2018-15.webp":"6cf8531a","/media/archive/2018-2018-game.webp":"012e9239","/media/archive/2018-remagic.mp4":"65386741","/media/archive/2018-screensaver.webp":"721ecdaa","/media/archive/2018-roller.mp4":"94f4cb20","/media/archive/2018-t-shirt.webp":"827380d2","/media/archive/2019-2024-12-11_11-03-21.webp":"c2c65312","/media/archive/2019-legend-01.webp":"ac10fc49","/media/archive/2019-legend-02.webp":"a6091257","/media/archive/2019-legend-03.webp":"d3dabee9","/media/archive/2019-legend-04.webp":"62e464cc","/media/archive/2019-legend-05.webp":"ae1290e5","/media/archive/2019-legend-06.webp":"fbd7cfce","/media/archive/2019-legend-07.webp":"aa13f2e6","/media/archive/2019-legend-08.webp":"315bf7c3","/media/archive/2019-legend-09.webp":"9c26f253","/media/archive/2019-legend-10.webp":"05c03697","/media/archive/2019-legend-11.webp":"1d9820b4","/media/archive/2019-legend-12.webp":"a2cdb61c","/media/archive/2019-legend-13.webp":"6dd18ca2","/media/archive/2019-legend-14.webp":"7da5936c","/media/archive/2019-legend-15.webp":"017e1a00","/media/archive/2019-legend-16.webp":"0840b09f","/media/archive/2019-legend-17.webp":"344fc6d0","/media/archive/2019-legend-18.webp":"fa4694fd","/media/archive/2019-legend-19.webp":"5220c88c","/media/archive/2019-banner.webp":"2c020bab","/media/archive/2019-survey.mp4":"2d49eac2","/media/archive/2019-wall_facade.webp":"379e5151","/media/archive/2019-footballer.webp":"af71dc9b","/media/archive/2019-photo-01.webp":"a8fedee8","/media/archive/2019-photo-02.webp":"95bddc02","/media/archive/2019-photo-03.webp":"e1e04adb","/media/archive/2019-photo-04.webp":"bcd3089d","/media/archive/2019-photo-05.webp":"be2902f9","/media/archive/2019-photo-06.webp":"f4473c45","/media/archive/2019-photo-07.webp":"e1d02a6a","/media/archive/2019-photo-08.webp":"c3df8f45","/media/archive/2019-photo-09.webp":"c2ef1a83","/media/archive/2019-t-shirt.webp":"d2e7a9ac","/media/archive/2019-winners.webp":"6bb1c54c","/media/archive/2019-hoodie.webp":"952d19c0","/media/archive/2020-2024-12-11_11-04-29.webp":"eecb972d","/media/archive/2020-cat-a76c6619.webp":"f20ddcbb","/media/archive/2020-ctf2020.webp":"a343b11f","/media/archive/2020-img_2699.webp":"33216dca","/media/archive/2020-jury_page_001.webp":"db116155","/media/archive/2020-legend-01.webp":"f95e1e63","/media/archive/2020-legend-02.webp":"b94ffb02","/media/archive/2020-legend-03.webp":"7d98ba70","/media/archive/2020-legend-04.webp":"46ba7f10","/media/archive/2020-legend-05.webp":"c5f71fa4","/media/archive/2020-legend-06.webp":"c1c62cd9","/media/archive/2020-legend-07.webp":"be21b21d","/media/archive/2020-legend-08.webp":"2aab7a83","/media/archive/2020-legend-09.webp":"72edbf4a","/media/archive/2020-legend-10.webp":"20db8fd6","/media/archive/2020-legend-11.webp":"9ed08684","/media/archive/2020-legend-12.webp":"29e019a6","/media/archive/2020-legend-13.webp":"00b9ac56","/media/archive/2020-legend-14.webp":"fe7aedc1","/media/archive/2020-legend-15.webp":"8207a7d3","/media/archive/2020-legend-16.webp":"be6386c4","/media/archive/2020-legend-17.webp":"ca9631ef","/media/archive/2020-legend-18.webp":"03a8d131","/media/archive/2020-legend-19.webp":"0b9219eb","/media/archive/2020-legend-20.webp":"572e17be","/media/archive/2020-legend-21.webp":"06cc3b06","/media/archive/2020-legend-22.webp":"97e7d2ee","/media/archive/2020-legend-23.webp":"772fd985","/media/archive/2020-legend-24.webp":"6ad89b6f","/media/archive/2020-photo_2020-12-08-15-36-55.webp":"5a679cc9","/media/archive/2020-translation_page_001.webp":"520a4e1f","/media/archive/2020-wwwbanner.webp":"e4d41cd1","/media/archive/2020-jury.webp":"26c3abed","/media/archive/2020-screensaver.webp":"828be9c4","/media/archive/2020-alys.webp":"435dd2c4","/media/archive/2020-reward.mp4":"6ff21535","/media/archive/2020-roller.mp4":"f0e51e60","/media/archive/2020-sticker-watch.webp":"3cffefb1","/media/archive/2020-photo-01.webp":"94afc999","/media/archive/2020-photo-02.webp":"a07417f3","/media/archive/2020-photo-03.webp":"4e43db31","/media/archive/2020-photo-04.webp":"43e03edf","/media/archive/2020-photo-05.webp":"379e6ff7","/media/archive/2020-photo-06.webp":"63323f53","/media/archive/2020-photo-07.webp":"0d1f3025","/media/archive/2020-photo-08.webp":"001fd852","/media/archive/2020-photo-09.webp":"1528e762","/media/archive/2020-photo-10.webp":"d10e2a75","/media/archive/2020-photo-11.webp":"aea1227f","/media/archive/2020-photo-12.webp":"91c6c123","/media/archive/2020-photo-13.webp":"0a4bb84c","/media/archive/2020-photo-14.webp":"14a4832a","/media/archive/2020-photo-15.webp":"caccf8cf","/media/archive/2021-ATM.mp4":"8392e906","/media/archive/2021-ATM.mp4":"28f9602d","/media/archive/2021-broken-down ATM.mp4":"e7240cde","/media/archive/2021-booth.mp4":"8f057f16","/media/archive/2021-booth.mp4":"8df5fccb","/media/archive/2021-broken-house.mp4":"bc9dfe85","/media/archive/2021-plant-attack.mp4":"c4cec088","/media/archive/2021-factory.mp4":"5d55921e","/media/archive/2021-broken-down.mp4":"0e23b134","/media/archive/2021-shop-attack.mp4":"cb36e470","/media/archive/2021-shop-house.mp4":"7dd0b302","/media/archive/2021-broken-down.mp4":"dfbcbc1f","/media/archive/2021-survey.mp4":"dbaf4488","/media/archive/2021-park-attack.mp4":"b34de2c3","/media/archive/2021-park-work.mp4":"199e83e0","/media/archive/2021-park-broken.mp4":"81ba73c6","/media/archive/2021-finale.webp":"9728d982","/media/archive/2021-photo-01.webp":"76e3b3ba","/media/archive/2021-photo-02.webp":"56af6326","/media/archive/2021-photo-03.webp":"8a91848d","/media/archive/2021-photo-04.webp":"d3ee67be","/media/archive/2021-photo-05.webp":"08984b89","/media/archive/2021-photo-06.webp":"d1e088e2","/media/archive/2021-photo-07.webp":"982d9588","/media/archive/2021-photo-08.webp":"06b8d498","/media/archive/2022-2022cup.webp":"3f910bec","/media/archive/2022-whole-town.mp4":"c5eaf0fd","/media/archive/2022-jurist.webp":"388fc67f","/media/archive/2022-jury.webp":"76df86d0","/media/archive/2022-merchants.webp":"5f9b4c23","/media/archive/2022-merch.webp":"e09986ac","/media/archive/2022-render-town.webp":"c1be1557","/media/archive/2022-sticker.webp":"6ec2c173","/media/archive/2022-finale.mp4":"c7643926","/media/archive/2022-photo-01.webp":"df2cc307","/media/archive/2022-photo-02.webp":"f4d53616","/media/archive/2022-photo-03.webp":"ae68fd4d","/media/archive/2022-photo-04.webp":"a9df1c3f","/media/archive/2022-photo-05.webp":"006a51ec","/media/archive/2022-photo-06.webp":"0888c0f4","/media/archive/2022-photo-07.webp":"84b044de","/media/archive/2022-photo-08.webp":"e09133c7","/media/archive/2022-photo-09.webp":"c7879671","/media/archive/2022-photo-10.webp":"869077f3","/media/archive/2022-photo-11.webp":"fef980d7","/media/archive/2022-photo-12.webp":"27e2e1b7","/media/archive/2022-photo-13.webp":"f1468b41","/media/archive/2022-t-shirt.webp":"65eda021","/media/archive/2023-2024-12-11_11-02-16.webp":"086b84d2","/media/archive/2023-legend-01.webp":"a69d98ea","/media/archive/2023-legend-02.webp":"104d8a88","/media/archive/2023-legend-03.webp":"b2f5d5ce","/media/archive/2023-legend-04.webp":"af9b2d29","/media/archive/2023-legend-05.webp":"b6726617","/media/archive/2023-legend-06.webp":"0ddb76ea","/media/archive/2023-legend-07.webp":"7f68515e","/media/archive/2023-legend-08.webp":"347a5449","/media/archive/2023-legend-09.webp":"c21bb259","/media/archive/2023-legend-10.webp":"495160be","/media/archive/2023-legend-11.webp":"8eb9b272","/media/archive/2023-legend-12.webp":"4c8cc444","/media/archive/2023-legend-13.webp":"508015d8","/media/archive/2023-legend-14.webp":"dfac7051","/media/archive/2023-legend-15.webp":"6a6ab1c2","/media/archive/2023-legend-16.webp":"97635cb8","/media/archive/2023-legend-17.webp":"35982c2e","/media/archive/2023-legend-18.webp":"0f83739b","/media/archive/2023-legend-19.webp":"329a1861","/media/archive/2023-legend-20.webp":"66e4bec1","/media/archive/2023-legend-21.webp":"0ee47c4e","/media/archive/2023-legend-22.webp":"54518d19","/media/archive/2023-legend-23.webp":"d5a0cad9","/media/archive/2023-legend-24.webp":"b72edee0","/media/archive/2023-metravehkeem.webp":"b12deb14","/media/archive/2023-visual-1.webp":"a1ce26cc","/media/archive/2023-visual-2.webp":"68ca7145","/media/archive/2023-visual-3.webp":"4b091611","/media/archive/2023-visual-4.webp":"9bfd001e","/media/archive/2023-banner.webp":"2d44f203","/media/archive/2023-result.mp4":"30cf29c5","/media/archive/2023-lighthouse.webp":"02baa5dd","/media/archive/2023-fly-around.mp4":"9e7b44cd","/media/archive/2023-print-jury.webp":"53d66341","/media/archive/2023-print organizing committee.webp":"dd62082a","/media/archive/2023-printgroup.webp":"db7cd29b","/media/archive/2023-sweatshirts.webp":"e1b7cb1e","/media/archive/2023-figure-1.webp":"fdf2fd81","/media/archive/2023-figure-2.webp":"9d2d8517","/media/archive/2023-figure-3.webp":"e87b0525","/media/archive/2023-finale.mp4":"878a3a2e","/media/archive/2023-photo-01.webp":"63179f82","/media/archive/2023-photo-02.webp":"7eaf4eaf","/media/archive/2023-photo-03.webp":"4f5b7d25","/media/archive/2023-photo-04.webp":"a2421a07","/media/archive/2023-photo-05.webp":"e9735cce","/media/archive/2023-photo-06.webp":"8cb23f52","/media/archive/2023-photo-07.webp":"fc4f9fb0","/media/archive/2023-photo-08.webp":"696a0dbc","/media/archive/2023-photo-09.webp":"624df1e3","/media/archive/2023-photo-10.webp":"b01c6459","/media/archive/2023-photo-11.webp":"7d59a0f7","/media/archive/2023-photo-12.webp":"c7ba441b","/media/archive/2023-photo-13.webp":"adaeb563","/media/archive/2024-demo_full.mp4":"fc395b82","/media/archive/2024-legend-01.webp":"c2126b1d","/media/archive/2024-legend-02.webp":"da6bc125","/media/archive/2024-legend-03.webp":"b714ce3f","/media/archive/2024-legend-04.webp":"2ae99991","/media/archive/2024-legend-05.webp":"c9528e8c","/media/archive/2024-legend-06.webp":"37105679","/media/archive/2024-legend-07.webp":"fdd63e90","/media/archive/2024-legend-08.webp":"d6a65ea8","/media/archive/2024-legend-09.webp":"e848816c","/media/archive/2024-legend-10.webp":"ee0569e3","/media/archive/2024-legend-11.webp":"be0203f6","/media/archive/2024-legend-12.webp":"00859a3a","/media/archive/2024-legend-13.webp":"f42d1401","/media/archive/2024-legend-14.webp":"10a3a7cd","/media/archive/2024-legend-15.webp":"0e2613ac","/media/archive/2024-legend-16.webp":"6f5e9d4e","/media/archive/2024-legend-17.webp":"612063e4","/media/archive/2024-legend-18.webp":"ae36d850","/media/archive/2024-legend-19.webp":"9a07a16d","/media/archive/2024-legend-20.webp":"980ac02f","/media/archive/2024-legend-21.webp":"7ce4bd93","/media/archive/2024-legend-22.webp":"3f3f8891","/media/archive/2024-legend-23.webp":"8bc9f224","/media/archive/2024-legend-24.webp":"3c8dd6da","/media/archive/2024-legend-25.webp":"acff00c4","/media/archive/2024-legend-26.webp":"13b99dd1","/media/archive/2024-legend-27.webp":"1527e9d9","/media/archive/2024-legend-28.webp":"79f62635","/media/archive/2024-legend-29.webp":"ca19a4c3","/media/archive/2024-legend-30.webp":"92582b5f","/media/archive/2024-legend-31.webp":"6c138985","/media/archive/2024-legend-32.webp":"84de92e6","/media/archive/2024-legend-33.webp":"e3a4ee0d","/media/archive/2024-legend-34.webp":"2fe3bd4a","/media/archive/2024-legend-35.webp":"da97aa18","/media/archive/2024-legend-36.webp":"042f3f78","/media/archive/2024-legend-37.webp":"df1371de","/media/archive/2024-legend-38.webp":"6382ddd4","/media/archive/2024-legend-39.webp":"1f9b232b","/media/archive/2024-legend-40.webp":"cad007cb","/media/archive/2024-legend-41.webp":"cbab9845","/media/archive/2024-legend-42.webp":"b73000a1","/media/archive/2024-legend-43.webp":"a26303db","/media/archive/2024-legend-44.webp":"b2c3160f","/media/archive/2024-legend-45.webp":"e556b345","/media/archive/2024-legend-46.webp":"91473e33","/media/archive/2024-legend-47.webp":"1bb7b2ff","/media/archive/2024-legend-48.webp":"eca967c7","/media/archive/2024-legend-49.webp":"88a4ccce","/media/archive/2024-legend-50.webp":"efdecb89","/media/archive/2024-legend-51.webp":"63e1c5c0","/media/archive/2024-legend-52.webp":"0900c738","/media/archive/2024-legend-53.webp":"75a1a13d","/media/archive/2024-legend-54.webp":"8fecb629","/media/archive/2024-legend-55.webp":"0603a584","/media/archive/2024-legend-56.webp":"dff9d1ea","/media/archive/2024-legend-57.webp":"b3dcf88d","/media/archive/2024-legend-58.webp":"133e7b77","/media/archive/2024-legend-59.webp":"5e68e914","/media/archive/2024-legend-60.webp":"bb8f9aee","/media/archive/2024-legend-61.webp":"9ee7ca0a","/media/archive/2024-legend-62.webp":"0fe45164","/media/archive/2024-legend-63.webp":"2183d510","/media/archive/2024-legend-64.webp":"295e8037","/media/archive/2024-legend-65.webp":"97a0af6a","/media/archive/2024-legend-66.webp":"4e074e8d","/media/archive/2024-legend-67.webp":"8d16262a","/media/archive/2024-legend-68.webp":"582b00d5","/media/archive/2024-legend-69.webp":"13835804","/media/archive/2024-legend-70.webp":"076aa0fd","/media/archive/2024-legend-71.webp":"1a2bef03","/media/archive/2024-legend-72.webp":"3d6f16ba","/media/archive/2024-legend-73.webp":"67968ac4","/media/archive/2024-legend-74.webp":"1e332d74","/media/archive/2024-legend-75.webp":"be759a87","/media/archive/2024-legend-76.webp":"c1e91735","/media/archive/2024-legend-77.webp":"10a57152","/media/archive/2024-legend-78.webp":"c16fd197","/media/archive/2024-visual-1.webp":"4c8c8225","/media/archive/2024-visual-3.webp":"09a033c6","/media/archive/2024-visual-4.webp":"8e0a6bd1","/media/archive/2024-visual-5.webp":"2bcdf341","/media/archive/2024-visual-6.webp":"80b4c217","/media/archive/2024-visual-7.webp":"483289e0","/media/archive/2024-cup_ctf_8_prologue_20-12_sound_design-1.mp4":"6edcab87","/media/archive/2024-hoodie.webp":"4b03d12a","/media/archive/2024-hoodie.webp":"f7c55d09","/media/archive/2024-hoodie.webp":"c64720f5","/media/archive/2024-shape.webp":"0aacac18","/media/archive/2024-sophi.webp":"3f54c402","/media/archive/2024-tail-piece.webp":"3486488e","/media/archive/2024-photo-01.webp":"a0d0083e","/media/archive/2024-photo-02.webp":"2d7dbdec","/media/archive/2024-photo-03.webp":"6a0c4132","/media/archive/2024-photo-04.webp":"5f1019d5","/media/archive/2024-photo-05.webp":"688c7cbf","/media/archive/2024-photo-06.webp":"2309f4c1","/media/archive/2024-photo-07.webp":"4f726b06","/media/archive/2024-photo-08.webp":"18a562c5","/media/archive/2024-photo-09.webp":"8ec82573","/media/archive/2024-photo-10.webp":"ba849a7c","/media/archive/2024-photo-11.webp":"46b48e6d","/media/archive/2024-photo-12.webp":"cfc74540","/media/archive/2024-photo-13.webp":"be4a92a8","/media/archive/2024-photo-14.webp":"cf3d42e4","/media/archive/2024-photo-15.webp":"42aae392","/media/archive/2024-photo-16.webp":"3fe70d9f","/media/archive/2024-photo-17.webp":"48514f7b","/media/archive/2024-photo-18.webp":"99702692","/media/archive/2024-t-shirt.webp":"6e35ab2f","/media/archive/2024-volunteer shirts-2.webp":"3c17de3c","/media/archive/2024-volunteer shirts.webp":"545c93c7","/media/archive/2025-legend-01.webp":"8d057b21","/media/archive/2025-legend-02.webp":"81293974","/media/archive/2025-legend-03.webp":"3f65ea31","/media/archive/2025-legend-04.webp":"f2fbe002","/media/archive/2025-legend-05.webp":"fe149f28","/media/archive/2025-legend-06.webp":"3f193724","/media/archive/2025-legend-07.webp":"203dd9fb","/media/archive/2025-legend-08.webp":"25339a44","/media/archive/2025-legend-09.webp":"9a240063","/media/archive/2025-legend-10.webp":"da340c89","/media/archive/2025-legend-11.webp":"0156ba53","/media/archive/2025-legend-12.webp":"3cb1bf2b","/media/archive/2025-legend-13.webp":"44f16c71","/media/archive/2025-legend-14.webp":"8c2b60b9","/media/archive/2025-legend-15.webp":"67224b1c","/media/archive/2025-legend-16.webp":"c628d1ea","/media/archive/2025-legend-17.webp":"582c980d","/media/archive/2025-legend-18.webp":"068de8b2","/media/archive/2025-legend-19.webp":"9516e971","/media/archive/2025-legend-20.webp":"a10a6af8","/media/archive/2025-legend-21.webp":"21e559b8","/media/archive/2025-legend-22.webp":"f0449dc8","/media/archive/2025-legend-23.webp":"3da914df","/media/archive/2025-legend-24.webp":"724332cd","/media/archive/2025-legend-25.webp":"694fa3c0","/media/archive/2025-legend-26.webp":"786c545b","/media/archive/2025-legend-27.webp":"74260212","/media/archive/2025-legend-28.webp":"567bfcbc","/media/archive/2025-legend-29.webp":"8d62c1ad","/media/archive/2025-legend-30.webp":"35975b4b","/media/archive/2025-legend-31.webp":"39acbee1","/media/archive/2025-legend-32.webp":"8e60a72a","/media/archive/2025-legend-33.webp":"9072e0ee","/media/archive/2025-legend-34.webp":"34da0d01","/media/archive/2025-legend-35.webp":"81293974","/media/archive/2025-legend-36.webp":"1339ef4e","/media/archive/2025-badge.webp":"0939a557","/media/archive/2025-visual-1.webp":"01daff53","/media/archive/2025-visual-2.webp":"b37b7439","/media/archive/2025-visual-3.webp":"915c2605","/media/archive/2025-play-stage.mp4":"7d5ae62a","/media/archive/2025-merch.webp":"206f898b","/media/archive/2025-print-thick.webp":"a41bdcb2","/media/archive/2025-prologue-1.mp4":"99a29bdf","/media/archive/2025-prologue-2.mp4":"702d41e4","/media/archive/2025-prologue-3.mp4":"9c23b9d2","/media/archive/2025-sophie-1.webp":"2bf7a057","/media/archive/2025-sophie-2.webp":"5085356a","/media/archive/2025-sophie-3.webp":"c56dfa22","/media/archive/2025-figure.webp":"97f9b626","/media/archive/2025-photo-01.webp":"fc9f6ed5","/media/archive/2025-photo-02.webp":"53b482d3","/media/archive/2025-photo-03.webp":"48b63e4b","/media/archive/2025-photo-04.webp":"0bc76332","/media/archive/2025-photo-05.webp":"caa5a04e","/media/archive/2025-photo-06.webp":"165a8b9d","/media/archive/2025-photo-07.webp":"c33d2501","/media/archive/2025-photo-08.webp":"f51a13af","/media/archive/2025-photo-09.webp":"989e4e72","/media/archive/2025-photo-10.webp":"b4b4d470","/media/archive/2025-photo-11.webp":"50c63646","/media/archive/2025-photo-12.webp":"d76a5243","/media/archive/2025-photo-13.webp":"b8849884","/media/archive/2025-photo-14.webp":"b1b95698","/media/archive/2025-photo-15.webp":"4063c99a","/media/archive/2025-photo-16.webp":"0452f900","/media/basement_core.mp4":"f51eac7a","/media/basement_core.webp":"a1c219c8","/media/cellar-sm.webp":"d6684d64","/media/cellar.mp4":"9f050261","/media/cellar.webp":"dbe77f90","/media/club.mp4":"b6372df0","/media/club.webp":"96a660dd","/media/club_room-sm.webp":"9b80e6ee","/media/club_room.webp":"d3115422","/media/crew/00.webp":"9dc69831","/media/crew/01.webp":"02a60232","/media/crew/02.webp":"47e10d80","/media/crew/03.webp":"613d68fa","/media/crew/04.webp":"f4a7188c","/media/crew/05.webp":"ebb14f2c","/media/crew/06.webp":"35ced44e","/media/crew/07.webp":"1441cefd","/media/crew/08.webp":"0d438240","/media/crew/09.webp":"dbc0241c","/media/crew/10.webp":"1441cefd","/media/crew/11.webp":"0ab2d378","/media/crew/12.webp":"28e83edf","/media/crew/13.webp":"f1fc2e80","/media/crew/14.webp":"009059c5","/media/crew/15.webp":"eb1d0959","/media/crew/16.webp":"14f55ca5","/media/crew/17.webp":"1d88a16a","/media/crew/18.webp":"9168aed5","/media/crew/19.webp":"ad55c520","/media/crew/20.webp":"b41fe953","/media/crew/21.webp":"02424db6","/media/crew/22.webp":"b9b1e26d","/media/crew/23.webp":"b4844b12","/media/crew/24.webp":"5aff3588","/media/crew/25.webp":"f8f6d602","/media/crew/26.webp":"361a422e","/media/crew/27.webp":"f1d092d5","/media/crew/28.webp":"dce9b544","/media/crew/29.webp":"99a2c1ee","/media/crew/30.webp":"48f7e738","/media/crew/31.webp":"777daa7b","/media/crew/32.webp":"0c44d72b","/media/crew/33.webp":"1441cefd","/media/crew/34.webp":"611f2550","/media/crew/35.webp":"1fe20ed8","/media/crew/36.webp":"bc6d36b2","/media/crew/37.webp":"b41da40f","/media/crew/38.webp":"a28c792f","/media/crew/39.webp":"73d062e0","/media/crew/40.webp":"ad12fc77","/media/crew/41.webp":"a0ccf809","/media/descent/000.webp":"c6e40c3d","/media/descent/001.webp":"3971e51a","/media/descent/002.webp":"297dfb6d","/media/descent/003.webp":"91316924","/media/descent/004.webp":"126d36b1","/media/descent/005.webp":"64f3a2fd","/media/descent/006.webp":"67a8d40f","/media/descent/007.webp":"26c84294","/media/descent/008.webp":"425cfb71","/media/descent/009.webp":"0f7fa5fb","/media/descent/010.webp":"3f3d13c4","/media/descent/011.webp":"449ca6cf","/media/descent/012.webp":"463041da","/media/descent/013.webp":"3e06b955","/media/descent/014.webp":"ecc3c4bc","/media/descent/015.webp":"820724d8","/media/descent/016.webp":"0900b544","/media/descent/017.webp":"03e4f9ba","/media/descent/018.webp":"664443d1","/media/descent/019.webp":"677b1610","/media/descent/020.webp":"e738ccfa","/media/descent/021.webp":"b6134755","/media/descent/022.webp":"abf6dc68","/media/descent/023.webp":"a2073db4","/media/descent/024.webp":"4dd51a39","/media/descent/025.webp":"a9ae46c3","/media/descent/026.webp":"b9a629d7","/media/descent/027.webp":"69178317","/media/descent/028.webp":"506f03a3","/media/descent/029.webp":"69f4f386","/media/descent/030.webp":"4f59fd1e","/media/descent/031.webp":"2dc2d564","/media/descent/032.webp":"05e219e8","/media/descent/033.webp":"05dec1d6","/media/descent/034.webp":"a7f9266f","/media/descent/035.webp":"e2c69d35","/media/descent/036.webp":"07a7fdf9","/media/descent/037.webp":"c3ee5956","/media/descent/038.webp":"73617be5","/media/descent/039.webp":"df163b74","/media/descent/040.webp":"7a780872","/media/descent/041.webp":"ace7136b","/media/descent/042.webp":"778f17cd","/media/descent/043.webp":"a42124a5","/media/descent/044.webp":"7f647e8e","/media/descent/045.webp":"db234da0","/media/descent/046.webp":"9b49a500","/media/descent/047.webp":"f52bd73b","/media/descent/048.webp":"f7b667ea","/media/descent/049.webp":"9461b59a","/media/descent/050.webp":"d4af74ba","/media/descent/051.webp":"8b2c12ad","/media/descent/052.webp":"4b8a6166","/media/descent/053.webp":"6979e2f4","/media/descent/054.webp":"e3d40790","/media/descent/055.webp":"151f5a86","/media/descent/056.webp":"2257db14","/media/descent/057.webp":"8eae66de","/media/descent/058.webp":"b307bc77","/media/descent/059.webp":"d54a41fe","/media/descent/060.webp":"e2f5fa53","/media/descent/061.webp":"076989c6","/media/descent/062.webp":"e4722614","/media/descent/063.webp":"847ec9b2","/media/descent/064.webp":"4f5ab0be","/media/descent/065.webp":"b2298e48","/media/descent/066.webp":"a98691e3","/media/descent/067.webp":"7971be7f","/media/descent/068.webp":"226a86f0","/media/descent/069.webp":"83907ea0","/media/descent/070.webp":"de6def01","/media/descent/071.webp":"281a0a64","/media/descent/072.webp":"94c0829c","/media/descent/073.webp":"faf6697e","/media/descent/074.webp":"3ee8e176","/media/descent/075.webp":"aaed8c93","/media/descent/076.webp":"d2f35824","/media/descent/077.webp":"18121e6c","/media/descent/078.webp":"9c7adf97","/media/descent/079.webp":"8896d8e7","/media/descent/080.webp":"1670f645","/media/descent/081.webp":"c466dafc","/media/descent/082.webp":"3c8fd19d","/media/descent/083.webp":"bcd73557","/media/descent/084.webp":"9bb7abc7","/media/descent/085.webp":"993bfd8e","/media/descent/086.webp":"c69fb799","/media/descent/087.webp":"5aa60fcc","/media/descent/088.webp":"5735851e","/media/descent/089.webp":"22abf985","/media/descent/090.webp":"61efa458","/media/descent/091.webp":"7b8b1f37","/media/descent/092.webp":"d9960ee6","/media/descent/093.webp":"4d454f2b","/media/descent/094.webp":"7aabfaff","/media/descent/095.webp":"1fda29dc","/media/doc_polozhenie.webp":"54ce55f5","/media/house-sm.webp":"9671ed0e","/media/house.webp":"1964deb6","/media/jury/00.webp":"41559c44","/media/jury/01.webp":"69eb7be0","/media/jury/02.webp":"132afc3c","/media/jury/03.webp":"25d72d7b","/media/jury/04.webp":"6b4a8bb1","/media/jury/05.webp":"5834eb76","/media/jury/06.webp":"639486a2","/media/jury/07.webp":"918b1374","/media/jury/08.webp":"9f774a87","/media/jury/09.webp":"a6fee1c6","/media/jury/10.webp":"49345d8f","/media/jury/11.webp":"c93e88c1","/media/jury/12.webp":"b7d72cbf","/media/jury/13.webp":"b2373f33","/media/kzf/ave.webp":"42005b1c","/media/kzf/card-frost.webp":"79defe9c","/media/kzf/card-hall.webp":"92e55f2f","/media/kzf/card-lamp.webp":"5d9e4070","/media/kzf/card-open.webp":"67103498","/media/kzf/card-plan.webp":"84a601db","/media/kzf/card-spire.webp":"32e2c404","/media/kzf/card-watch.webp":"7e85b8ba","/media/kzf/guard.webp":"6a4c9482","/media/kzf/hero.webp":"9bec3bdd","/media/kzf/island.webp":"b6ea20d3","/media/logo.svg":"133aebd7","/media/og.jpg":"8f18fad7","/media/og.webp":"5b5467cc","/media/partners/arsib.webp":"44426d33","/media/partners/asi.webp":"cdfb0885","/media/partners/bis-journal.webp":"9939d708","/media/partners/cintera.webp":"d6147fc2","/media/partners/cis.webp":"2258de69","/media/partners/cloud-ru.webp":"fde9fce3","/media/partners/ctf-news.webp":"bac1102b","/media/partners/dit-moskvy.webp":"7cc15149","/media/partners/gazprombank.webp":"dcea53df","/media/partners/hi-tech.webp":"90577a48","/media/partners/information-security.webp":"30324316","/media/partners/inside.webp":"67087a04","/media/partners/kc-domenov.webp":"db0463f7","/media/partners/kiberyar.webp":"03346358","/media/partners/kod-ib.webp":"30f3e5b2","/media/partners/komputerra.webp":"640224a8","/media/partners/mel.webp":"3d77cc17","/media/partners/mezhdunarodnaya-zhizn.webp":"33a2341b","/media/partners/mincifry.webp":"d1bc8212","/media/partners/minobrnauki.webp":"5b77da0b","/media/partners/mir-robototehniki.webp":"3c16e167","/media/partners/nastavniki.webp":"2c255c17","/media/partners/sber.webp":"331d6ecb","/media/partners/searchinform.webp":"fc3137ef","/media/partners/servicepipe.webp":"53b0e359","/media/partners/soyuz-direktorov.webp":"fb9341b5","/media/partners/tass.webp":"a749cb35","/media/partners/usergate.webp":"1b0db86c","/media/partners/vulkan.webp":"9d50c57a","/media/partners/xakep.webp":"70eca451","/media/partners/yandex-cloud.webp":"76ac0efb","/media/roof_signal-sm.webp":"5eaeda25","/media/roof_signal.webp":"2e034494","/media/world_city.mp4":"7a9fda0e","/media/world_city.webp":"2964823a","/media/world_hex.mp4":"0357fb76","/media/world_hex.webp":"c9a066d2","/media/world_mirror.mp4":"07036499","/media/world_mirror.webp":"a8a1cfec","/media/world_signal.mp4":"1e166548","/media/world_signal.webp":"e4d64c37"},Ei="(max-width: 820px), (pointer: coarse)";function $e(){return window.matchMedia(Ei).matches}const Li=_i,Ai=new Set(["/media/house.webp","/media/roof_signal.webp","/media/club_room.webp","/media/cellar.webp"]);function V(e){let l="/"+e.replace(/^\//,"").split("?")[0];$e()&&Ai.has(l)&&(l=l.replace(".webp","-sm.webp"));const S=Li[l];return"/".replace(/\/$/,"")+l+(S?`?v=${S}`:"")}function $i(){const e=document.querySelector("[data-boot]"),o=e?.querySelector("[data-boot-fill]"),l=e?.querySelector("[data-boot-pct]");let S=0;const m=L=>{const z=Math.max(S,Math.min(1,L));S=z,o?.style.setProperty("--p",`${(z*100).toFixed(0)}%`),l&&(l.textContent=`${(z*100).toFixed(0)}%`)};return{set:m,done:()=>{m(1),window.setTimeout(()=>e?.setAttribute("data-done",""),260)}}}function Ke(e){return new Promise(o=>{const l=new Image;l.onload=()=>o(l),l.onerror=()=>o(null),l.src=e})}function qi(e,o){let l=0;return Promise.all(e.map(S=>Ke(S).then(m=>(l+=1,o(l/e.length),m))))}const Ti=[{name:"Piarin Viktor Anatolyevich",role:"Chairman of the organizing committee — member, Corresponding Member of RAEN and the Academy of Cryptography, laureate, toward.ph.n",photo:"/media/crew/00.webp",wing:"org"},{name:"Budnikov Alexander",role:"Chairman of the jury, Director of Information Security, PAO AFK «System system»",photo:"/media/crew/01.webp",wing:"org"},{name:"Katusov Alexei",role:"Head of Information Security Department DIT of Moscow",photo:"/media/crew/03.webp",wing:"org"},{name:"Barkhatov Dmitry",role:"Chairman of the Coordination Council, All-Russian Public Movement of Mentors of Children and Youth «Russia's mentors»",photo:"/media/crew/04.webp",wing:"org"},{name:"Dmitry Shevtsov",role:"Head of FSTEC of Russia",photo:"/media/crew/05.webp",wing:"org"},{name:"Masalovich Andrei",role:"President of the Consortium «inforus», toward.ph.n",photo:"/media/crew/06.webp",wing:"org"},{name:"Yuri Wars",role:"Head of Information Technology Department, communication and protection, MVD",photo:"/media/crew/07.webp",wing:"org"},{name:"Minin Victor",role:"Chairman of the Board of ARCIB",photo:"/media/crew/08.webp",wing:"org"},{name:"Sviridov Igor",role:"Deputy Director of FGBI «Integral Research Institute »",photo:"/media/crew/09.webp",wing:"org"},{name:"Nikolai Lapichev",role:"And.Oh.. director «Security of digital technologies», ANO «Digital economy»",photo:"/media/crew/10.webp",wing:"org"},{name:"Mikhail Bogatikov",role:"Director of the Department of Cybersecurity of the Ministry of Digital Affairs of Russia",photo:"/media/crew/33.webp",wing:"org"},{name:"Natalia Zolotareva",role:"President of the All-Russian Public Organization «Union of Directors of Organizations of Secondary Professional Education of Russia»",photo:"/media/crew/31.webp",wing:"org"},{name:"Peschanski Georgi",role:"Professor VIPK MIA of Russia, d.eh.n., toward.fat.-n.n., professor, professor of special discipline",photo:"/media/crew/32.webp",wing:"org"},{name:"Nik's Komarova",role:"Kstrategic communications adviser n, channelman PR Machine",photo:"/media/crew/12.webp",wing:"org"},{name:"Zelentsova Olga",role:"Project curator",photo:"/media/crew/13.webp",wing:"team"},{name:"Smirnov Maxim",role:"Technical Director",photo:"/media/crew/14.webp",wing:"team"},{name:"Borlakova Christina",role:"Manager, administrative support of the project",photo:"/media/crew/41.webp",wing:"team"},{name:"Nikitin Maxim",role:"taskmaster T/B · team drovosec",photo:"/media/crew/34.webp",wing:"team"},{name:"Sinitsyn Daniel",role:"taskmaster T/B",photo:"/media/crew/37.webp",wing:"team"},{name:"Dunik Ivan",role:"taskmaster T/B",photo:"/media/crew/38.webp",wing:"team"},{name:"Karavaev Ivan",role:"taskmaster T/B",photo:"/media/crew/39.webp",wing:"team"},{name:"Savva's Silvers",role:"Service developer A/D school-age · team CUT",photo:"/media/crew/35.webp",wing:"team"},{name:"Eminov Tagir",role:"Service developer A/D school-age · team CUT",photo:"/media/crew/29.webp",wing:"team"},{name:"Lev Khakimov",role:"Infrastructure engineer A/D school-age",photo:"/media/crew/36.webp",wing:"team"},{name:"Bykov Roman",role:"Service developer A/D · team HazyTeam",photo:"/media/crew/25.webp",wing:"team"},{name:"Kotov Alexander",role:"Service developer A/D · team HazyTeam",photo:"/media/crew/26.webp",wing:"team"},{name:"Dmitri Luksta",role:"Service developer A/D · team HazyTeam",photo:"/media/crew/28.webp",wing:"team"},{name:"Mikhail Gnedashev",role:"Infrastructure engineer A/D · team HazyTeam",photo:"/media/crew/27.webp",wing:"team"},{name:"Zeunov Anton",role:"Frontend-developer",photo:"/media/crew/23.webp",wing:"team"},{name:"Nikolaev Pavel",role:"Technician",photo:"/media/crew/21.webp",wing:"team"},{name:"gubareva jana",role:"Senior Graphic Designer",photo:"/media/crew/17.webp",wing:"team"},{name:"Spilev Roman",role:"3D-painter",photo:"/media/crew/20.webp",wing:"team"},{name:"Lepilova Victoria",role:"Editorial",photo:"/media/crew/16.webp",wing:"team"},{name:"Pour your love.",role:"Broadcast host",photo:"/media/crew/15.webp",wing:"team"},{name:"Henri Galileo",role:"Broadcast host, manga",photo:"/media/crew/19.webp",wing:"team"},{name:"Elizabeth Antonova",role:"Broadcast correspondent",photo:"/media/crew/30.webp",wing:"team"},{name:"Yankaitis Tatiana",role:"Broadcast correspondent",photo:"/media/crew/40.webp",wing:"team"}],Ii=[{name:"Budnikov Alexander",role:"Managing Director for Information Security, PAO AFK «System system»",photo:"/media/jury/00.webp"},{name:"Bugrov Vladimir",role:"Deputy Head of the Department of Technical Information Protection of the Main Research Computing Center of the Office of the President of the Russian Federation",photo:"/media/jury/01.webp"},{name:"Volkov Sergey",role:"Head of Information Security Department, AO «Goznak»",photo:"/media/jury/02.webp"},{name:"Derby Ilya",role:"Expert in information security, Rosatom",photo:"/media/jury/03.webp"},{name:"Kader Mikhail",role:"Architect of Customer Experience, UserGate",photo:"/media/jury/04.webp"},{name:"Karelova Olga",role:"Independent expert",photo:"/media/jury/05.webp"},{name:"Alexey Markov",role:"President of Group of Companies GC «echelon», Doctor of Engineering,Laureate of the Russian Government Prize in Science and Technology",photo:"/media/jury/06.webp"},{name:"Minakov Sergey",role:"Deputy General Director of ANO STC Central Committee, Senior Researcher at the Russian Academy of Cryptography",photo:"/media/jury/07.webp"},{name:"Masalovich Andrei",role:"President of the Consortium «inforus», toward.ph.n",photo:"/media/jury/08.webp"},{name:"Mikhailenko Natalia",role:"Associate Professor of the Department of Combating Crimes in the Field of ITT, Moscow University of the Ministry of Internal Affairs of Russia. In.I. quikotia, candidate of law, Vice-President of the Moscow Regional Branch of the International Police Association",photo:"/media/jury/09.webp"},{name:"Loskutova Olesya",role:"Deputy Head of Central Computing Center, Main Information and Analytical Center of the Ministry of Internal Affairs of Russia",photo:"/media/jury/10.webp"},{name:"Victor Vovchinnikov",role:"Head of Information Security Department, LLC «M13 IT SERVICES»",photo:"/media/jury/11.webp"},{name:"Sklyarov Dmitry",role:"Head of Application Analysis Department, Positive Technologies",photo:"/media/jury/12.webp"},{name:"Tsar Gregory",role:"Head of the Interaction and Response Center of the Information Security Department of the Bank of Russia",photo:"/media/jury/13.webp"}],Pi=[{tier:"Organizers",logos:["/media/partners/arsib.webp","/media/partners/nastavniki.webp"]},{tier:"Supported",logos:["/media/partners/asi.webp","/media/partners/dit-moskvy.webp","/media/partners/mincifry.webp","/media/partners/minobrnauki.webp","/media/partners/soyuz-direktorov.webp"]},{tier:"Official partners",logos:["/media/partners/gazprombank.webp","/media/partners/cintera.webp","/media/partners/sber.webp"]},{tier:"Partners",logos:["/media/partners/searchinform.webp","/media/partners/vulkan.webp"]},{tier:"Prize fund partners",logos:["/media/partners/kc-domenov.webp"]},{tier:"Technology partners",logos:["/media/partners/cloud-ru.webp","/media/partners/kod-ib.webp","/media/partners/servicepipe.webp","/media/partners/usergate.webp","/media/partners/yandex-cloud.webp"]},{tier:"General Information Partner",logos:["/media/partners/tass.webp"]},{tier:"Information partners",logos:["/media/partners/mezhdunarodnaya-zhizn.webp","/media/partners/xakep.webp","/media/partners/inside.webp","/media/partners/ctf-news.webp","/media/partners/cis.webp","/media/partners/information-security.webp","/media/partners/kiberyar.webp","/media/partners/komputerra.webp","/media/partners/mir-robototehniki.webp","/media/partners/hi-tech.webp","/media/partners/bis-journal.webp","/media/partners/mel.webp"]}],gt=[{floor:"roof",title:"Upper floors",body:"Ordinary house on the outskirts. On the first floor of the computer classroom, But the most interesting thing happens below..",at:0},{floor:"8 floor",title:"Stranger windows",body:"Every window has its own life., None of you care.. A typical five-story building, unless you go down.",at:.117},{floor:"5 floor",title:"Down the facade.",body:"Free courses for teenagers started here. From here came the first teams..",at:.273},{floor:"2 floor",title:"Your room.",body:"balcony, systemsman, first-timer. That's how everyone started., who made it to the final.",at:.506},{floor:"1 floor",title:"First floor.",body:"There are still traces of that night on the door.. Entrance to the back room..",at:.701},{floor:"lift",title:"Down.",body:"The buttons of the lower floors were erased stronger than the rest. Down here they drive more often., topless.",at:.857},{floor:"basement",title:"Basement",body:"barbar, wall-screen, pod. This is where the metaverse opens up..",at:.974}],yt=[{id:"signal",play:!0,index:"01",name:`KZFland
-and Metra Veehkim`,theme:"first-world · fragment 1",status:"open",statusLabel:"openly · fragment 1 found",body:"A split planet 2019 yearly 2023-go — It's the same assembly., just four years apart. Avatar comes in first and takes the first part of the backup.. Here he meets a double for the first time., Who calls himself Sophie and gives away the wrong key. So what matters is in this world. — check out, from whomever.",poster:V("/media/world_signal.webp"),video:V("/media/world_signal.mp4")},{id:"city",play:!0,index:"02",name:`City of Ensk
-And Friendship City.`,theme:"township · fragment 2",status:"open",statusLabel:"openly · fragment 2",body:"The city's digital twin, into 2022 came outside. The second part of the backup was hidden in the city infrastructure. ATM, factory, electronics, playground, transformer-box: Every object is working., broken, under attack. To pick up the fragment, You will have to distinguish a normal breakdown from someone else’s intervention., how they did it then..",poster:V("/media/world_city.webp"),video:V("/media/world_city.mp4")},{id:"mirror",index:"03",name:`Alice.
-wonderland`,theme:"return 2020-go · fragment 3",status:"soon",statusLabel:"opens later · fragment 3",body:"Assembly, rules-free. The dimensions of space change, concepts change, And Alice can't answer., who she is.. The avatar has a similar task.. The third part of the backup will give the wrong, Who's gonna call Sophie louder?, one, whose answers fit with the rest. The Cheshire cat is not here for beauty., It's a debugging console., left behind in the engine 2020 year.",poster:V("/media/world_mirror.webp"),video:V("/media/world_mirror.mp4")},{id:"hex",index:"04",name:`hexagons
-Attack / Defense`,theme:"last · finale",status:"demo",statusLabel:"",body:"The last part of the backup is nowhere to be found.. It's collected from that., What teams take from each other. Every hexagon. — It's a team service.. Hold yours., scavenge; shatter, pick up your attack points. The fifth hexagon will open in the second half of the final and turn the arrangement around.. It's impossible to find this alone., That's why the finale plays the whole hall., And you'll see by the mourner., Who got to Sophie?.",poster:V("/media/world_hex.webp"),video:V("/media/world_hex.mp4")}],ci=[{label:"season",value:"X"},{label:"age",value:"14–27"},{label:"credits",value:"4"},{label:"finale",value:"December"}],Ci=[{numeral:"I",name:"Workshop",years:"2017 — 2020",body:"Students of the citadel build the first landfill. First the iron stands, peace after disaster, And then the first fully drawn planet.. By the fourth Cup in the build stops working rules."},{numeral:"II",name:"Polygon",years:"2021 — 2023",body:"The landfill becomes a digital twin of the real city. In 2022 year it enters outside, and 2023-The authors have their keys taken away.."},{numeral:"III",name:"Authors",years:"2024 — 2026",body:"Workshop coming to light, turns out, citadel — It's just an IT school.. Sophie, who started out as a living person, It stays inside the engine and calls for it.."}],Ue=[{numeral:"I",year:"2017",act:"I",title:"Robotics",tint:"232, 163, 61",pattern:"grid",link:"https://ctfnews.ru/news/1346",body:"The very first Cup. Robots., mechanics, robotic arm. Mining in tasks paid students power under the engine, The engine was named Sophie.."},{numeral:"II",year:"2018",act:"I",title:"Apocalypse.",tint:"185, 212, 90",pattern:"grid",link:"https://ctfnews.ru/news/1478",body:"Peace after disaster. Room with warning tapes, full-wall. The second build was collected as a stress test and checked., hold out, when everything had already fallen. Hold on.."},{numeral:"III",year:"2019",act:"I",title:"Cyberpunk: KZF Land",tint:"255, 46, 154",pattern:"scan",link:"https://dzen.ru/a/XftkzpUV7vEwefJ_",body:"The engine was checked on the ruins and took up the scale, first-world. Planet split in two: The Industrial South and the City for the Chosen, almost like backend and front."},{numeral:"IV",year:"2020",act:"I",title:"Alice in Wonderland",tint:"224, 36, 54",pattern:"diag",link:"https://dzen.ru/a/YZd-ssGFny-yhU9a",body:"Once the world holds., rulebreaker. Virtual worlds, playing-card, manga. Cheshire cat works here debugging console and remains in the next builds."},{numeral:"V",year:"2021",act:"II",title:"City of Friendship",tint:"79, 208, 107",pattern:"diag",link:"https://dzen.ru/a/Yb81Mqz-FDu0lfhe",body:"The landfill repeats the real city for the first time, created by the students themselves. There's a factory., and theme park, transformer, ATM, even «fool». But every infrastructure can break down at any minute.. Sbercott and Cybermouse look for and fix breakdowns."},{numeral:"VI",year:"2022",act:"II",title:"City of Ensk",tint:"156, 192, 230",pattern:"frost",link:"https://dzen.ru/a/Y9vhNjT9zm1_XYTr",body:"The double was too similar to the original.. «Crossbows of Siberia» They destroyed the city infrastructure and put their emblem on all the scoreboards.. It wasn't in the script., landfill entered."},{numeral:"VII",year:"2023",act:"II",title:"Metra Veehkim",tint:"127, 216, 255",pattern:"frost",link:"https://dzen.ru/a/ZaTfTur8P2mqCdJo",body:"After the hack, the keys were taken by the corporation.. Climate Control Canceled for Fuel Trade, And the planet got iced.. The engine continues to work without authors., a minus sixty outside the window — price."},{numeral:"VIII",year:"2024",act:"III",title:"citadel",tint:"143, 39, 255",pattern:"scan",link:"https://dzen.ru/a/aAKoq6v-7xanzHib",body:"Authors coming to light. The citadel of white hackers was the Moscow IT school, workshop, where for eight years all past worlds were collected."},{numeral:"IX",year:"2025",act:"III",title:"Sophie Sarcophagus",tint:"0, 209, 255",pattern:"scan",link:"https://2025.ctfcup.ru/",body:"Sophie, which 2017 The year began with a living person., It stays inside the engine forever.. Body lies in sarcophagus, And now she's in all the assemblies at once.. «See you in the metaverse.»."}],st={title:"One story for nine Cups",parts:["Cup CTF Russia is being held with 2017 year, And every season has its own legend.. It's the world., two-day, town, heroism.","Nine legends eventually formed into one story.. It's not written by organizers., Heroes from the inside: white-hacker students, who have been building a training ground for nine years. Every Cup — This is his next assembly..","Everything's in order., from the very first."],go:"further — from the first Cup →"},Oe=Ii.map(e=>({...e,photo:V(e.photo)}));V("/media/cellar.webp");V("/media/cellar.mp4");V("/media/basement_core.webp");V("/media/basement_core.mp4");const It=Ti.map(e=>({...e,wing:e.wing==="org"?"org":"team",photo:V(e.photo)})),pt=Pi.map(e=>({...e,logos:e.logos.map(o=>V(o))})),Ri=[{key:"Credits.",value:"School, SPO, academic — The team participates in one of the four"},{key:"Age.",value:"From 14 before 27 years inclusive"},{key:"Selection",value:"As a result of the qualifying round are held 40 team — along 10 score"},{key:"Way ahead.",value:"School and SPO go straight to the final., Academic and mixed play semi-finals"},{key:"One team",value:"In the semifinals, no more than one team from the educational institution"}],Di=[{name:"School",href:"https://aciso.timepad.ru/event/4167419/"},{name:"SPO",href:"https://aciso.timepad.ru/event/4167329/"},{name:"academic",href:"https://aciso.timepad.ru/event/4167286/"},{name:"Mixed",href:"https://aciso.timepad.ru/event/4167370/"}],Hi="Who can participate?, How the selection is arranged and on what documents the competitions are held.",zi=[{room:"partners",title:"Partners",note:"bar",cx:1140,cy:485,rx:144,ry:106},{room:"info",title:"Information",note:"rack",cx:890,cy:480,rx:64,ry:126},{room:"vault",title:"Season archive",note:"rack",cx:152,cy:522,rx:68,ry:118},{room:"crew",title:"Team.",note:"centre-bed",cx:762,cy:708,rx:140,ry:34},{room:"worlds",title:"Game worlds",note:"sofa monitor",cx:1246,cy:735,rx:120,ry:84},{room:"jury",title:"Jury alley",note:"flag",cx:1465,cy:486,rx:94,ry:168}],Ye={x:457,y:299,w:382,h:371},Se={w:1680,h:946},Fi="Cup ten years, And all ten of them came together in one story.. It's all over here.: where it all started., What Happened Last Season and Why You Should Send Avatars.",Pt=[{title:"How did it all start?",body:["In 2017 Students of the citadel of white hackers undertook to build a landfill, where to learn, genuinely. Power under the engine paid for mining, sutured. The engine was named Sophie., named, leader.","Each subsequent Cup became another assembly of the same polygon.. First the iron stands, peace after disaster, The first fully drawn planet and build, rule-free. Nine legends were one.."]},{title:"When the game stopped being a game",body:["In 2021 For the first time in the year, a real city. ATM service breaks down, And the ATM on the card starts spitting out money.. Cybermouse and Sbercott, troublemaker, self-written.","A year later, the double was too similar to the original.. «Crossbows of Siberia» They destroyed the city infrastructure and put their emblem on all the scoreboards.. It wasn't in the script., landfill entered. K 2023 The engine keys were taken by the company., Climate Control Canceled for Fuel Trading, And the planet got iced.."]},{title:"Night., sticky",body:["In 2024 year, workshop. The citadel was the Moscow IT school: computer-club, Free courses for teenagers and a bar in the basement.","At night, armed men enter the club.. Hackers are led away by catacombs, Sophie is locked in a capsule and launches a neural interface without calibration., After that, she remains in an artificial coma.. On the surviving screens revolves her game. 2003 year «Crossbows of Siberia». The mentor gives the only order.: Make a few mind backups and bring the girl back to life..","Last season, the order was carried out and transferred consciousness to the metaverse.. Sophie, which 2017 The year began with a living person., left inside the engine. Body lies in sarcophagus, And now she's in all the assemblies at once.."]},{title:"What's happening now?",body:["Participants and heroes send avatars to search for Sophie and her database.. More doubles divorced, needle, And the backup key is only in the real one..","The backup itself is disassembled by game worlds, And each world gives its share.. Worlds taken from past assemblies, But now they come from the inside.. Getting all the pieces together is not enough., They need a key., And he's only one of those., which is to be distinguished from the doubles.","How will it end?, You'll find out.."]}],ji=[{title:"Three acts",lines:["I · Workshop — 2017–2020","II · Polygon — 2021–2023","III · Authors — 2024–2026"]},{title:"2026 · task",lines:["Find the real Sophie among the doubles","Collect backup pieces from game worlds","key, which only she has."]},{title:"Who's in the metaverse",lines:["Sophie, Ave and the mouse.","doubles, more, needle","avatars of participants and NPC"]},{title:"Finals.",lines:["face-off, December","how it ends, You'll find out."]}],mt={src:V("/media/house.webp"),caption:"That's the house.",note:"The basement didn't go anywhere."},bt=4,Oi=700;function Ni(e){const o=e.getAttribute("src");if(!o)return;let l=bt;const S=()=>{e.classList.remove("is-waiting"),e.dataset.ok="1"};if(e.complete&&e.naturalWidth>0){S();return}e.classList.add("is-waiting"),e.addEventListener("load",S),e.addEventListener("error",()=>{if(l<=0){e.classList.remove("is-waiting"),e.classList.add("is-lost");return}l-=1,window.setTimeout(()=>{e.src=`${o}${o.includes("?")?"&":"?"}r=${bt-l}`},Oi*(bt-l))})}function Xe(e){for(const o of e.querySelectorAll("img"))Ni(o)}const Wi=["home","cellar","jury","crew","info","vault","partners","legend","kzf","city"],kt="home",li="cellar",si=new Set;let We=null;const pi={worlds:"cellar"};function Bi(e){try{navigator.sendBeacon?.(`/px?r=${e}`)}catch{}}function Ct(){const e=window.location.hash.replace("#",""),o=pi[e];return o||(Wi.includes(e)?e:kt)}function vt(e){if(e===We)return;const o=We;We=e,document.body.dataset.openRoom=e;for(const l of document.querySelectorAll("[data-room]")){const S=l.dataset.room===e;l.classList.toggle("is-open",S),l.setAttribute("aria-hidden",S?"false":"true"),l.inert=!S}for(const l of document.querySelectorAll("[data-goto]"))l.classList.toggle("is-active",l.dataset.goto===e);Bi(e);for(const l of si)l(e,o)}function Ve(e){const o=pi[e]??e;if(window.location.hash.replace("#","")===e){vt(o);return}window.location.hash=e}function Rt(){Ve(li)}function Dt(){return We??kt}function Ee(e){si.add(e),We&&e(We,null)}function Ui(){for(const e of document.querySelectorAll("[data-goto]"))e.addEventListener("click",o=>{o.preventDefault(),Ve(e.dataset.goto)});for(const e of document.querySelectorAll("[data-back]"))e.addEventListener("click",o=>{o.preventDefault(),Rt()});window.addEventListener("hashchange",()=>vt(Ct())),window.addEventListener("keydown",e=>{e.key==="Escape"&&Dt()!==kt&&Dt()!==li&&Rt()}),vt(Ct())}const mi=640,bi=300,hi=320,Ht=520,Yi=1540,Gi=1200;function zt(e){return-(bi+Math.floor(e/2)*mi+(e%2===0?0:hi))}function Ki(){const e=document.querySelector('[data-room="jury"]'),o=e?.querySelector("[data-hall]"),l=e?.querySelector("[data-hall-cam]"),S=e?.querySelector("[data-jury-card]"),m=e?.querySelector("[data-jury-count]"),g=e?.querySelector("[data-hall-prev]"),L=e?.querySelector("[data-hall-next]");if(!e||!o||!l||!S||!g||!L)return;const z=bi+Math.floor((Oe.length-1)/2)*mi+hi+Yi,$=z-Gi,q=o.querySelector(".hall__end");q?.style.setProperty("--z",`${-z}px`),q&&Xe(q);const O=Oe.map((b,u)=>{const _=document.createElement("button");return _.type="button",_.className=`hall__frame hall__frame--${u%2===0?"l":"r"}`,_.style.setProperty("--z",`${zt(u)}px`),_.innerHTML=`
+(function () {
+  const o = document.createElement("link").relList;
+  if (o && o.supports && o.supports("modulepreload")) return;
+  for (const m of document.querySelectorAll('link[rel="modulepreload"]')) S(m);
+  new MutationObserver((m) => {
+    for (const g of m)
+      if (g.type === "childList")
+        for (const L of g.addedNodes)
+          L.tagName === "LINK" && L.rel === "modulepreload" && S(L);
+  }).observe(document, { childList: !0, subtree: !0 });
+  function l(m) {
+    const g = {};
+    return (
+      m.integrity && (g.integrity = m.integrity),
+      m.referrerPolicy && (g.referrerPolicy = m.referrerPolicy),
+      m.crossOrigin === "use-credentials"
+        ? (g.credentials = "include")
+        : m.crossOrigin === "anonymous"
+          ? (g.credentials = "omit")
+          : (g.credentials = "same-origin"),
+      g
+    );
+  }
+  function S(m) {
+    if (m.ep) return;
+    m.ep = !0;
+    const g = l(m);
+    fetch(m.href, g);
+  }
+})();
+const _i = {
+    "/media/archive/2017-2017-01.webp": "d7f806b5",
+    "/media/archive/2017-2017-02.webp": "63ea8d4a",
+    "/media/archive/2017-2017-03.webp": "343ca029",
+    "/media/archive/2017-2017-04.webp": "b45815f8",
+    "/media/archive/2017-2017-05.webp": "1ebb7c53",
+    "/media/archive/2017-2017-06.webp": "b67f99bf",
+    "/media/archive/2017-2017-07.webp": "75741add",
+    "/media/archive/2017-2017-08.webp": "a2ece7ae",
+    "/media/archive/2017-2017-09.webp": "077324b0",
+    "/media/archive/2017-2017-10.webp": "bb15dbdb",
+    "/media/archive/2017-2017-11.webp": "3e8f7c79",
+    "/media/archive/2017-2017-12.webp": "feb8fb35",
+    "/media/archive/2018-2018-01.webp": "1aefd610",
+    "/media/archive/2018-2018-02.webp": "4c394462",
+    "/media/archive/2018-2018-03.webp": "529dd5d3",
+    "/media/archive/2018-2018-04.webp": "ca17fe99",
+    "/media/archive/2018-2018-06.webp": "a364f10a",
+    "/media/archive/2018-2018-07.webp": "cb2b611c",
+    "/media/archive/2018-2018-08.webp": "e643d8e9",
+    "/media/archive/2018-2018-09.webp": "93532045",
+    "/media/archive/2018-2018-10.webp": "f6ee695a",
+    "/media/archive/2018-2018-11.webp": "49c3f798",
+    "/media/archive/2018-2018-12.webp": "1150c72d",
+    "/media/archive/2018-2018-13.webp": "8c1775ed",
+    "/media/archive/2018-2018-14.webp": "bd83684b",
+    "/media/archive/2018-2018-15.webp": "6cf8531a",
+    "/media/archive/2018-2018-game.webp": "012e9239",
+    "/media/archive/2018-remagic.mp4": "65386741",
+    "/media/archive/2018-screensaver.webp": "721ecdaa",
+    "/media/archive/2018-roller.mp4": "94f4cb20",
+    "/media/archive/2018-t-shirt.webp": "827380d2",
+    "/media/archive/2019-2024-12-11_11-03-21.webp": "c2c65312",
+    "/media/archive/2019-legend-01.webp": "ac10fc49",
+    "/media/archive/2019-legend-02.webp": "a6091257",
+    "/media/archive/2019-legend-03.webp": "d3dabee9",
+    "/media/archive/2019-legend-04.webp": "62e464cc",
+    "/media/archive/2019-legend-05.webp": "ae1290e5",
+    "/media/archive/2019-legend-06.webp": "fbd7cfce",
+    "/media/archive/2019-legend-07.webp": "aa13f2e6",
+    "/media/archive/2019-legend-08.webp": "315bf7c3",
+    "/media/archive/2019-legend-09.webp": "9c26f253",
+    "/media/archive/2019-legend-10.webp": "05c03697",
+    "/media/archive/2019-legend-11.webp": "1d9820b4",
+    "/media/archive/2019-legend-12.webp": "a2cdb61c",
+    "/media/archive/2019-legend-13.webp": "6dd18ca2",
+    "/media/archive/2019-legend-14.webp": "7da5936c",
+    "/media/archive/2019-legend-15.webp": "017e1a00",
+    "/media/archive/2019-legend-16.webp": "0840b09f",
+    "/media/archive/2019-legend-17.webp": "344fc6d0",
+    "/media/archive/2019-legend-18.webp": "fa4694fd",
+    "/media/archive/2019-legend-19.webp": "5220c88c",
+    "/media/archive/2019-banner.webp": "2c020bab",
+    "/media/archive/2019-survey.mp4": "2d49eac2",
+    "/media/archive/2019-wall_facade.webp": "379e5151",
+    "/media/archive/2019-footballer.webp": "af71dc9b",
+    "/media/archive/2019-photo-01.webp": "a8fedee8",
+    "/media/archive/2019-photo-02.webp": "95bddc02",
+    "/media/archive/2019-photo-03.webp": "e1e04adb",
+    "/media/archive/2019-photo-04.webp": "bcd3089d",
+    "/media/archive/2019-photo-05.webp": "be2902f9",
+    "/media/archive/2019-photo-06.webp": "f4473c45",
+    "/media/archive/2019-photo-07.webp": "e1d02a6a",
+    "/media/archive/2019-photo-08.webp": "c3df8f45",
+    "/media/archive/2019-photo-09.webp": "c2ef1a83",
+    "/media/archive/2019-t-shirt.webp": "d2e7a9ac",
+    "/media/archive/2019-winners.webp": "6bb1c54c",
+    "/media/archive/2019-hoodie.webp": "952d19c0",
+    "/media/archive/2020-2024-12-11_11-04-29.webp": "eecb972d",
+    "/media/archive/2020-cat-a76c6619.webp": "f20ddcbb",
+    "/media/archive/2020-ctf2020.webp": "a343b11f",
+    "/media/archive/2020-img_2699.webp": "33216dca",
+    "/media/archive/2020-jury_page_001.webp": "db116155",
+    "/media/archive/2020-legend-01.webp": "f95e1e63",
+    "/media/archive/2020-legend-02.webp": "b94ffb02",
+    "/media/archive/2020-legend-03.webp": "7d98ba70",
+    "/media/archive/2020-legend-04.webp": "46ba7f10",
+    "/media/archive/2020-legend-05.webp": "c5f71fa4",
+    "/media/archive/2020-legend-06.webp": "c1c62cd9",
+    "/media/archive/2020-legend-07.webp": "be21b21d",
+    "/media/archive/2020-legend-08.webp": "2aab7a83",
+    "/media/archive/2020-legend-09.webp": "72edbf4a",
+    "/media/archive/2020-legend-10.webp": "20db8fd6",
+    "/media/archive/2020-legend-11.webp": "9ed08684",
+    "/media/archive/2020-legend-12.webp": "29e019a6",
+    "/media/archive/2020-legend-13.webp": "00b9ac56",
+    "/media/archive/2020-legend-14.webp": "fe7aedc1",
+    "/media/archive/2020-legend-15.webp": "8207a7d3",
+    "/media/archive/2020-legend-16.webp": "be6386c4",
+    "/media/archive/2020-legend-17.webp": "ca9631ef",
+    "/media/archive/2020-legend-18.webp": "03a8d131",
+    "/media/archive/2020-legend-19.webp": "0b9219eb",
+    "/media/archive/2020-legend-20.webp": "572e17be",
+    "/media/archive/2020-legend-21.webp": "06cc3b06",
+    "/media/archive/2020-legend-22.webp": "97e7d2ee",
+    "/media/archive/2020-legend-23.webp": "772fd985",
+    "/media/archive/2020-legend-24.webp": "6ad89b6f",
+    "/media/archive/2020-photo_2020-12-08-15-36-55.webp": "5a679cc9",
+    "/media/archive/2020-translation_page_001.webp": "520a4e1f",
+    "/media/archive/2020-wwwbanner.webp": "e4d41cd1",
+    "/media/archive/2020-jury.webp": "26c3abed",
+    "/media/archive/2020-screensaver.webp": "828be9c4",
+    "/media/archive/2020-alys.webp": "435dd2c4",
+    "/media/archive/2020-reward.mp4": "6ff21535",
+    "/media/archive/2020-roller.mp4": "f0e51e60",
+    "/media/archive/2020-sticker-watch.webp": "3cffefb1",
+    "/media/archive/2020-photo-01.webp": "94afc999",
+    "/media/archive/2020-photo-02.webp": "a07417f3",
+    "/media/archive/2020-photo-03.webp": "4e43db31",
+    "/media/archive/2020-photo-04.webp": "43e03edf",
+    "/media/archive/2020-photo-05.webp": "379e6ff7",
+    "/media/archive/2020-photo-06.webp": "63323f53",
+    "/media/archive/2020-photo-07.webp": "0d1f3025",
+    "/media/archive/2020-photo-08.webp": "001fd852",
+    "/media/archive/2020-photo-09.webp": "1528e762",
+    "/media/archive/2020-photo-10.webp": "d10e2a75",
+    "/media/archive/2020-photo-11.webp": "aea1227f",
+    "/media/archive/2020-photo-12.webp": "91c6c123",
+    "/media/archive/2020-photo-13.webp": "0a4bb84c",
+    "/media/archive/2020-photo-14.webp": "14a4832a",
+    "/media/archive/2020-photo-15.webp": "caccf8cf",
+    "/media/archive/2021-ATM.mp4": "8392e906",
+    "/media/archive/2021-ATM.mp4": "28f9602d",
+    "/media/archive/2021-broken-down ATM.mp4": "e7240cde",
+    "/media/archive/2021-booth.mp4": "8f057f16",
+    "/media/archive/2021-booth.mp4": "8df5fccb",
+    "/media/archive/2021-broken-house.mp4": "bc9dfe85",
+    "/media/archive/2021-plant-attack.mp4": "c4cec088",
+    "/media/archive/2021-factory.mp4": "5d55921e",
+    "/media/archive/2021-broken-down.mp4": "0e23b134",
+    "/media/archive/2021-shop-attack.mp4": "cb36e470",
+    "/media/archive/2021-shop-house.mp4": "7dd0b302",
+    "/media/archive/2021-broken-down.mp4": "dfbcbc1f",
+    "/media/archive/2021-survey.mp4": "dbaf4488",
+    "/media/archive/2021-park-attack.mp4": "b34de2c3",
+    "/media/archive/2021-park-work.mp4": "199e83e0",
+    "/media/archive/2021-park-broken.mp4": "81ba73c6",
+    "/media/archive/2021-finale.webp": "9728d982",
+    "/media/archive/2021-photo-01.webp": "76e3b3ba",
+    "/media/archive/2021-photo-02.webp": "56af6326",
+    "/media/archive/2021-photo-03.webp": "8a91848d",
+    "/media/archive/2021-photo-04.webp": "d3ee67be",
+    "/media/archive/2021-photo-05.webp": "08984b89",
+    "/media/archive/2021-photo-06.webp": "d1e088e2",
+    "/media/archive/2021-photo-07.webp": "982d9588",
+    "/media/archive/2021-photo-08.webp": "06b8d498",
+    "/media/archive/2022-2022cup.webp": "3f910bec",
+    "/media/archive/2022-whole-town.mp4": "c5eaf0fd",
+    "/media/archive/2022-jurist.webp": "388fc67f",
+    "/media/archive/2022-jury.webp": "76df86d0",
+    "/media/archive/2022-merchants.webp": "5f9b4c23",
+    "/media/archive/2022-merch.webp": "e09986ac",
+    "/media/archive/2022-render-town.webp": "c1be1557",
+    "/media/archive/2022-sticker.webp": "6ec2c173",
+    "/media/archive/2022-finale.mp4": "c7643926",
+    "/media/archive/2022-photo-01.webp": "df2cc307",
+    "/media/archive/2022-photo-02.webp": "f4d53616",
+    "/media/archive/2022-photo-03.webp": "ae68fd4d",
+    "/media/archive/2022-photo-04.webp": "a9df1c3f",
+    "/media/archive/2022-photo-05.webp": "006a51ec",
+    "/media/archive/2022-photo-06.webp": "0888c0f4",
+    "/media/archive/2022-photo-07.webp": "84b044de",
+    "/media/archive/2022-photo-08.webp": "e09133c7",
+    "/media/archive/2022-photo-09.webp": "c7879671",
+    "/media/archive/2022-photo-10.webp": "869077f3",
+    "/media/archive/2022-photo-11.webp": "fef980d7",
+    "/media/archive/2022-photo-12.webp": "27e2e1b7",
+    "/media/archive/2022-photo-13.webp": "f1468b41",
+    "/media/archive/2022-t-shirt.webp": "65eda021",
+    "/media/archive/2023-2024-12-11_11-02-16.webp": "086b84d2",
+    "/media/archive/2023-legend-01.webp": "a69d98ea",
+    "/media/archive/2023-legend-02.webp": "104d8a88",
+    "/media/archive/2023-legend-03.webp": "b2f5d5ce",
+    "/media/archive/2023-legend-04.webp": "af9b2d29",
+    "/media/archive/2023-legend-05.webp": "b6726617",
+    "/media/archive/2023-legend-06.webp": "0ddb76ea",
+    "/media/archive/2023-legend-07.webp": "7f68515e",
+    "/media/archive/2023-legend-08.webp": "347a5449",
+    "/media/archive/2023-legend-09.webp": "c21bb259",
+    "/media/archive/2023-legend-10.webp": "495160be",
+    "/media/archive/2023-legend-11.webp": "8eb9b272",
+    "/media/archive/2023-legend-12.webp": "4c8cc444",
+    "/media/archive/2023-legend-13.webp": "508015d8",
+    "/media/archive/2023-legend-14.webp": "dfac7051",
+    "/media/archive/2023-legend-15.webp": "6a6ab1c2",
+    "/media/archive/2023-legend-16.webp": "97635cb8",
+    "/media/archive/2023-legend-17.webp": "35982c2e",
+    "/media/archive/2023-legend-18.webp": "0f83739b",
+    "/media/archive/2023-legend-19.webp": "329a1861",
+    "/media/archive/2023-legend-20.webp": "66e4bec1",
+    "/media/archive/2023-legend-21.webp": "0ee47c4e",
+    "/media/archive/2023-legend-22.webp": "54518d19",
+    "/media/archive/2023-legend-23.webp": "d5a0cad9",
+    "/media/archive/2023-legend-24.webp": "b72edee0",
+    "/media/archive/2023-metravehkeem.webp": "b12deb14",
+    "/media/archive/2023-visual-1.webp": "a1ce26cc",
+    "/media/archive/2023-visual-2.webp": "68ca7145",
+    "/media/archive/2023-visual-3.webp": "4b091611",
+    "/media/archive/2023-visual-4.webp": "9bfd001e",
+    "/media/archive/2023-banner.webp": "2d44f203",
+    "/media/archive/2023-result.mp4": "30cf29c5",
+    "/media/archive/2023-lighthouse.webp": "02baa5dd",
+    "/media/archive/2023-fly-around.mp4": "9e7b44cd",
+    "/media/archive/2023-print-jury.webp": "53d66341",
+    "/media/archive/2023-print organizing committee.webp": "dd62082a",
+    "/media/archive/2023-printgroup.webp": "db7cd29b",
+    "/media/archive/2023-sweatshirts.webp": "e1b7cb1e",
+    "/media/archive/2023-figure-1.webp": "fdf2fd81",
+    "/media/archive/2023-figure-2.webp": "9d2d8517",
+    "/media/archive/2023-figure-3.webp": "e87b0525",
+    "/media/archive/2023-finale.mp4": "878a3a2e",
+    "/media/archive/2023-photo-01.webp": "63179f82",
+    "/media/archive/2023-photo-02.webp": "7eaf4eaf",
+    "/media/archive/2023-photo-03.webp": "4f5b7d25",
+    "/media/archive/2023-photo-04.webp": "a2421a07",
+    "/media/archive/2023-photo-05.webp": "e9735cce",
+    "/media/archive/2023-photo-06.webp": "8cb23f52",
+    "/media/archive/2023-photo-07.webp": "fc4f9fb0",
+    "/media/archive/2023-photo-08.webp": "696a0dbc",
+    "/media/archive/2023-photo-09.webp": "624df1e3",
+    "/media/archive/2023-photo-10.webp": "b01c6459",
+    "/media/archive/2023-photo-11.webp": "7d59a0f7",
+    "/media/archive/2023-photo-12.webp": "c7ba441b",
+    "/media/archive/2023-photo-13.webp": "adaeb563",
+    "/media/archive/2024-demo_full.mp4": "fc395b82",
+    "/media/archive/2024-legend-01.webp": "c2126b1d",
+    "/media/archive/2024-legend-02.webp": "da6bc125",
+    "/media/archive/2024-legend-03.webp": "b714ce3f",
+    "/media/archive/2024-legend-04.webp": "2ae99991",
+    "/media/archive/2024-legend-05.webp": "c9528e8c",
+    "/media/archive/2024-legend-06.webp": "37105679",
+    "/media/archive/2024-legend-07.webp": "fdd63e90",
+    "/media/archive/2024-legend-08.webp": "d6a65ea8",
+    "/media/archive/2024-legend-09.webp": "e848816c",
+    "/media/archive/2024-legend-10.webp": "ee0569e3",
+    "/media/archive/2024-legend-11.webp": "be0203f6",
+    "/media/archive/2024-legend-12.webp": "00859a3a",
+    "/media/archive/2024-legend-13.webp": "f42d1401",
+    "/media/archive/2024-legend-14.webp": "10a3a7cd",
+    "/media/archive/2024-legend-15.webp": "0e2613ac",
+    "/media/archive/2024-legend-16.webp": "6f5e9d4e",
+    "/media/archive/2024-legend-17.webp": "612063e4",
+    "/media/archive/2024-legend-18.webp": "ae36d850",
+    "/media/archive/2024-legend-19.webp": "9a07a16d",
+    "/media/archive/2024-legend-20.webp": "980ac02f",
+    "/media/archive/2024-legend-21.webp": "7ce4bd93",
+    "/media/archive/2024-legend-22.webp": "3f3f8891",
+    "/media/archive/2024-legend-23.webp": "8bc9f224",
+    "/media/archive/2024-legend-24.webp": "3c8dd6da",
+    "/media/archive/2024-legend-25.webp": "acff00c4",
+    "/media/archive/2024-legend-26.webp": "13b99dd1",
+    "/media/archive/2024-legend-27.webp": "1527e9d9",
+    "/media/archive/2024-legend-28.webp": "79f62635",
+    "/media/archive/2024-legend-29.webp": "ca19a4c3",
+    "/media/archive/2024-legend-30.webp": "92582b5f",
+    "/media/archive/2024-legend-31.webp": "6c138985",
+    "/media/archive/2024-legend-32.webp": "84de92e6",
+    "/media/archive/2024-legend-33.webp": "e3a4ee0d",
+    "/media/archive/2024-legend-34.webp": "2fe3bd4a",
+    "/media/archive/2024-legend-35.webp": "da97aa18",
+    "/media/archive/2024-legend-36.webp": "042f3f78",
+    "/media/archive/2024-legend-37.webp": "df1371de",
+    "/media/archive/2024-legend-38.webp": "6382ddd4",
+    "/media/archive/2024-legend-39.webp": "1f9b232b",
+    "/media/archive/2024-legend-40.webp": "cad007cb",
+    "/media/archive/2024-legend-41.webp": "cbab9845",
+    "/media/archive/2024-legend-42.webp": "b73000a1",
+    "/media/archive/2024-legend-43.webp": "a26303db",
+    "/media/archive/2024-legend-44.webp": "b2c3160f",
+    "/media/archive/2024-legend-45.webp": "e556b345",
+    "/media/archive/2024-legend-46.webp": "91473e33",
+    "/media/archive/2024-legend-47.webp": "1bb7b2ff",
+    "/media/archive/2024-legend-48.webp": "eca967c7",
+    "/media/archive/2024-legend-49.webp": "88a4ccce",
+    "/media/archive/2024-legend-50.webp": "efdecb89",
+    "/media/archive/2024-legend-51.webp": "63e1c5c0",
+    "/media/archive/2024-legend-52.webp": "0900c738",
+    "/media/archive/2024-legend-53.webp": "75a1a13d",
+    "/media/archive/2024-legend-54.webp": "8fecb629",
+    "/media/archive/2024-legend-55.webp": "0603a584",
+    "/media/archive/2024-legend-56.webp": "dff9d1ea",
+    "/media/archive/2024-legend-57.webp": "b3dcf88d",
+    "/media/archive/2024-legend-58.webp": "133e7b77",
+    "/media/archive/2024-legend-59.webp": "5e68e914",
+    "/media/archive/2024-legend-60.webp": "bb8f9aee",
+    "/media/archive/2024-legend-61.webp": "9ee7ca0a",
+    "/media/archive/2024-legend-62.webp": "0fe45164",
+    "/media/archive/2024-legend-63.webp": "2183d510",
+    "/media/archive/2024-legend-64.webp": "295e8037",
+    "/media/archive/2024-legend-65.webp": "97a0af6a",
+    "/media/archive/2024-legend-66.webp": "4e074e8d",
+    "/media/archive/2024-legend-67.webp": "8d16262a",
+    "/media/archive/2024-legend-68.webp": "582b00d5",
+    "/media/archive/2024-legend-69.webp": "13835804",
+    "/media/archive/2024-legend-70.webp": "076aa0fd",
+    "/media/archive/2024-legend-71.webp": "1a2bef03",
+    "/media/archive/2024-legend-72.webp": "3d6f16ba",
+    "/media/archive/2024-legend-73.webp": "67968ac4",
+    "/media/archive/2024-legend-74.webp": "1e332d74",
+    "/media/archive/2024-legend-75.webp": "be759a87",
+    "/media/archive/2024-legend-76.webp": "c1e91735",
+    "/media/archive/2024-legend-77.webp": "10a57152",
+    "/media/archive/2024-legend-78.webp": "c16fd197",
+    "/media/archive/2024-visual-1.webp": "4c8c8225",
+    "/media/archive/2024-visual-3.webp": "09a033c6",
+    "/media/archive/2024-visual-4.webp": "8e0a6bd1",
+    "/media/archive/2024-visual-5.webp": "2bcdf341",
+    "/media/archive/2024-visual-6.webp": "80b4c217",
+    "/media/archive/2024-visual-7.webp": "483289e0",
+    "/media/archive/2024-cup_ctf_8_prologue_20-12_sound_design-1.mp4":
+      "6edcab87",
+    "/media/archive/2024-hoodie.webp": "4b03d12a",
+    "/media/archive/2024-hoodie.webp": "f7c55d09",
+    "/media/archive/2024-hoodie.webp": "c64720f5",
+    "/media/archive/2024-shape.webp": "0aacac18",
+    "/media/archive/2024-sophi.webp": "3f54c402",
+    "/media/archive/2024-tail-piece.webp": "3486488e",
+    "/media/archive/2024-photo-01.webp": "a0d0083e",
+    "/media/archive/2024-photo-02.webp": "2d7dbdec",
+    "/media/archive/2024-photo-03.webp": "6a0c4132",
+    "/media/archive/2024-photo-04.webp": "5f1019d5",
+    "/media/archive/2024-photo-05.webp": "688c7cbf",
+    "/media/archive/2024-photo-06.webp": "2309f4c1",
+    "/media/archive/2024-photo-07.webp": "4f726b06",
+    "/media/archive/2024-photo-08.webp": "18a562c5",
+    "/media/archive/2024-photo-09.webp": "8ec82573",
+    "/media/archive/2024-photo-10.webp": "ba849a7c",
+    "/media/archive/2024-photo-11.webp": "46b48e6d",
+    "/media/archive/2024-photo-12.webp": "cfc74540",
+    "/media/archive/2024-photo-13.webp": "be4a92a8",
+    "/media/archive/2024-photo-14.webp": "cf3d42e4",
+    "/media/archive/2024-photo-15.webp": "42aae392",
+    "/media/archive/2024-photo-16.webp": "3fe70d9f",
+    "/media/archive/2024-photo-17.webp": "48514f7b",
+    "/media/archive/2024-photo-18.webp": "99702692",
+    "/media/archive/2024-t-shirt.webp": "6e35ab2f",
+    "/media/archive/2024-volunteer shirts-2.webp": "3c17de3c",
+    "/media/archive/2024-volunteer shirts.webp": "545c93c7",
+    "/media/archive/2025-legend-01.webp": "8d057b21",
+    "/media/archive/2025-legend-02.webp": "81293974",
+    "/media/archive/2025-legend-03.webp": "3f65ea31",
+    "/media/archive/2025-legend-04.webp": "f2fbe002",
+    "/media/archive/2025-legend-05.webp": "fe149f28",
+    "/media/archive/2025-legend-06.webp": "3f193724",
+    "/media/archive/2025-legend-07.webp": "203dd9fb",
+    "/media/archive/2025-legend-08.webp": "25339a44",
+    "/media/archive/2025-legend-09.webp": "9a240063",
+    "/media/archive/2025-legend-10.webp": "da340c89",
+    "/media/archive/2025-legend-11.webp": "0156ba53",
+    "/media/archive/2025-legend-12.webp": "3cb1bf2b",
+    "/media/archive/2025-legend-13.webp": "44f16c71",
+    "/media/archive/2025-legend-14.webp": "8c2b60b9",
+    "/media/archive/2025-legend-15.webp": "67224b1c",
+    "/media/archive/2025-legend-16.webp": "c628d1ea",
+    "/media/archive/2025-legend-17.webp": "582c980d",
+    "/media/archive/2025-legend-18.webp": "068de8b2",
+    "/media/archive/2025-legend-19.webp": "9516e971",
+    "/media/archive/2025-legend-20.webp": "a10a6af8",
+    "/media/archive/2025-legend-21.webp": "21e559b8",
+    "/media/archive/2025-legend-22.webp": "f0449dc8",
+    "/media/archive/2025-legend-23.webp": "3da914df",
+    "/media/archive/2025-legend-24.webp": "724332cd",
+    "/media/archive/2025-legend-25.webp": "694fa3c0",
+    "/media/archive/2025-legend-26.webp": "786c545b",
+    "/media/archive/2025-legend-27.webp": "74260212",
+    "/media/archive/2025-legend-28.webp": "567bfcbc",
+    "/media/archive/2025-legend-29.webp": "8d62c1ad",
+    "/media/archive/2025-legend-30.webp": "35975b4b",
+    "/media/archive/2025-legend-31.webp": "39acbee1",
+    "/media/archive/2025-legend-32.webp": "8e60a72a",
+    "/media/archive/2025-legend-33.webp": "9072e0ee",
+    "/media/archive/2025-legend-34.webp": "34da0d01",
+    "/media/archive/2025-legend-35.webp": "81293974",
+    "/media/archive/2025-legend-36.webp": "1339ef4e",
+    "/media/archive/2025-badge.webp": "0939a557",
+    "/media/archive/2025-visual-1.webp": "01daff53",
+    "/media/archive/2025-visual-2.webp": "b37b7439",
+    "/media/archive/2025-visual-3.webp": "915c2605",
+    "/media/archive/2025-play-stage.mp4": "7d5ae62a",
+    "/media/archive/2025-merch.webp": "206f898b",
+    "/media/archive/2025-print-thick.webp": "a41bdcb2",
+    "/media/archive/2025-prologue-1.mp4": "99a29bdf",
+    "/media/archive/2025-prologue-2.mp4": "702d41e4",
+    "/media/archive/2025-prologue-3.mp4": "9c23b9d2",
+    "/media/archive/2025-sophie-1.webp": "2bf7a057",
+    "/media/archive/2025-sophie-2.webp": "5085356a",
+    "/media/archive/2025-sophie-3.webp": "c56dfa22",
+    "/media/archive/2025-figure.webp": "97f9b626",
+    "/media/archive/2025-photo-01.webp": "fc9f6ed5",
+    "/media/archive/2025-photo-02.webp": "53b482d3",
+    "/media/archive/2025-photo-03.webp": "48b63e4b",
+    "/media/archive/2025-photo-04.webp": "0bc76332",
+    "/media/archive/2025-photo-05.webp": "caa5a04e",
+    "/media/archive/2025-photo-06.webp": "165a8b9d",
+    "/media/archive/2025-photo-07.webp": "c33d2501",
+    "/media/archive/2025-photo-08.webp": "f51a13af",
+    "/media/archive/2025-photo-09.webp": "989e4e72",
+    "/media/archive/2025-photo-10.webp": "b4b4d470",
+    "/media/archive/2025-photo-11.webp": "50c63646",
+    "/media/archive/2025-photo-12.webp": "d76a5243",
+    "/media/archive/2025-photo-13.webp": "b8849884",
+    "/media/archive/2025-photo-14.webp": "b1b95698",
+    "/media/archive/2025-photo-15.webp": "4063c99a",
+    "/media/archive/2025-photo-16.webp": "0452f900",
+    "/media/basement_core.mp4": "f51eac7a",
+    "/media/basement_core.webp": "a1c219c8",
+    "/media/cellar-sm.webp": "d6684d64",
+    "/media/cellar.mp4": "9f050261",
+    "/media/cellar.webp": "dbe77f90",
+    "/media/club.mp4": "b6372df0",
+    "/media/club.webp": "96a660dd",
+    "/media/club_room-sm.webp": "9b80e6ee",
+    "/media/club_room.webp": "d3115422",
+    "/media/crew/00.webp": "9dc69831",
+    "/media/crew/01.webp": "02a60232",
+    "/media/crew/02.webp": "47e10d80",
+    "/media/crew/03.webp": "613d68fa",
+    "/media/crew/04.webp": "f4a7188c",
+    "/media/crew/05.webp": "ebb14f2c",
+    "/media/crew/06.webp": "35ced44e",
+    "/media/crew/07.webp": "1441cefd",
+    "/media/crew/08.webp": "0d438240",
+    "/media/crew/09.webp": "dbc0241c",
+    "/media/crew/10.webp": "1441cefd",
+    "/media/crew/11.webp": "0ab2d378",
+    "/media/crew/12.webp": "28e83edf",
+    "/media/crew/13.webp": "f1fc2e80",
+    "/media/crew/14.webp": "009059c5",
+    "/media/crew/15.webp": "eb1d0959",
+    "/media/crew/16.webp": "14f55ca5",
+    "/media/crew/17.webp": "1d88a16a",
+    "/media/crew/18.webp": "9168aed5",
+    "/media/crew/19.webp": "ad55c520",
+    "/media/crew/20.webp": "b41fe953",
+    "/media/crew/21.webp": "02424db6",
+    "/media/crew/22.webp": "b9b1e26d",
+    "/media/crew/23.webp": "b4844b12",
+    "/media/crew/24.webp": "5aff3588",
+    "/media/crew/25.webp": "f8f6d602",
+    "/media/crew/26.webp": "361a422e",
+    "/media/crew/27.webp": "f1d092d5",
+    "/media/crew/28.webp": "dce9b544",
+    "/media/crew/29.webp": "99a2c1ee",
+    "/media/crew/30.webp": "48f7e738",
+    "/media/crew/31.webp": "777daa7b",
+    "/media/crew/32.webp": "0c44d72b",
+    "/media/crew/33.webp": "1441cefd",
+    "/media/crew/34.webp": "611f2550",
+    "/media/crew/35.webp": "1fe20ed8",
+    "/media/crew/36.webp": "bc6d36b2",
+    "/media/crew/37.webp": "b41da40f",
+    "/media/crew/38.webp": "a28c792f",
+    "/media/crew/39.webp": "73d062e0",
+    "/media/crew/40.webp": "ad12fc77",
+    "/media/crew/41.webp": "a0ccf809",
+    "/media/descent/000.webp": "c6e40c3d",
+    "/media/descent/001.webp": "3971e51a",
+    "/media/descent/002.webp": "297dfb6d",
+    "/media/descent/003.webp": "91316924",
+    "/media/descent/004.webp": "126d36b1",
+    "/media/descent/005.webp": "64f3a2fd",
+    "/media/descent/006.webp": "67a8d40f",
+    "/media/descent/007.webp": "26c84294",
+    "/media/descent/008.webp": "425cfb71",
+    "/media/descent/009.webp": "0f7fa5fb",
+    "/media/descent/010.webp": "3f3d13c4",
+    "/media/descent/011.webp": "449ca6cf",
+    "/media/descent/012.webp": "463041da",
+    "/media/descent/013.webp": "3e06b955",
+    "/media/descent/014.webp": "ecc3c4bc",
+    "/media/descent/015.webp": "820724d8",
+    "/media/descent/016.webp": "0900b544",
+    "/media/descent/017.webp": "03e4f9ba",
+    "/media/descent/018.webp": "664443d1",
+    "/media/descent/019.webp": "677b1610",
+    "/media/descent/020.webp": "e738ccfa",
+    "/media/descent/021.webp": "b6134755",
+    "/media/descent/022.webp": "abf6dc68",
+    "/media/descent/023.webp": "a2073db4",
+    "/media/descent/024.webp": "4dd51a39",
+    "/media/descent/025.webp": "a9ae46c3",
+    "/media/descent/026.webp": "b9a629d7",
+    "/media/descent/027.webp": "69178317",
+    "/media/descent/028.webp": "506f03a3",
+    "/media/descent/029.webp": "69f4f386",
+    "/media/descent/030.webp": "4f59fd1e",
+    "/media/descent/031.webp": "2dc2d564",
+    "/media/descent/032.webp": "05e219e8",
+    "/media/descent/033.webp": "05dec1d6",
+    "/media/descent/034.webp": "a7f9266f",
+    "/media/descent/035.webp": "e2c69d35",
+    "/media/descent/036.webp": "07a7fdf9",
+    "/media/descent/037.webp": "c3ee5956",
+    "/media/descent/038.webp": "73617be5",
+    "/media/descent/039.webp": "df163b74",
+    "/media/descent/040.webp": "7a780872",
+    "/media/descent/041.webp": "ace7136b",
+    "/media/descent/042.webp": "778f17cd",
+    "/media/descent/043.webp": "a42124a5",
+    "/media/descent/044.webp": "7f647e8e",
+    "/media/descent/045.webp": "db234da0",
+    "/media/descent/046.webp": "9b49a500",
+    "/media/descent/047.webp": "f52bd73b",
+    "/media/descent/048.webp": "f7b667ea",
+    "/media/descent/049.webp": "9461b59a",
+    "/media/descent/050.webp": "d4af74ba",
+    "/media/descent/051.webp": "8b2c12ad",
+    "/media/descent/052.webp": "4b8a6166",
+    "/media/descent/053.webp": "6979e2f4",
+    "/media/descent/054.webp": "e3d40790",
+    "/media/descent/055.webp": "151f5a86",
+    "/media/descent/056.webp": "2257db14",
+    "/media/descent/057.webp": "8eae66de",
+    "/media/descent/058.webp": "b307bc77",
+    "/media/descent/059.webp": "d54a41fe",
+    "/media/descent/060.webp": "e2f5fa53",
+    "/media/descent/061.webp": "076989c6",
+    "/media/descent/062.webp": "e4722614",
+    "/media/descent/063.webp": "847ec9b2",
+    "/media/descent/064.webp": "4f5ab0be",
+    "/media/descent/065.webp": "b2298e48",
+    "/media/descent/066.webp": "a98691e3",
+    "/media/descent/067.webp": "7971be7f",
+    "/media/descent/068.webp": "226a86f0",
+    "/media/descent/069.webp": "83907ea0",
+    "/media/descent/070.webp": "de6def01",
+    "/media/descent/071.webp": "281a0a64",
+    "/media/descent/072.webp": "94c0829c",
+    "/media/descent/073.webp": "faf6697e",
+    "/media/descent/074.webp": "3ee8e176",
+    "/media/descent/075.webp": "aaed8c93",
+    "/media/descent/076.webp": "d2f35824",
+    "/media/descent/077.webp": "18121e6c",
+    "/media/descent/078.webp": "9c7adf97",
+    "/media/descent/079.webp": "8896d8e7",
+    "/media/descent/080.webp": "1670f645",
+    "/media/descent/081.webp": "c466dafc",
+    "/media/descent/082.webp": "3c8fd19d",
+    "/media/descent/083.webp": "bcd73557",
+    "/media/descent/084.webp": "9bb7abc7",
+    "/media/descent/085.webp": "993bfd8e",
+    "/media/descent/086.webp": "c69fb799",
+    "/media/descent/087.webp": "5aa60fcc",
+    "/media/descent/088.webp": "5735851e",
+    "/media/descent/089.webp": "22abf985",
+    "/media/descent/090.webp": "61efa458",
+    "/media/descent/091.webp": "7b8b1f37",
+    "/media/descent/092.webp": "d9960ee6",
+    "/media/descent/093.webp": "4d454f2b",
+    "/media/descent/094.webp": "7aabfaff",
+    "/media/descent/095.webp": "1fda29dc",
+    "/media/doc_polozhenie.webp": "54ce55f5",
+    "/media/house-sm.webp": "9671ed0e",
+    "/media/house.webp": "1964deb6",
+    "/media/jury/00.webp": "41559c44",
+    "/media/jury/01.webp": "69eb7be0",
+    "/media/jury/02.webp": "132afc3c",
+    "/media/jury/03.webp": "25d72d7b",
+    "/media/jury/04.webp": "6b4a8bb1",
+    "/media/jury/05.webp": "5834eb76",
+    "/media/jury/06.webp": "639486a2",
+    "/media/jury/07.webp": "918b1374",
+    "/media/jury/08.webp": "9f774a87",
+    "/media/jury/09.webp": "a6fee1c6",
+    "/media/jury/10.webp": "49345d8f",
+    "/media/jury/11.webp": "c93e88c1",
+    "/media/jury/12.webp": "b7d72cbf",
+    "/media/jury/13.webp": "b2373f33",
+    "/media/kzf/ave.webp": "42005b1c",
+    "/media/kzf/card-frost.webp": "79defe9c",
+    "/media/kzf/card-hall.webp": "92e55f2f",
+    "/media/kzf/card-lamp.webp": "5d9e4070",
+    "/media/kzf/card-open.webp": "67103498",
+    "/media/kzf/card-plan.webp": "84a601db",
+    "/media/kzf/card-spire.webp": "32e2c404",
+    "/media/kzf/card-watch.webp": "7e85b8ba",
+    "/media/kzf/guard.webp": "6a4c9482",
+    "/media/kzf/hero.webp": "9bec3bdd",
+    "/media/kzf/island.webp": "b6ea20d3",
+    "/media/logo.svg": "133aebd7",
+    "/media/og.jpg": "8f18fad7",
+    "/media/og.webp": "5b5467cc",
+    "/media/partners/arsib.webp": "44426d33",
+    "/media/partners/asi.webp": "cdfb0885",
+    "/media/partners/bis-journal.webp": "9939d708",
+    "/media/partners/cintera.webp": "d6147fc2",
+    "/media/partners/cis.webp": "2258de69",
+    "/media/partners/cloud-ru.webp": "fde9fce3",
+    "/media/partners/ctf-news.webp": "bac1102b",
+    "/media/partners/dit-moskvy.webp": "7cc15149",
+    "/media/partners/gazprombank.webp": "dcea53df",
+    "/media/partners/hi-tech.webp": "90577a48",
+    "/media/partners/information-security.webp": "30324316",
+    "/media/partners/inside.webp": "67087a04",
+    "/media/partners/kc-domenov.webp": "db0463f7",
+    "/media/partners/kiberyar.webp": "03346358",
+    "/media/partners/kod-ib.webp": "30f3e5b2",
+    "/media/partners/komputerra.webp": "640224a8",
+    "/media/partners/mel.webp": "3d77cc17",
+    "/media/partners/mezhdunarodnaya-zhizn.webp": "33a2341b",
+    "/media/partners/mincifry.webp": "d1bc8212",
+    "/media/partners/minobrnauki.webp": "5b77da0b",
+    "/media/partners/mir-robototehniki.webp": "3c16e167",
+    "/media/partners/nastavniki.webp": "2c255c17",
+    "/media/partners/sber.webp": "331d6ecb",
+    "/media/partners/searchinform.webp": "fc3137ef",
+    "/media/partners/servicepipe.webp": "53b0e359",
+    "/media/partners/soyuz-direktorov.webp": "fb9341b5",
+    "/media/partners/tass.webp": "a749cb35",
+    "/media/partners/usergate.webp": "1b0db86c",
+    "/media/partners/vulkan.webp": "9d50c57a",
+    "/media/partners/xakep.webp": "70eca451",
+    "/media/partners/yandex-cloud.webp": "76ac0efb",
+    "/media/roof_signal-sm.webp": "5eaeda25",
+    "/media/roof_signal.webp": "2e034494",
+    "/media/world_city.mp4": "7a9fda0e",
+    "/media/world_city.webp": "2964823a",
+    "/media/world_hex.mp4": "0357fb76",
+    "/media/world_hex.webp": "c9a066d2",
+    "/media/world_mirror.mp4": "07036499",
+    "/media/world_mirror.webp": "a8a1cfec",
+    "/media/world_signal.mp4": "1e166548",
+    "/media/world_signal.webp": "e4d64c37",
+  },
+  Ei = "(max-width: 820px), (pointer: coarse)";
+function $e() {
+  return window.matchMedia(Ei).matches;
+}
+const Li = _i,
+  Ai = new Set([
+    "/media/house.webp",
+    "/media/roof_signal.webp",
+    "/media/club_room.webp",
+    "/media/cellar.webp",
+  ]);
+function V(e) {
+  let l = "/" + e.replace(/^\//, "").split("?")[0];
+  $e() && Ai.has(l) && (l = l.replace(".webp", "-sm.webp"));
+  const S = Li[l];
+  return "/".replace(/\/$/, "") + l + (S ? `?v=${S}` : "");
+}
+function $i() {
+  const e = document.querySelector("[data-boot]"),
+    o = e?.querySelector("[data-boot-fill]"),
+    l = e?.querySelector("[data-boot-pct]");
+  let S = 0;
+  const m = (L) => {
+    const z = Math.max(S, Math.min(1, L));
+    ((S = z),
+      o?.style.setProperty("--p", `${(z * 100).toFixed(0)}%`),
+      l && (l.textContent = `${(z * 100).toFixed(0)}%`));
+  };
+  return {
+    set: m,
+    done: () => {
+      (m(1), window.setTimeout(() => e?.setAttribute("data-done", ""), 260));
+    },
+  };
+}
+function Ke(e) {
+  return new Promise((o) => {
+    const l = new Image();
+    ((l.onload = () => o(l)), (l.onerror = () => o(null)), (l.src = e));
+  });
+}
+function qi(e, o) {
+  let l = 0;
+  return Promise.all(
+    e.map((S) => Ke(S).then((m) => ((l += 1), o(l / e.length), m))),
+  );
+}
+const Ti = [
+    {
+      name: "Piarin Viktor Anatolyevich",
+      role: "Chairman of the organizing committee — member, Corresponding Member of RAEN and the Academy of Cryptography, laureate, toward.ph.n",
+      photo: "/media/crew/00.webp",
+      wing: "org",
+    },
+    {
+      name: "Budnikov Alexander",
+      role: "Chairman of the jury, Director of Information Security, PAO AFK «System system»",
+      photo: "/media/crew/01.webp",
+      wing: "org",
+    },
+    {
+      name: "Katusov Alexei",
+      role: "Head of Information Security Department DIT of Moscow",
+      photo: "/media/crew/03.webp",
+      wing: "org",
+    },
+    {
+      name: "Barkhatov Dmitry",
+      role: "Chairman of the Coordination Council, All-Russian Public Movement of Mentors of Children and Youth «Russia's mentors»",
+      photo: "/media/crew/04.webp",
+      wing: "org",
+    },
+    {
+      name: "Dmitry Shevtsov",
+      role: "Head of FSTEC of Russia",
+      photo: "/media/crew/05.webp",
+      wing: "org",
+    },
+    {
+      name: "Masalovich Andrei",
+      role: "President of the Consortium «inforus», toward.ph.n",
+      photo: "/media/crew/06.webp",
+      wing: "org",
+    },
+    {
+      name: "Yuri Wars",
+      role: "Head of Information Technology Department, communication and protection, MVD",
+      photo: "/media/crew/07.webp",
+      wing: "org",
+    },
+    {
+      name: "Minin Victor",
+      role: "Chairman of the Board of ARCIB",
+      photo: "/media/crew/08.webp",
+      wing: "org",
+    },
+    {
+      name: "Sviridov Igor",
+      role: "Deputy Director of FGBI «Integral Research Institute »",
+      photo: "/media/crew/09.webp",
+      wing: "org",
+    },
+    {
+      name: "Nikolai Lapichev",
+      role: "And.Oh.. director «Security of digital technologies», ANO «Digital economy»",
+      photo: "/media/crew/10.webp",
+      wing: "org",
+    },
+    {
+      name: "Mikhail Bogatikov",
+      role: "Director of the Department of Cybersecurity of the Ministry of Digital Affairs of Russia",
+      photo: "/media/crew/33.webp",
+      wing: "org",
+    },
+    {
+      name: "Natalia Zolotareva",
+      role: "President of the All-Russian Public Organization «Union of Directors of Organizations of Secondary Professional Education of Russia»",
+      photo: "/media/crew/31.webp",
+      wing: "org",
+    },
+    {
+      name: "Peschanski Georgi",
+      role: "Professor VIPK MIA of Russia, d.eh.n., toward.fat.-n.n., professor, professor of special discipline",
+      photo: "/media/crew/32.webp",
+      wing: "org",
+    },
+    {
+      name: "Nik's Komarova",
+      role: "Kstrategic communications adviser n, channelman PR Machine",
+      photo: "/media/crew/12.webp",
+      wing: "org",
+    },
+    {
+      name: "Zelentsova Olga",
+      role: "Project curator",
+      photo: "/media/crew/13.webp",
+      wing: "team",
+    },
+    {
+      name: "Smirnov Maxim",
+      role: "Technical Director",
+      photo: "/media/crew/14.webp",
+      wing: "team",
+    },
+    {
+      name: "Borlakova Christina",
+      role: "Manager, administrative support of the project",
+      photo: "/media/crew/41.webp",
+      wing: "team",
+    },
+    {
+      name: "Nikitin Maxim",
+      role: "taskmaster T/B · team drovosec",
+      photo: "/media/crew/34.webp",
+      wing: "team",
+    },
+    {
+      name: "Sinitsyn Daniel",
+      role: "taskmaster T/B",
+      photo: "/media/crew/37.webp",
+      wing: "team",
+    },
+    {
+      name: "Dunik Ivan",
+      role: "taskmaster T/B",
+      photo: "/media/crew/38.webp",
+      wing: "team",
+    },
+    {
+      name: "Karavaev Ivan",
+      role: "taskmaster T/B",
+      photo: "/media/crew/39.webp",
+      wing: "team",
+    },
+    {
+      name: "Savva's Silvers",
+      role: "Service developer A/D school-age · team CUT",
+      photo: "/media/crew/35.webp",
+      wing: "team",
+    },
+    {
+      name: "Eminov Tagir",
+      role: "Service developer A/D school-age · team CUT",
+      photo: "/media/crew/29.webp",
+      wing: "team",
+    },
+    {
+      name: "Lev Khakimov",
+      role: "Infrastructure engineer A/D school-age",
+      photo: "/media/crew/36.webp",
+      wing: "team",
+    },
+    {
+      name: "Bykov Roman",
+      role: "Service developer A/D · team HazyTeam",
+      photo: "/media/crew/25.webp",
+      wing: "team",
+    },
+    {
+      name: "Kotov Alexander",
+      role: "Service developer A/D · team HazyTeam",
+      photo: "/media/crew/26.webp",
+      wing: "team",
+    },
+    {
+      name: "Dmitri Luksta",
+      role: "Service developer A/D · team HazyTeam",
+      photo: "/media/crew/28.webp",
+      wing: "team",
+    },
+    {
+      name: "Mikhail Gnedashev",
+      role: "Infrastructure engineer A/D · team HazyTeam",
+      photo: "/media/crew/27.webp",
+      wing: "team",
+    },
+    {
+      name: "Zeunov Anton",
+      role: "Frontend-developer",
+      photo: "/media/crew/23.webp",
+      wing: "team",
+    },
+    {
+      name: "Nikolaev Pavel",
+      role: "Technician",
+      photo: "/media/crew/21.webp",
+      wing: "team",
+    },
+    {
+      name: "gubareva jana",
+      role: "Senior Graphic Designer",
+      photo: "/media/crew/17.webp",
+      wing: "team",
+    },
+    {
+      name: "Spilev Roman",
+      role: "3D-painter",
+      photo: "/media/crew/20.webp",
+      wing: "team",
+    },
+    {
+      name: "Lepilova Victoria",
+      role: "Editorial",
+      photo: "/media/crew/16.webp",
+      wing: "team",
+    },
+    {
+      name: "Pour your love.",
+      role: "Broadcast host",
+      photo: "/media/crew/15.webp",
+      wing: "team",
+    },
+    {
+      name: "Henri Galileo",
+      role: "Broadcast host, manga",
+      photo: "/media/crew/19.webp",
+      wing: "team",
+    },
+    {
+      name: "Elizabeth Antonova",
+      role: "Broadcast correspondent",
+      photo: "/media/crew/30.webp",
+      wing: "team",
+    },
+    {
+      name: "Yankaitis Tatiana",
+      role: "Broadcast correspondent",
+      photo: "/media/crew/40.webp",
+      wing: "team",
+    },
+  ],
+  Ii = [
+    {
+      name: "Budnikov Alexander",
+      role: "Managing Director for Information Security, PAO AFK «System system»",
+      photo: "/media/jury/00.webp",
+    },
+    {
+      name: "Bugrov Vladimir",
+      role: "Deputy Head of the Department of Technical Information Protection of the Main Research Computing Center of the Office of the President of the Russian Federation",
+      photo: "/media/jury/01.webp",
+    },
+    {
+      name: "Volkov Sergey",
+      role: "Head of Information Security Department, AO «Goznak»",
+      photo: "/media/jury/02.webp",
+    },
+    {
+      name: "Derby Ilya",
+      role: "Expert in information security, Rosatom",
+      photo: "/media/jury/03.webp",
+    },
+    {
+      name: "Kader Mikhail",
+      role: "Architect of Customer Experience, UserGate",
+      photo: "/media/jury/04.webp",
+    },
+    {
+      name: "Karelova Olga",
+      role: "Independent expert",
+      photo: "/media/jury/05.webp",
+    },
+    {
+      name: "Alexey Markov",
+      role: "President of Group of Companies GC «echelon», Doctor of Engineering,Laureate of the Russian Government Prize in Science and Technology",
+      photo: "/media/jury/06.webp",
+    },
+    {
+      name: "Minakov Sergey",
+      role: "Deputy General Director of ANO STC Central Committee, Senior Researcher at the Russian Academy of Cryptography",
+      photo: "/media/jury/07.webp",
+    },
+    {
+      name: "Masalovich Andrei",
+      role: "President of the Consortium «inforus», toward.ph.n",
+      photo: "/media/jury/08.webp",
+    },
+    {
+      name: "Mikhailenko Natalia",
+      role: "Associate Professor of the Department of Combating Crimes in the Field of ITT, Moscow University of the Ministry of Internal Affairs of Russia. In.I. quikotia, candidate of law, Vice-President of the Moscow Regional Branch of the International Police Association",
+      photo: "/media/jury/09.webp",
+    },
+    {
+      name: "Loskutova Olesya",
+      role: "Deputy Head of Central Computing Center, Main Information and Analytical Center of the Ministry of Internal Affairs of Russia",
+      photo: "/media/jury/10.webp",
+    },
+    {
+      name: "Victor Vovchinnikov",
+      role: "Head of Information Security Department, LLC «M13 IT SERVICES»",
+      photo: "/media/jury/11.webp",
+    },
+    {
+      name: "Sklyarov Dmitry",
+      role: "Head of Application Analysis Department, Positive Technologies",
+      photo: "/media/jury/12.webp",
+    },
+    {
+      name: "Tsar Gregory",
+      role: "Head of the Interaction and Response Center of the Information Security Department of the Bank of Russia",
+      photo: "/media/jury/13.webp",
+    },
+  ],
+  Pi = [
+    {
+      tier: "Organizers",
+      logos: ["/media/partners/arsib.webp", "/media/partners/nastavniki.webp"],
+    },
+    {
+      tier: "Supported",
+      logos: [
+        "/media/partners/asi.webp",
+        "/media/partners/dit-moskvy.webp",
+        "/media/partners/mincifry.webp",
+        "/media/partners/minobrnauki.webp",
+        "/media/partners/soyuz-direktorov.webp",
+      ],
+    },
+    {
+      tier: "Official partners",
+      logos: [
+        "/media/partners/gazprombank.webp",
+        "/media/partners/cintera.webp",
+        "/media/partners/sber.webp",
+      ],
+    },
+    {
+      tier: "Partners",
+      logos: [
+        "/media/partners/searchinform.webp",
+        "/media/partners/vulkan.webp",
+      ],
+    },
+    { tier: "Prize fund partners", logos: ["/media/partners/kc-domenov.webp"] },
+    {
+      tier: "Technology partners",
+      logos: [
+        "/media/partners/cloud-ru.webp",
+        "/media/partners/kod-ib.webp",
+        "/media/partners/servicepipe.webp",
+        "/media/partners/usergate.webp",
+        "/media/partners/yandex-cloud.webp",
+      ],
+    },
+    {
+      tier: "General Information Partner",
+      logos: ["/media/partners/tass.webp"],
+    },
+    {
+      tier: "Information partners",
+      logos: [
+        "/media/partners/mezhdunarodnaya-zhizn.webp",
+        "/media/partners/xakep.webp",
+        "/media/partners/inside.webp",
+        "/media/partners/ctf-news.webp",
+        "/media/partners/cis.webp",
+        "/media/partners/information-security.webp",
+        "/media/partners/kiberyar.webp",
+        "/media/partners/komputerra.webp",
+        "/media/partners/mir-robototehniki.webp",
+        "/media/partners/hi-tech.webp",
+        "/media/partners/bis-journal.webp",
+        "/media/partners/mel.webp",
+      ],
+    },
+  ],
+  gt = [
+    {
+      floor: "roof",
+      title: "Upper floors",
+      body: "Ordinary house on the outskirts. On the first floor of the computer classroom, But the most interesting thing happens below..",
+      at: 0,
+    },
+    {
+      floor: "8 floor",
+      title: "Stranger windows",
+      body: "Every window has its own life., None of you care.. A typical five-story building, unless you go down.",
+      at: 0.117,
+    },
+    {
+      floor: "5 floor",
+      title: "Down the facade.",
+      body: "Free courses for teenagers started here. From here came the first teams..",
+      at: 0.273,
+    },
+    {
+      floor: "2 floor",
+      title: "Your room.",
+      body: "balcony, systemsman, first-timer. That's how everyone started., who made it to the final.",
+      at: 0.506,
+    },
+    {
+      floor: "1 floor",
+      title: "First floor.",
+      body: "There are still traces of that night on the door.. Entrance to the back room..",
+      at: 0.701,
+    },
+    {
+      floor: "lift",
+      title: "Down.",
+      body: "The buttons of the lower floors were erased stronger than the rest. Down here they drive more often., topless.",
+      at: 0.857,
+    },
+    {
+      floor: "basement",
+      title: "Basement",
+      body: "barbar, wall-screen, pod. This is where the metaverse opens up..",
+      at: 0.974,
+    },
+  ],
+  yt = [
+    {
+      id: "signal",
+      play: !0,
+      index: "01",
+      name: `KZFland
+and Metra Veehkim`,
+      theme: "first-world · fragment 1",
+      status: "open",
+      statusLabel: "openly · fragment 1 found",
+      body: "A split planet 2019 yearly 2023-go — It's the same assembly., just four years apart. Avatar comes in first and takes the first part of the backup.. Here he meets a double for the first time., Who calls himself Sophie and gives away the wrong key. So what matters is in this world. — check out, from whomever.",
+      poster: V("/media/world_signal.webp"),
+      video: V("/media/world_signal.mp4"),
+    },
+    {
+      id: "city",
+      play: !0,
+      index: "02",
+      name: `City of Ensk
+And Friendship City.`,
+      theme: "township · fragment 2",
+      status: "open",
+      statusLabel: "openly · fragment 2",
+      body: "The city's digital twin, into 2022 came outside. The second part of the backup was hidden in the city infrastructure. ATM, factory, electronics, playground, transformer-box: Every object is working., broken, under attack. To pick up the fragment, You will have to distinguish a normal breakdown from someone else’s intervention., how they did it then..",
+      poster: V("/media/world_city.webp"),
+      video: V("/media/world_city.mp4"),
+    },
+    {
+      id: "mirror",
+      index: "03",
+      name: `Alice.
+wonderland`,
+      theme: "return 2020-go · fragment 3",
+      status: "soon",
+      statusLabel: "opens later · fragment 3",
+      body: "Assembly, rules-free. The dimensions of space change, concepts change, And Alice can't answer., who she is.. The avatar has a similar task.. The third part of the backup will give the wrong, Who's gonna call Sophie louder?, one, whose answers fit with the rest. The Cheshire cat is not here for beauty., It's a debugging console., left behind in the engine 2020 year.",
+      poster: V("/media/world_mirror.webp"),
+      video: V("/media/world_mirror.mp4"),
+    },
+    {
+      id: "hex",
+      index: "04",
+      name: `hexagons
+Attack / Defense`,
+      theme: "last · finale",
+      status: "demo",
+      statusLabel: "",
+      body: "The last part of the backup is nowhere to be found.. It's collected from that., What teams take from each other. Every hexagon. — It's a team service.. Hold yours., scavenge; shatter, pick up your attack points. The fifth hexagon will open in the second half of the final and turn the arrangement around.. It's impossible to find this alone., That's why the finale plays the whole hall., And you'll see by the mourner., Who got to Sophie?.",
+      poster: V("/media/world_hex.webp"),
+      video: V("/media/world_hex.mp4"),
+    },
+  ],
+  ci = [
+    { label: "season", value: "X" },
+    { label: "age", value: "14–27" },
+    { label: "credits", value: "4" },
+    { label: "finale", value: "December" },
+  ],
+  Ci = [
+    {
+      numeral: "I",
+      name: "Workshop",
+      years: "2017 — 2020",
+      body: "Students of the citadel build the first landfill. First the iron stands, peace after disaster, And then the first fully drawn planet.. By the fourth Cup in the build stops working rules.",
+    },
+    {
+      numeral: "II",
+      name: "Polygon",
+      years: "2021 — 2023",
+      body: "The landfill becomes a digital twin of the real city. In 2022 year it enters outside, and 2023-The authors have their keys taken away..",
+    },
+    {
+      numeral: "III",
+      name: "Authors",
+      years: "2024 — 2026",
+      body: "Workshop coming to light, turns out, citadel — It's just an IT school.. Sophie, who started out as a living person, It stays inside the engine and calls for it..",
+    },
+  ],
+  Ue = [
+    {
+      numeral: "I",
+      year: "2017",
+      act: "I",
+      title: "Robotics",
+      tint: "232, 163, 61",
+      pattern: "grid",
+      link: "https://ctfnews.ru/news/1346",
+      body: "The very first Cup. Robots., mechanics, robotic arm. Mining in tasks paid students power under the engine, The engine was named Sophie..",
+    },
+    {
+      numeral: "II",
+      year: "2018",
+      act: "I",
+      title: "Apocalypse.",
+      tint: "185, 212, 90",
+      pattern: "grid",
+      link: "https://ctfnews.ru/news/1478",
+      body: "Peace after disaster. Room with warning tapes, full-wall. The second build was collected as a stress test and checked., hold out, when everything had already fallen. Hold on..",
+    },
+    {
+      numeral: "III",
+      year: "2019",
+      act: "I",
+      title: "Cyberpunk: KZF Land",
+      tint: "255, 46, 154",
+      pattern: "scan",
+      link: "https://dzen.ru/a/XftkzpUV7vEwefJ_",
+      body: "The engine was checked on the ruins and took up the scale, first-world. Planet split in two: The Industrial South and the City for the Chosen, almost like backend and front.",
+    },
+    {
+      numeral: "IV",
+      year: "2020",
+      act: "I",
+      title: "Alice in Wonderland",
+      tint: "224, 36, 54",
+      pattern: "diag",
+      link: "https://dzen.ru/a/YZd-ssGFny-yhU9a",
+      body: "Once the world holds., rulebreaker. Virtual worlds, playing-card, manga. Cheshire cat works here debugging console and remains in the next builds.",
+    },
+    {
+      numeral: "V",
+      year: "2021",
+      act: "II",
+      title: "City of Friendship",
+      tint: "79, 208, 107",
+      pattern: "diag",
+      link: "https://dzen.ru/a/Yb81Mqz-FDu0lfhe",
+      body: "The landfill repeats the real city for the first time, created by the students themselves. There's a factory., and theme park, transformer, ATM, even «fool». But every infrastructure can break down at any minute.. Sbercott and Cybermouse look for and fix breakdowns.",
+    },
+    {
+      numeral: "VI",
+      year: "2022",
+      act: "II",
+      title: "City of Ensk",
+      tint: "156, 192, 230",
+      pattern: "frost",
+      link: "https://dzen.ru/a/Y9vhNjT9zm1_XYTr",
+      body: "The double was too similar to the original.. «Crossbows of Siberia» They destroyed the city infrastructure and put their emblem on all the scoreboards.. It wasn't in the script., landfill entered.",
+    },
+    {
+      numeral: "VII",
+      year: "2023",
+      act: "II",
+      title: "Metra Veehkim",
+      tint: "127, 216, 255",
+      pattern: "frost",
+      link: "https://dzen.ru/a/ZaTfTur8P2mqCdJo",
+      body: "After the hack, the keys were taken by the corporation.. Climate Control Canceled for Fuel Trade, And the planet got iced.. The engine continues to work without authors., a minus sixty outside the window — price.",
+    },
+    {
+      numeral: "VIII",
+      year: "2024",
+      act: "III",
+      title: "citadel",
+      tint: "143, 39, 255",
+      pattern: "scan",
+      link: "https://dzen.ru/a/aAKoq6v-7xanzHib",
+      body: "Authors coming to light. The citadel of white hackers was the Moscow IT school, workshop, where for eight years all past worlds were collected.",
+    },
+    {
+      numeral: "IX",
+      year: "2025",
+      act: "III",
+      title: "Sophie Sarcophagus",
+      tint: "0, 209, 255",
+      pattern: "scan",
+      link: "https://2025.ctfcup.ru/",
+      body: "Sophie, which 2017 The year began with a living person., It stays inside the engine forever.. Body lies in sarcophagus, And now she's in all the assemblies at once.. «See you in the metaverse.».",
+    },
+  ],
+  st = {
+    title: "One story for nine Cups",
+    parts: [
+      "Cup CTF Russia is being held with 2017 year, And every season has its own legend.. It's the world., two-day, town, heroism.",
+      "Nine legends eventually formed into one story.. It's not written by organizers., Heroes from the inside: white-hacker students, who have been building a training ground for nine years. Every Cup — This is his next assembly..",
+      "Everything's in order., from the very first.",
+    ],
+    go: "further — from the first Cup →",
+  },
+  Oe = Ii.map((e) => ({ ...e, photo: V(e.photo) }));
+V("/media/cellar.webp");
+V("/media/cellar.mp4");
+V("/media/basement_core.webp");
+V("/media/basement_core.mp4");
+const It = Ti.map((e) => ({
+    ...e,
+    wing: e.wing === "org" ? "org" : "team",
+    photo: V(e.photo),
+  })),
+  pt = Pi.map((e) => ({ ...e, logos: e.logos.map((o) => V(o)) })),
+  Ri = [
+    {
+      key: "Credits.",
+      value: "School, SPO, academic — The team participates in one of the four",
+    },
+    { key: "Age.", value: "From 14 before 27 years inclusive" },
+    {
+      key: "Selection",
+      value:
+        "As a result of the qualifying round are held 40 team — along 10 score",
+    },
+    {
+      key: "Way ahead.",
+      value:
+        "School and SPO go straight to the final., Academic and mixed play semi-finals",
+    },
+    {
+      key: "One team",
+      value:
+        "In the semifinals, no more than one team from the educational institution",
+    },
+  ],
+  Di = [
+    { name: "School", href: "https://aciso.timepad.ru/event/4167419/" },
+    { name: "SPO", href: "https://aciso.timepad.ru/event/4167329/" },
+    { name: "academic", href: "https://aciso.timepad.ru/event/4167286/" },
+    { name: "Mixed", href: "https://aciso.timepad.ru/event/4167370/" },
+  ],
+  Hi =
+    "Who can participate?, How the selection is arranged and on what documents the competitions are held.",
+  zi = [
+    {
+      room: "partners",
+      title: "Partners",
+      note: "bar",
+      cx: 1140,
+      cy: 485,
+      rx: 144,
+      ry: 106,
+    },
+    {
+      room: "info",
+      title: "Information",
+      note: "rack",
+      cx: 890,
+      cy: 480,
+      rx: 64,
+      ry: 126,
+    },
+    {
+      room: "vault",
+      title: "Season archive",
+      note: "rack",
+      cx: 152,
+      cy: 522,
+      rx: 68,
+      ry: 118,
+    },
+    {
+      room: "crew",
+      title: "Team.",
+      note: "centre-bed",
+      cx: 762,
+      cy: 708,
+      rx: 140,
+      ry: 34,
+    },
+    {
+      room: "worlds",
+      title: "Game worlds",
+      note: "sofa monitor",
+      cx: 1246,
+      cy: 735,
+      rx: 120,
+      ry: 84,
+    },
+    {
+      room: "jury",
+      title: "Jury alley",
+      note: "flag",
+      cx: 1465,
+      cy: 486,
+      rx: 94,
+      ry: 168,
+    },
+  ],
+  Ye = { x: 457, y: 299, w: 382, h: 371 },
+  Se = { w: 1680, h: 946 },
+  Fi =
+    "Cup ten years, And all ten of them came together in one story.. It's all over here.: where it all started., What Happened Last Season and Why You Should Send Avatars.",
+  Pt = [
+    {
+      title: "How did it all start?",
+      body: [
+        "In 2017 Students of the citadel of white hackers undertook to build a landfill, where to learn, genuinely. Power under the engine paid for mining, sutured. The engine was named Sophie., named, leader.",
+        "Each subsequent Cup became another assembly of the same polygon.. First the iron stands, peace after disaster, The first fully drawn planet and build, rule-free. Nine legends were one..",
+      ],
+    },
+    {
+      title: "When the game stopped being a game",
+      body: [
+        "In 2021 For the first time in the year, a real city. ATM service breaks down, And the ATM on the card starts spitting out money.. Cybermouse and Sbercott, troublemaker, self-written.",
+        "A year later, the double was too similar to the original.. «Crossbows of Siberia» They destroyed the city infrastructure and put their emblem on all the scoreboards.. It wasn't in the script., landfill entered. K 2023 The engine keys were taken by the company., Climate Control Canceled for Fuel Trading, And the planet got iced..",
+      ],
+    },
+    {
+      title: "Night., sticky",
+      body: [
+        "In 2024 year, workshop. The citadel was the Moscow IT school: computer-club, Free courses for teenagers and a bar in the basement.",
+        "At night, armed men enter the club.. Hackers are led away by catacombs, Sophie is locked in a capsule and launches a neural interface without calibration., After that, she remains in an artificial coma.. On the surviving screens revolves her game. 2003 year «Crossbows of Siberia». The mentor gives the only order.: Make a few mind backups and bring the girl back to life..",
+        "Last season, the order was carried out and transferred consciousness to the metaverse.. Sophie, which 2017 The year began with a living person., left inside the engine. Body lies in sarcophagus, And now she's in all the assemblies at once..",
+      ],
+    },
+    {
+      title: "What's happening now?",
+      body: [
+        "Participants and heroes send avatars to search for Sophie and her database.. More doubles divorced, needle, And the backup key is only in the real one..",
+        "The backup itself is disassembled by game worlds, And each world gives its share.. Worlds taken from past assemblies, But now they come from the inside.. Getting all the pieces together is not enough., They need a key., And he's only one of those., which is to be distinguished from the doubles.",
+        "How will it end?, You'll find out..",
+      ],
+    },
+  ],
+  ji = [
+    {
+      title: "Three acts",
+      lines: [
+        "I · Workshop — 2017–2020",
+        "II · Polygon — 2021–2023",
+        "III · Authors — 2024–2026",
+      ],
+    },
+    {
+      title: "2026 · task",
+      lines: [
+        "Find the real Sophie among the doubles",
+        "Collect backup pieces from game worlds",
+        "key, which only she has.",
+      ],
+    },
+    {
+      title: "Who's in the metaverse",
+      lines: [
+        "Sophie, Ave and the mouse.",
+        "doubles, more, needle",
+        "avatars of participants and NPC",
+      ],
+    },
+    {
+      title: "Finals.",
+      lines: ["face-off, December", "how it ends, You'll find out."],
+    },
+  ],
+  mt = {
+    src: V("/media/house.webp"),
+    caption: "That's the house.",
+    note: "The basement didn't go anywhere.",
+  },
+  bt = 4,
+  Oi = 700;
+function Ni(e) {
+  const o = e.getAttribute("src");
+  if (!o) return;
+  let l = bt;
+  const S = () => {
+    (e.classList.remove("is-waiting"), (e.dataset.ok = "1"));
+  };
+  if (e.complete && e.naturalWidth > 0) {
+    S();
+    return;
+  }
+  (e.classList.add("is-waiting"),
+    e.addEventListener("load", S),
+    e.addEventListener("error", () => {
+      if (l <= 0) {
+        (e.classList.remove("is-waiting"), e.classList.add("is-lost"));
+        return;
+      }
+      ((l -= 1),
+        window.setTimeout(
+          () => {
+            e.src = `${o}${o.includes("?") ? "&" : "?"}r=${bt - l}`;
+          },
+          Oi * (bt - l),
+        ));
+    }));
+}
+function Xe(e) {
+  for (const o of e.querySelectorAll("img")) Ni(o);
+}
+const Wi = [
+    "home",
+    "cellar",
+    "jury",
+    "crew",
+    "info",
+    "vault",
+    "partners",
+    "legend",
+    "kzf",
+    "city",
+  ],
+  kt = "home",
+  li = "cellar",
+  si = new Set();
+let We = null;
+const pi = { worlds: "cellar" };
+function Bi(e) {
+  try {
+    navigator.sendBeacon?.(`/px?r=${e}`);
+  } catch {}
+}
+function Ct() {
+  const e = window.location.hash.replace("#", ""),
+    o = pi[e];
+  return o || (Wi.includes(e) ? e : kt);
+}
+function vt(e) {
+  if (e === We) return;
+  const o = We;
+  ((We = e), (document.body.dataset.openRoom = e));
+  for (const l of document.querySelectorAll("[data-room]")) {
+    const S = l.dataset.room === e;
+    (l.classList.toggle("is-open", S),
+      l.setAttribute("aria-hidden", S ? "false" : "true"),
+      (l.inert = !S));
+  }
+  for (const l of document.querySelectorAll("[data-goto]"))
+    l.classList.toggle("is-active", l.dataset.goto === e);
+  Bi(e);
+  for (const l of si) l(e, o);
+}
+function Ve(e) {
+  const o = pi[e] ?? e;
+  if (window.location.hash.replace("#", "") === e) {
+    vt(o);
+    return;
+  }
+  window.location.hash = e;
+}
+function Rt() {
+  Ve(li);
+}
+function Dt() {
+  return We ?? kt;
+}
+function Ee(e) {
+  (si.add(e), We && e(We, null));
+}
+function Ui() {
+  for (const e of document.querySelectorAll("[data-goto]"))
+    e.addEventListener("click", (o) => {
+      (o.preventDefault(), Ve(e.dataset.goto));
+    });
+  for (const e of document.querySelectorAll("[data-back]"))
+    e.addEventListener("click", (o) => {
+      (o.preventDefault(), Rt());
+    });
+  (window.addEventListener("hashchange", () => vt(Ct())),
+    window.addEventListener("keydown", (e) => {
+      e.key === "Escape" && Dt() !== kt && Dt() !== li && Rt();
+    }),
+    vt(Ct()));
+}
+const mi = 640,
+  bi = 300,
+  hi = 320,
+  Ht = 520,
+  Yi = 1540,
+  Gi = 1200;
+function zt(e) {
+  return -(bi + Math.floor(e / 2) * mi + (e % 2 === 0 ? 0 : hi));
+}
+function Ki() {
+  const e = document.querySelector('[data-room="jury"]'),
+    o = e?.querySelector("[data-hall]"),
+    l = e?.querySelector("[data-hall-cam]"),
+    S = e?.querySelector("[data-jury-card]"),
+    m = e?.querySelector("[data-jury-count]"),
+    g = e?.querySelector("[data-hall-prev]"),
+    L = e?.querySelector("[data-hall-next]");
+  if (!e || !o || !l || !S || !g || !L) return;
+  const z = bi + Math.floor((Oe.length - 1) / 2) * mi + hi + Yi,
+    $ = z - Gi,
+    q = o.querySelector(".hall__end");
+  (q?.style.setProperty("--z", `${-z}px`), q && Xe(q));
+  const O = Oe.map((b, u) => {
+      const _ = document.createElement("button");
+      return (
+        (_.type = "button"),
+        (_.className = `hall__frame hall__frame--${u % 2 === 0 ? "l" : "r"}`),
+        _.style.setProperty("--z", `${zt(u)}px`),
+        (_.innerHTML = `
       <span class="hall__art"><img src="${b.photo}" alt="${b.name}" loading="lazy" decoding="async" /></span>
-      <span class="hall__plate"><b>${b.name}</b><i>${b.role}</i><em class="hall__go">file →</em></span>`,l.append(_),Xe(_),_}),U=[];Oe.forEach((b,u)=>{const _=-zt(u)-Ht,N=u===0?0:U[u-1]+240;U.push(Math.max(N,_))}),U.push($);const p=U[0]??0;let R=p;const K=()=>{let b=0,u=1/0;return U.forEach((_,N)=>{const ie=Math.abs(_-R);ie<u&&(u=ie,b=N)}),b},X=()=>{o.style.setProperty("--cam",`${R}px`);const b=Math.min(K(),Oe.length-1);m&&(m.textContent=`${b+1} / ${Oe.length}`),O.forEach((u,_)=>u.classList.toggle("is-near",_===b&&R<$-Ht)),g.disabled=R<=p+1,L.disabled=R>=$-1},h=(b,u=!1)=>{R=Math.max(p,Math.min($,b)),l.classList.toggle("is-snapped",u),X()},w=b=>h(U[Math.max(0,Math.min(U.length-1,b))]??0),j=()=>{S.hidden=!0},t=(b,u)=>{S.innerHTML=`
+      <span class="hall__plate"><b>${b.name}</b><i>${b.role}</i><em class="hall__go">file →</em></span>`),
+        l.append(_),
+        Xe(_),
+        _
+      );
+    }),
+    U = [];
+  (Oe.forEach((b, u) => {
+    const _ = -zt(u) - Ht,
+      N = u === 0 ? 0 : U[u - 1] + 240;
+    U.push(Math.max(N, _));
+  }),
+    U.push($));
+  const p = U[0] ?? 0;
+  let R = p;
+  const K = () => {
+      let b = 0,
+        u = 1 / 0;
+      return (
+        U.forEach((_, N) => {
+          const ie = Math.abs(_ - R);
+          ie < u && ((u = ie), (b = N));
+        }),
+        b
+      );
+    },
+    X = () => {
+      o.style.setProperty("--cam", `${R}px`);
+      const b = Math.min(K(), Oe.length - 1);
+      (m && (m.textContent = `${b + 1} / ${Oe.length}`),
+        O.forEach((u, _) =>
+          u.classList.toggle("is-near", _ === b && R < $ - Ht),
+        ),
+        (g.disabled = R <= p + 1),
+        (L.disabled = R >= $ - 1));
+    },
+    h = (b, u = !1) => {
+      ((R = Math.max(p, Math.min($, b))),
+        l.classList.toggle("is-snapped", u),
+        X());
+    },
+    w = (b) => h(U[Math.max(0, Math.min(U.length - 1, b))] ?? 0),
+    j = () => {
+      S.hidden = !0;
+    },
+    t = (b, u) => {
+      ((S.innerHTML = `
       <div class="hall__card-in">
         <img src="${b.photo}" alt="" decoding="async" />
         <div>
@@ -13,34 +1640,4057 @@ Attack / Defense`,theme:"last · finale",status:"demo",statusLabel:"",body:"The 
           <p>${b.role}</p>
           <button class="btn" type="button">← Back to the alley.</button>
         </div>
-      </div>`,S.hidden=!1;const _=S.querySelector("button");_?.addEventListener("click",N=>{N.stopPropagation(),j(),u.focus()}),_?.focus()};S.addEventListener("click",b=>{b.target===S&&j()}),o.addEventListener("wheel",b=>{S.hidden&&(b.preventDefault(),h(R+b.deltaY*1.6,!0))},{passive:!1});let c=null,n=!1;const k=(b,u)=>{let _=-1,N=1/0;return O.forEach((ie,J)=>{const s=ie.getBoundingClientRect();if(s.width<8||b<s.left||b>s.right||u<s.top||u>s.bottom)return;const v=s.width*s.height;v<N&&(N=v,_=J)}),_};o.addEventListener("pointerdown",b=>{b.target.closest(".hall__nav, .hall__card")||(b.preventDefault(),c={y:b.clientY,at:R,x:b.clientX,moved:!1})}),o.addEventListener("click",b=>{if(b.target.closest(".hall__nav, .hall__card")||n)return;const u=k(b.clientX,b.clientY),_=Oe[u],N=O[u];u<0||!_||!N||(w(u),t(_,N))}),window.addEventListener("pointermove",b=>{c&&((Math.abs(b.clientY-c.y)>6||Math.abs(b.clientX-c.x)>6)&&(c.moved=!0),c.moved&&h(c.at+(c.y-b.clientY)*3.2,!0))}),window.addEventListener("pointerup",()=>{n=c?.moved??!1,c=null,n&&window.setTimeout(()=>{n=!1},0)}),window.addEventListener("keydown",b=>{if(document.body.dataset.openRoom!=="jury"||!S.hidden)return;const u=K();(b.key==="ArrowRight"||b.key==="ArrowDown")&&(b.preventDefault(),w(u+1)),(b.key==="ArrowLeft"||b.key==="ArrowUp")&&(b.preventDefault(),w(u-1)),b.key==="Home"&&(b.preventDefault(),w(0)),b.key==="End"&&(b.preventDefault(),w(U.length-1))}),g.addEventListener("click",()=>w(K()-1)),L.addEventListener("click",()=>w(K()+1));const C=()=>{for(const b of O)$e()||b.querySelector("img")?.decode().catch(()=>{})},G=window.requestIdleCallback;G?G(C,{timeout:2500}):window.setTimeout(C,900),Ee(b=>{b==="jury"&&(j(),h(p,!0),requestAnimationFrame(()=>l.classList.remove("is-snapped")))}),X()}const ht=[{key:"lamp",sign:"KZ7",name:"Communication dome",x:.375,y:.545,text:"Megalith Controls all networks — That's why the clans couldn't agree.. Dome lighthouse back on the air: They have a common channel.."},{key:"spire",sign:"SY2",name:"Dome Synthetix",x:.635,y:.545,text:"«There's this transparent corkscrew. — teleport?» — «No., lighthouse». That's it., sketchy. Second one.."},{key:"frost",sign:"WD4",name:"West drawback",x:.368,y:.665,text:"Thirty years minus sixty. Climate control withdrawal still warm — enough, lighthouse."},{key:"plan",sign:"ED8",name:"Eastern withdrawal",x:.61,y:.665,text:"Thirty lighthouses — thirty, And they all turn on the same signal.. There's another one up here.."},{key:"hall",sign:"BD5",name:"Billboard",x:.17,y:.645,text:"Fixers in surviving urban centers still have work to do.. Board accepts applications again — signify, channel."},{key:"watch",sign:"FX3",name:"Stock exchange fixers",x:.75,y:.72,text:"Save some money. — Start working on connecting beacons. Stock exchange counts again, and thinks in our favor."}],ot=4,rt=[[.255,.435],[.345,.4],[.44,.385],[.56,.385],[.655,.4],[.745,.425],[.825,.475],[.885,.545],[.915,.625],[.915,.705],[.885,.775],[.835,.83],[.735,.875],[.615,.9],[.5,.895],[.385,.9],[.265,.875],[.165,.83],[.105,.76],[.085,.68],[.095,.6],[.135,.525],[.19,.47]],Ft=[{x:.5,y:.455,rx:.132,ry:.088},{x:.485,y:.545,rx:.086,ry:.076},{x:.485,y:.7,rx:.064,ry:.101}],dt={x:.5,y:.44},De={x:.5,y:.845},de={a:.115,b:.335,k:.34},xt=(de.b-de.a)*(1-de.k),he={x0:.02,x1:.98,y0:.005,y1:.93-xt},Xi=e=>e<=de.a?e:e>=de.b?e-xt:de.a+(e-de.a)*de.k,jt=2.4,ct=.3,Vi=.05,Ot=2,Nt=.095,Zi=.163,Wt=.125,Bt=.17,ft=.55,Ji=.055,Qi=.45,ea=2.4,Ut=3.4,Yt=3,Ge=.07,Gt=.4,ta=.45,ia=.72,aa=.034,na=.85,oa=.26,ra=.018,Kt=.075,Xt=.34,da=.2,Vt=4.5,ca=22,la=10,sa=7,pa=10,ma=12,ba=1.6;function ha(){const e=document.querySelector('[data-room="kzf"]'),o=e?.querySelector("[data-kzf-canvas]"),l=e?.querySelector("[data-kzf-say]"),S=e?.querySelector("[data-kzf-goal]"),m=e?.querySelector("[data-kzf-list]"),g=e?.querySelector("[data-kzf-warm]"),L=e?.querySelector("[data-kzf-heat]"),z=e?.querySelector("[data-kzf-brief]"),$=e?.querySelector("[data-kzf-go]"),q=e?.querySelector("[data-kzf-card]"),O=e?.querySelector("[data-kzf-card-art]"),U=e?.querySelector("[data-kzf-card-title]"),p=e?.querySelector("[data-kzf-card-text]"),R=e?.querySelector("[data-kzf-card-sig]"),K=e?.querySelector("[data-kzf-card-btn]"),X=e?.querySelector("[data-kzf-state]"),h=e?.querySelector("[data-kzf-pick]"),w=e?.querySelector('[data-kzf-twin="0"]'),j=e?.querySelector('[data-kzf-twin="1"]');if(!e||!o||!l||!S||!m||!g||!L||!z||!$||!q||!O||!U||!p||!K||!R||!X||!h||!w||!j)return;const t=o.getContext("2d");if(!t)return;let c=null,n=null,k=0,C=0,G=[];const b=document.createElement("canvas"),u=b.getContext("2d");let _=null,N=null,ie=1,J=[],s=[],v=[],I=[],T=De.x,E=De.y,te=0,oe=0,se=1,ve=0,y=0,B=0,Q=0,ae=0,Z=100,ne=0,be=0,le="brief",_e={ghost:"",sign:""},Te=0,ye="cold",re=0,Le=0,Ie=0,we=0,qe=0,Pe=null;const fe=new Set,ke=[],fi=Array.from({length:90},()=>({x:Math.random(),y:Math.random(),s:.4+Math.random()*.9}));let Ae=null;const wi=new Map(["lamp","spire","frost","plan","hall","watch","open"].map(i=>[i,V(`/media/kzf/card-${i}.webp`)])),ui=()=>{const i=o.getBoundingClientRect(),d=Math.min(2,window.devicePixelRatio||1),r=Math.max(1,Math.round(i.width*d)),x=Math.max(1,Math.round(i.height*d));return(o.width!==r||o.height!==x)&&(o.width=r,o.height=x),{w:r,h:x}},gi=(i,d)=>{let r=!1;for(let x=0,A=rt.length-1;x<rt.length;A=x,x+=1){const H=rt[x],F=rt[A];H[1]>d!=F[1]>d&&i<(F[0]-H[0])*(d-H[1])/(F[1]-H[1])+H[0]&&(r=!r)}return r},Mt=(i,d)=>Ft.some(r=>((i-r.x)/r.rx)**2+((d-r.y)/r.ry)**2<1),Be=(i,d)=>{if(!n)return!0;const r=Math.round(i*k),x=Math.round(d/ie*C);return r<0||x<0||r>=k||x>=C?!1:n[x*k+r]===1},Ze=.02,pe=(i,d)=>gi(i,d)&&!Mt(i,d)&&Be(i,d)&&Be(i-Ze,d)&&Be(i+Ze,d)&&Be(i,d-Ze)&&Be(i,d+Ze),vi=i=>{const d=document.createElement("canvas");k=240,C=Math.round(240*(i.naturalHeight/i.naturalWidth)),d.width=k,d.height=C;const r=d.getContext("2d",{willReadFrequently:!0});if(!r)return;r.drawImage(i,0,0,k,C);const x=r.getImageData(0,0,k,C).data,A=new Uint8Array(k*C);for(let F=0;F<A.length;F+=1)A[F]=x[F*4+3]>90?1:0;n=A,G=[];const H=132;for(let F=0;F<H;F+=1)for(let a=0;a<H;a+=1){const f=a/H,P=F/H*ie;if(!pe(f,P))continue;const D=1/H;(!pe(f-D,P)||!pe(f+D,P)||!pe(f,P-D)||!pe(f,P+D))&&G.push({x:f,y:P})}},St=(i,d)=>{const r=Math.atan2(d-dt.y,i-dt.x);return s.some(x=>{let A=r-x.angle;for(;A>Math.PI;)A-=Math.PI*2;for(;A<-Math.PI;)A+=Math.PI*2;return Math.abs(A)<x.half})},yi=()=>{const i=(r,x,A)=>{for(const H of[A,A*.6,A*.3,0]){const F=r+(r-.5)*H,a=x+(x-.64)*H;if(pe(F,a))return{x:F,y:a}}return{x:r,y:x}},d=ht.map(r=>i(r.x,r.y,.42)).sort((r,x)=>Math.atan2(r.y-.64,r.x-.5)-Math.atan2(x.y-.64,x.x-.5));I=[];for(let r=0;r<d.length;r+=1){const x=d[r],A=d[(r+1)%d.length];I.push(x);for(const H of[.34,.67]){const F=x.x+(A.x-x.x)*H,a=x.y+(A.y-x.y)*H;if(pe(F,a)){I.push({x:F,y:a});continue}for(const f of[.05,.1,.16]){const P=F+(F-.5)*f,D=a+(a-.64)*f;if(pe(P,D)){I.push({x:P,y:D});break}}}}},Je=()=>{g.style.setProperty("--v",`${Math.max(0,Math.min(100,Z))}%`),L.style.setProperty("--v",`${Math.max(0,Math.min(100,ne))}%`),S.innerHTML=`<b>${be}</b><span>from ${ot} lighthouse</span>`,m.innerHTML=J.map(i=>`<li${i.on?' class="on"':""}><span>${i.name}<em>${i.on?i.sign:"···"}</em></span><i style="--v:${Math.round(i.charge*100)}%"></i></li>`).join("")},Qe=(i,d)=>{l.innerHTML=`<b>${i}</b><span>${d}</span>`},_t=(i,d,r,x,A)=>{O.style.setProperty("--art",`url('${wi.get(i)??""}')`),U.innerHTML=`<i>${x}</i>${d}`,p.textContent=r,R.hidden=!A,A&&(R.innerHTML=`<i>signature</i><b>${A}</b><span>She'll be called the real Sophie. — lighthouse</span>`),q.hidden=!1,le="card"},Et=()=>{if(q.hidden=!0,Pe&&(Pe=null),be>=ot){ki();return}le="run",qe=performance.now()},et=i=>{le=i?"won":"lost",e.dataset.over=le,h.hidden=!0,q.hidden=!0,z.hidden=!1,z.dataset.mode=i?"won":"lost";const d=z.querySelector("[data-kzf-brief-head]"),r=z.querySelector("[data-kzf-brief-body]");d&&(d.textContent=i?"The first piece of backup we have.":ye==="twin"?"The key was a stranger.":"Entry fails"),r&&(r.innerHTML=i?"<p>The key is real.: Sophie backup fragment removed from Kzland-52 and went upstairs.. First of four. — The rest lie in other worlds..</p><p>The lesson of this world is simple.: beforehand, check, from whomever.</p>":ye==="twin"?`<p>The double key: it has a signature ${_e.sign} — lighthouse «${_e.ghost}», never aired. The real Sophie only hears those beacons., burnt.</p><p>The key fell apart., fragment.</p>`:ye==="seen"?"<p>Megalith profile: Too long under the beam and too many patrol encounters. Crossbows jam lighthouses earlier, how they get on the air.</p><p>The beam warms — but underneath. Come in with a little jerk., And freeze in plain sight.</p>":"<p>Minus sixty outside.. Ave didn't make it to the next challenge. — heat ran out halfway.</p><p>You live without a beam for about twenty seconds.. Plan a route through the light.</p>"),$.textContent=i?"Walk again.":"More time."},ki=()=>{le="pick";const i=J.filter(f=>f.on).sort((f,P)=>f.lit-P.lit),d=J.filter(f=>!f.on),r=Math.floor(Math.random()*i.length),x=d[Math.floor(Math.random()*d.length)]??i[0],A=i.map(f=>f.sign),H=A.map((f,P)=>P===r?x.sign:f);_e={ghost:x.name,sign:x.sign},Te=Math.random()<.5?0:1;const F=Te===0?[A,H]:[H,A],a=(f,P)=>{const D=f.querySelector("span");D&&(D.textContent=P.join(" · "))};a(w,F[0]),a(j,F[1]),q.hidden=!0,h.hidden=!1},Lt=i=>{h.hidden=!0,i===Te?et(!0):(ye="twin",et(!1))},At=()=>{J=ht.map(i=>({...i,charge:0,on:!1,told:!1,pulse:0,lit:0})),Ie=0,re=0,Le=0,s=Array.from({length:2+(Math.random()<.45?1:0)},(i,d)=>({angle:Math.random()*Math.PI*2,spin:(.25+Math.random()*.16)*(d%2===0?1:-1),half:.22+Math.random()*.1})),yi(),v=Array.from({length:Ot},(i,d)=>{const r=(Math.floor(I.length*.35)+Math.floor(I.length/Ot*d))%I.length,x=I[r]??De;return{x:x.x,y:x.y,face:1,mood:"patrol",wp:r,lock:0,wait:0,lx:x.x,ly:x.y,hunt:0,jam:0,turn:0,turnAge:0,cool:0}}),T=De.x,E=De.y,te=0,oe=0,Z=100,ne=0,be=0,y=3,ke.length=0,Pe=null,Ae=null,Q=0,ae=0,B=0,ye="cold",h.hidden=!0,fe.clear(),delete e.dataset.over,z.hidden=!0,q.hidden=!0,le="run",Je(),Qe("Good hunting.",`The lighthouse starts only under the beam — With your own hands, eight seconds.. Rays today. ${s.length}.`),qe=performance.now(),we||(we=requestAnimationFrame(tt))},xi=i=>{let d=0,r=0;if((fe.has("ArrowLeft")||fe.has("KeyA"))&&(d-=1),(fe.has("ArrowRight")||fe.has("KeyD"))&&(d+=1),(fe.has("ArrowUp")||fe.has("KeyW"))&&(r-=1),(fe.has("ArrowDown")||fe.has("KeyS"))&&(r+=1),!d&&!r&&Ae){const a=Ae.x-T,f=Ae.y-E,P=Math.hypot(a,f);P>.012&&(d=a/P,r=f/P)}const x=Math.hypot(d,r);if(x){d/=x,r/=x;const a={turn:Q,turnAge:ae},[f,P]=qt(T,E,d,r,a,i);Q=a.turn,ae=a.turnAge,d=f,r=P,te+=d*jt*i,oe+=r*jt*i,se=d!==0?d>0?1:-1:se}const A=Math.exp(-7*i);te*=x?Math.exp(-7*.25*i):A,oe*=x?Math.exp(-7*.25*i):A;const H=Math.hypot(te,oe);H>ct&&(te=te/H*ct,oe=oe/H*ct);const F=Math.min(H,ct)*i;if(F>0){const a=te/H,f=oe/H,P=(D,Y)=>{const xe=T+D*F,ue=E+Y*F;let me=!1;return pe(xe,E)&&(T=xe,me=!0),pe(T,ue)&&(E=ue,me=!0),me};if(!P(a,f)){let D=!1;for(const Y of[.7,-.7,1.3,-1.3]){const xe=Math.cos(Y),ue=Math.sin(Y);if(P(a*xe-f*ue,a*ue+f*xe)){D=!0;break}}D||(te=0,oe=0)}}if(B=H<.03?B+i:0,H>.04){const a=ke[ke.length-1];(!a||Math.hypot(T-a.x,E-a.y)>.018)&&(ke.push({x:T,y:E,life:1}),ke.length>30&&ke.shift())}},$t=(i,d)=>{const r=T-i.x,x=E-i.y,A=Math.hypot(r,x),H=B>Gt;if(A<Ji&&!H)return!0;const F=(i.mood==="chase"?Bt:Wt)*(d?1.6:ia)*(H?ta:1);if(A>F)return!1;let a=Math.atan2(x,r)-i.face;for(;a>Math.PI;)a-=Math.PI*2;for(;a<-Math.PI;)a+=Math.PI*2;if(Math.abs(a)>=ft)return!1;for(let f=.15;f<.95;f+=.15)if(Mt(i.x+r*f,i.y+x*f))return!1;return!0},qt=(i,d,r,x,A,H)=>{if(pe(i+r*.05,d+x*.05))return A.turn=0,A.turnAge=0,[r,x];if(A.turnAge+=H,A.turnAge>1.4&&(A.turn=-A.turn,A.turnAge=0),!A.turn){let a=.5,f=.62,P=1/0;for(const D of Ft){const Y=Math.hypot(D.x-i,D.y-d);Y<P&&(P=Y,a=D.x,f=D.y)}A.turn=r*(d-f)-x*(i-a)>0?1:-1}for(const a of[.5,.9,1.35,1.85,2.4]){const f=Math.cos(a*A.turn),P=Math.sin(a*A.turn),D=r*f-x*P,Y=r*P+x*f;if(pe(i+D*.05,d+Y*.05))return[D,Y]}return[r,x]},Mi=i=>{for(let d=0;d<v.length;d+=1)for(let r=d+1;r<v.length;r+=1){const x=v[d],A=v[r];let H=A.x-x.x,F=A.y-x.y,a=Math.hypot(H,F);if(a>Ge)continue;a<1e-4&&(H=Math.cos(d*2.4),F=Math.sin(d*2.4),a=1);const f=(Ge-a)/2*Math.min(1,i*8),P=H/a*f,D=F/a*f;pe(x.x-P,x.y-D)&&(x.x-=P,x.y-=D),pe(A.x+P,A.y+D)&&(A.x+=P,A.y+=D)}},Si=(i,d,r)=>{i.cool>0&&(i.cool-=d);const x=y<=0&&i.cool<=0&&$t(i,r);i.mood==="patrol"||i.mood==="search"?x&&(i.mood="lock",i.lock=0):x&&(i.mood="chase",i.hunt=0,i.lx=T,i.ly=E);let A=i.x,H=i.y,F=Nt;if(i.mood==="lock")i.lock+=d,F=0,x?i.lock>=Qi&&(i.mood="chase",i.hunt=0,i.lx=T,i.ly=E):i.mood="patrol";else if(i.mood==="chase")A=i.lx,H=i.ly,F=Zi,i.hunt+=d,(i.hunt>Ut||!x&&Math.hypot(i.x-i.lx,i.y-i.ly)<.03)&&(i.mood="search",i.wait=ea,i.hunt>Ut&&(i.cool=Yt));else if(i.mood==="search"){i.wait-=d,F=Nt*.55;const a=I[i.wp]??De;A=a.x,H=a.y,i.wait<=0&&(i.mood="patrol",i.hunt=4)}else{const a=I[i.wp]??De;if(A=a.x,H=a.y,Math.hypot(i.x-a.x,i.y-a.y)<.04){let f=(i.wp+1)%I.length;for(let P=0;P<I.length;P+=1){const D=(i.wp+1+P)%I.length;if(!v.some(Y=>Y!==i&&Y.wp===D)){f=D;break}}i.wp=f}}if(F>0){let a=A-i.x,f=H-i.y;const P=Math.hypot(a,f)||1;a/=P,f/=P;for(const Me of v){if(Me===i)continue;const ge=i.x-Me.x,M=i.y-Me.y,W=Math.hypot(ge,M);if(W>1e-4&&W<Ge){const ee=(Ge-W)/Ge;a+=ge/W*ee*1.6,f+=M/W*ee*1.6}}const D=Math.hypot(a,f)||1;a/=D,f/=D;const[Y,xe]=qt(i.x,i.y,a,f,i,d);a=Y,f=xe;const ue=(Me,ge)=>{const M=i.x+Me*F*d,W=i.y+ge*F*d;let ee=!1;return pe(M,i.y)&&(i.x=M,ee=!0),pe(i.x,W)&&(i.y=W,ee=!0),ee};let me=ue(a,f);if(!me)for(const Me of[.9,-.9,1.9,-1.9,2.8]){const ge=Math.cos(Me),M=Math.sin(Me);if(ue(a*ge-f*M,a*M+f*ge)){me=!0;break}}if(i.jam=me?0:i.jam+d,i.jam>.9){const Me=new Set(v.filter(W=>W!==i).map(W=>W.wp));let ge=(i.wp+1)%I.length,M=1/0;for(let W=0;W<I.length;W+=1){if(Me.has(W))continue;const ee=I[W],ce=Math.hypot(ee.x-i.x,ee.y-i.y);ce>.09&&ce<M&&(M=ce,ge=W)}i.wp=ge,i.mood="patrol",i.hunt=0,i.jam=0}me&&(i.face=Math.atan2(f,a))}for(const a of J)a.on&&Math.hypot(a.x-i.x,a.y-i.y)<.05&&(a.charge=Math.max(0,a.charge-da*d));if(i.mood==="chase"&&y<=0&&re<=0&&Math.hypot(i.x-T,i.y-E)<aa){Le+=1,re=ba,ne=Math.min(100,ne+pa);let a=null;for(const f of J)f.on&&(!a||f.lit>a.lit)&&(a=f);a&&(a.charge=Math.min(a.charge,Xt+.12)),Qe("Detention",a?`Crossbow holds Ave, second «${a.name}» near-zero. Get out. — press the gap or run.`:"Crossbow holds Ave. Get out. — press the gap or run.");return}},tt=i=>{const d=Math.min(.05,(i-qe)/1e3);if(qe=i,le==="run"){for(const a of s)a.angle+=a.spin*d;if(y>0&&(y-=d),re>0){re-=d,ne=Math.min(100,ne+ma*d),Z=Math.max(0,Z-Vt*d);for(const a of J)a.charge=Math.max(0,a.charge-Kt*3*d);if(re<=0){y=3.4;const a=v.reduce((f,P)=>Math.hypot(P.x-T,P.y-E)<Math.hypot(f.x-T,f.y-E)?P:f,v[0]);if(a){const f=T-a.x,P=E-a.y,D=Math.hypot(f,P)||1;for(let Y=.18;Y>.02;Y-=.02)if(pe(T+f/D*Y,E+P/D*Y)){T+=f/D*Y,E+=P/D*Y;break}for(let Y=.16;Y>.02;Y-=.02)if(pe(a.x-f/D*Y,a.y-P/D*Y)){a.x-=f/D*Y,a.y-=P/D*Y;break}}for(const f of v){f.cool=Yt;let P=-1,D=f.wp;for(let Y=0;Y<I.length;Y+=1){const xe=I[Y],ue=Math.hypot(xe.x-T,xe.y-E);ue>P&&(P=ue,D=Y)}f.wp=D,f.mood="patrol",f.hunt=0,f.turn=0,f.turnAge=0}Qe("Got out.",Le>1?`Ave's out of capture.. Megalith recorded ${Le} contact — slightly, And the profile fits..`:"Ave's out of capture.. Megalith contact.")}Je(),X.dataset.tone="hot",X.textContent="They keep you. — get out",(Z<=0||ne>=100)&&(ye=ne>=100?"seen":"cold",et(!1)),it(),we=requestAnimationFrame(tt);return}xi(d);const r=St(T,E);Z=Math.min(100,Z+(r?ca:-Vt)*d),ne=Math.max(0,ne+(r?la:-6)*d);for(const a of v)Si(a,d,r);Mi(d);const x=v.some(a=>a.mood!=="patrol"&&$t(a,r));x&&(ne=Math.min(100,ne+sa*d));let A=null;for(const a of J){const f=Math.hypot(a.x-T,a.y-E),P=f<Vi;if(P&&(!A||f<Math.hypot(A.x-T,A.y-E))&&(A=a),P?a.charge=Math.min(1,a.charge+(St(a.x,a.y)?na:oa)*d):a.charge=Math.max(0,a.charge-(a.on?ra:Kt)*d),a.pulse+=d*(a.on?3.2:1.4),!a.on&&a.charge>=1){a.on=!0,Ie+=1,a.lit=Ie,a.told||(a.told=!0,Pe=a);let D=v[0];for(const Y of v)(!D||Math.hypot(Y.x-a.x,Y.y-a.y)<Math.hypot(D.x-a.x,D.y-a.y))&&(D=Y);D&&(D.mood="chase",D.hunt=0,D.lx=a.x,D.ly=a.y)}else a.on&&a.charge<Xt&&(a.on=!1)}be=J.filter(a=>a.on).length;for(const a of ke)a.life-=d*.5;for(;ke.length&&(ke[0]?.life??0)<=0;)ke.shift();const H=B>Gt,F=v.some(a=>Math.hypot(a.x-T,a.y-E)<.16);if(X.dataset.tone=x?"hot":H?"hush":r?"lit":"dark",X.textContent=x?"see":F?H?"patrol — You're frozen.":"patrol":H?"lurk":r?"sublight — heat, see":"shadowy",Je(),Z<=0||ne>=100)ye=ne>=100?"seen":"cold",et(!1);else if(Pe){const a=Pe;_t(a.key,a.name,a.text,`lighthouse ${be} from ${ot}`,a.sign)}else be>=ot&&_t("open","Telephone responds","Four lighthouses broadcast simultaneously — castle Megalith ripped. There's a signal coming from the teleport.: The key to the first piece of backup came.","linkage")}it(),we=requestAnimationFrame(tt)},it=()=>{const{w:i,h:d}=ui(),r=Math.min(i/(he.x1-he.x0),d/(he.y1-he.y0)),x=i/2-(he.x0+he.x1)/2*r,A=d/2-(he.y0+he.y1)/2*r,H=M=>x+M*r,F=M=>A+Xi(M)*r;t.clearRect(0,0,i,d);const a=t.createLinearGradient(0,0,0,d);if(a.addColorStop(0,"#050917"),a.addColorStop(1,"#02030a"),t.fillStyle=a,t.fillRect(0,0,i,d),c){const M=c.naturalWidth,W=ee=>ee*M;t.drawImage(c,0,0,M,W(de.a),H(0),F(0),r,de.a*r),t.drawImage(c,0,W(de.a),M,W(de.b-de.a),H(0),F(de.a),r,(de.b-de.a)*de.k*r),t.drawImage(c,0,W(de.b),M,W(ie-de.b),H(0),F(de.b),r,(ie-de.b)*r)}t.fillStyle="rgba(6, 11, 30, 0.55)",t.fillRect(0,0,i,d);const f=H(dt.x),P=F(dt.y),D=Math.hypot(i,d)*1.4;if(u&&c){(b.width!==i||b.height!==d)&&(b.width=i,b.height=d),u.clearRect(0,0,i,d),u.globalCompositeOperation="source-over";const M=u.createRadialGradient(f,P,0,f,P,D);M.addColorStop(0,"rgba(170, 215, 255, 0.42)"),M.addColorStop(.45,"rgba(105, 165, 255, 0.2)"),M.addColorStop(1,"rgba(70, 120, 255, 0)"),u.fillStyle=M;for(const ee of s)u.beginPath(),u.moveTo(f,P),u.arc(f,P,D,ee.angle-ee.half,ee.angle+ee.half),u.closePath(),u.fill();u.globalCompositeOperation="destination-in";const W=c.naturalWidth;u.drawImage(c,0,de.b*W,W,(ie-de.b)*W,H(0),F(de.b),r,(ie-de.b)*r),t.save(),t.globalCompositeOperation="lighter",t.drawImage(b,0,0),t.restore()}t.fillStyle="rgba(120, 200, 255, 0.5)";const Y=Math.max(1.4,r*.0032);for(const M of G)t.fillRect(H(M.x)-Y/2,F(M.y)-Y/2,Y,Y);for(const M of ke)t.fillStyle=`rgba(190, 225, 255, ${.16*M.life})`,t.beginPath(),t.ellipse(H(M.x),F(M.y),r*.006,r*.003,0,0,Math.PI*2),t.fill();for(const M of J){const W=H(M.x),ee=F(M.y),ce=r*.028;t.strokeStyle=M.on?"rgba(0, 230, 255, 0.9)":"rgba(255, 190, 110, 0.55)",t.lineWidth=Math.max(1,r*.0022),t.beginPath(),t.ellipse(W,ee,ce,ce*.45,0,0,Math.PI*2),t.stroke(),M.charge>0&&(t.strokeStyle=M.on?"rgba(120, 255, 230, 0.95)":"rgba(255, 214, 130, 0.95)",t.lineWidth=Math.max(2,r*.005),t.beginPath(),t.ellipse(W,ee,ce,ce*.45,0,-Math.PI/2,-Math.PI/2+Math.PI*2*M.charge),t.stroke());const Ce=r*(.02+.16*M.charge),ze=t.createLinearGradient(W,ee,W,ee-Ce),Fe=M.on?"0, 230, 255":"255, 190, 110";if(ze.addColorStop(0,`rgba(${Fe}, ${.42+.3*M.charge})`),ze.addColorStop(1,`rgba(${Fe}, 0)`),t.fillStyle=ze,t.fillRect(W-r*.007,ee-Ce,r*.014,Ce),M.on){const Re=M.pulse%1;t.strokeStyle=`rgba(0, 230, 255, ${.5*(1-Re)})`,t.lineWidth=Math.max(1,r*.002),t.beginPath(),t.ellipse(W,ee,ce*(1+Re*1.6),ce*.45*(1+Re*1.6),0,0,Math.PI*2),t.stroke()}const lt=ee-Ce-r*.016;t.fillStyle=M.on?"rgba(0, 230, 255, 0.95)":"rgba(255, 200, 120, 0.9)",t.beginPath(),t.moveTo(W,lt+r*.012),t.lineTo(W-r*.009,lt),t.lineTo(W+r*.009,lt),t.closePath(),t.fill(),t.textAlign="center";let je=ee+ce*1.15;if(M.on){t.font=`${Math.round(r*.021)}px ui-monospace, monospace`;const at=t.measureText(M.sign).width+r*.018,nt=r*.03;t.fillStyle="rgba(3, 12, 28, 0.88)",t.fillRect(W-at/2,je,at,nt),t.strokeStyle="rgba(0, 230, 255, 0.7)",t.lineWidth=Math.max(1,r*.0015),t.strokeRect(W-at/2,je,at,nt),t.fillStyle="rgba(150, 245, 255, 0.98)",t.fillText(M.sign,W,je+nt*.72),je+=nt+r*.008}if(Math.hypot(M.x-T,M.y-E)<.12){t.font=`${Math.round(r*.017)}px ui-monospace, monospace`;const Re=t.measureText(M.name.toUpperCase()).width;t.fillStyle="rgba(6, 11, 26, 0.75)",t.fillRect(W-Re/2-r*.008,je,Re+r*.016,r*.026),t.fillStyle=M.on?"rgba(120, 240, 255, 0.95)":"rgba(226, 236, 255, 0.9)",t.fillText(M.name.toUpperCase(),W,je+r*.019)}}for(const M of fi)M.y+=42e-5*M.s,M.x+=1e-4*M.s,M.y>1&&(M.y=0,M.x=Math.random()),M.x>1&&(M.x=0),t.fillStyle=`rgba(220, 236, 255, ${.2*M.s})`,t.fillRect(M.x*i,M.y*d,2*M.s,2*M.s);for(const M of v){const W=H(M.x),ee=F(M.y),ce=r*.072,Ce=M.mood==="chase"||M.mood==="lock",ze=(M.mood==="chase"?Bt:Wt)*r;t.save();const Fe=t.createRadialGradient(W,ee,0,W,ee,ze);Fe.addColorStop(0,Ce?"rgba(255, 70, 110, 0.3)":"rgba(255, 190, 90, 0.16)"),Fe.addColorStop(1,"rgba(255, 90, 120, 0)"),t.fillStyle=Fe,t.beginPath(),t.moveTo(W,ee),t.arc(W,ee,ze,M.face-ft,M.face+ft),t.closePath(),t.fill(),t.restore(),t.fillStyle="rgba(0, 0, 0, 0.42)",t.beginPath(),t.ellipse(W,ee+ce*.05,ce*.3,ce*.11,0,0,Math.PI*2),t.fill(),N&&(t.save(),t.translate(W,ee),t.scale(Math.cos(M.face)>=0?1:-1,1),t.drawImage(N,-ce*.36,-ce*1.05,ce*.72,ce*1.1),t.restore()),Ce&&(t.fillStyle="rgba(255, 70, 110, 0.95)",t.font=`700 ${Math.round(ce*.5)}px ui-monospace, monospace`,t.textAlign="center",t.fillText("!",W,ee-ce*1.2))}const xe=H(T),ue=F(E),me=r*.076,Me=Math.sin(ve)*me*.05;t.fillStyle="rgba(0, 0, 0, 0.42)",t.beginPath(),t.ellipse(xe,ue+me*.06,me*.32,me*.12,0,0,Math.PI*2),t.fill(),_&&(t.save(),t.translate(xe,ue+Me),t.rotate(Math.sin(ve*.5)*.04),t.scale(se,1),t.globalAlpha=y>0&&Math.floor(y*10)%2===0?.45:1,t.shadowColor="rgba(0, 209, 255, 0.5)",t.shadowBlur=me*.26,t.drawImage(_,-me*.36,-me*1.06,me*.72,me*1.1),t.restore());const ge=t.createRadialGradient(i/2,d/2,Math.min(i,d)*.35,i/2,d/2,Math.max(i,d)*.75);ge.addColorStop(0,"rgba(0, 0, 0, 0)"),ge.addColorStop(1,"rgba(0, 0, 0, 0.55)"),t.fillStyle=ge,t.fillRect(0,0,i,d)};window.addEventListener("keydown",i=>{if(document.body.dataset.openRoom==="kzf"){if(i.code==="Space"||i.code==="Enter"){if(i.preventDefault(),le==="pick")return;if(le==="run"&&re>0){re=Math.max(.001,re-.2);return}le==="card"?Et():(le==="brief"||le==="won"||le==="lost")&&At();return}/^(Arrow|Key[WASD])/.test(i.code)&&(i.preventDefault(),re>0&&!fe.has(i.code)&&(re=Math.max(.001,re-.14)),fe.add(i.code),Ae=null)}}),window.addEventListener("keyup",i=>fe.delete(i.code));const Tt=i=>{const d=o.getBoundingClientRect(),r=Math.min(d.width/(he.x1-he.x0),d.height/(he.y1-he.y0)),x=d.width/2-(he.x0+he.x1)/2*r,A=d.height/2-(he.y0+he.y1)/2*r;Ae={x:(i.clientX-d.left-x)/r,y:(i.clientY-d.top-A)/r+xt}};o.addEventListener("pointerdown",i=>{o.setPointerCapture(i.pointerId),re>0&&(re=Math.max(.001,re-.2)),Tt(i)}),o.addEventListener("pointermove",i=>{Ae&&Tt(i)}),o.addEventListener("pointerup",()=>{Ae=null}),o.addEventListener("pointercancel",()=>{Ae=null}),$.addEventListener("click",At),K.addEventListener("click",Et),w.addEventListener("click",()=>Lt(0)),j.addEventListener("click",()=>Lt(1)),e.querySelector("[data-kzf-back]")?.addEventListener("click",()=>Ve("cellar")),window.addEventListener("resize",()=>{we&&it()}),e.style.setProperty("--kzf-ave",`url('${V("/media/kzf/ave.webp")}')`),Promise.all([Ke(V("/media/kzf/island.webp")),Ke(V("/media/kzf/hero.webp")),Ke(V("/media/kzf/guard.webp"))]).then(([i,d,r])=>{c=i,_=d,N=r,i&&(ie=i.naturalHeight/i.naturalWidth,vi(i)),it()}),Ee(i=>{i==="kzf"?(le="brief",z.hidden=!1,z.dataset.mode="intro",q.hidden=!0,h.hidden=!0,Qe("Discussion","Six lighthouses, four at once. Read the intro and come in.."),delete e.dataset.over,J=ht.map(d=>({...d,charge:0,on:!1,told:!1,pulse:0,lit:0})),v=[],s=[],be=0,Z=100,ne=0,Je(),qe=performance.now(),we||(we=requestAnimationFrame(tt))):(cancelAnimationFrame(we),we=0,fe.clear(),Ae=null)})}const Zt=typeof requestIdleCallback=="function"?e=>requestIdleCallback(()=>e(),{timeout:4e3}):e=>window.setTimeout(e,1200);function fa(){const e=navigator.connection;return e?e.saveData?!1:!["slow-2g","2g"].includes(e.effectiveType??""):!0}function wa(e){if(!fa())return;const o=[...e],l=()=>{const S=o.shift();S&&fetch(S,{cache:"force-cache",priority:"low"}).catch(()=>{}).then(()=>Zt(l))};Zt(l)}const wt=[{id:"org",label:"Organizing Committee",hint:"Jury and organizers of the Cup"},{id:"team",label:"Project team",hint:"those, season-maker"}],ua=16,ga=18,Jt=.55,va=1250,Qt=1600;function ya(){const e=document.querySelector('[data-room="crew"]'),o=e?.querySelector("[data-deck]"),l=e?.querySelector("[data-deck-wall]"),S=e?.querySelector("[data-deck-name]"),m=e?.querySelector("[data-deck-role]"),g=e?.querySelector("[data-crew-count]"),L=e?.querySelector("[data-deck-tabs]");if(!e||!o||!l||!S||!m||!L)return;let z="org",$=[],q=[],O=0;const U=wt.map(c=>{const n=document.createElement("button");return n.type="button",n.className="deck__tab",n.innerHTML=`<b>${c.label}</b><i>${It.filter(k=>k.wing===c.id).length}</i>`,n.addEventListener("click",()=>R(c.id)),L.append(n),n}),p=()=>{$=It.filter(c=>c.wing===z),l.textContent="",q=$.map((c,n)=>{const k=document.createElement("button");return k.type="button",k.className="deck__tile",k.tabIndex=-1,k.setAttribute("aria-label",c.name),k.innerHTML=`<img src="${c.photo}" alt="" loading="lazy" decoding="async" />`,k.addEventListener("click",()=>w(n)),l.append(k),k}),l.style.setProperty("--cols",String(Math.min(8,Math.ceil(Math.sqrt($.length*1.55))))),Xe(l),K(l),U.forEach((c,n)=>c.classList.toggle("is-on",wt[n]?.id===z))},R=c=>{c!==z&&(z=c,p(),w(0,!0))};function K(c){const n=()=>{for(const C of c.querySelectorAll("img"))C.decode().catch(()=>{})},k=window.requestIdleCallback;k?k(n,{timeout:2500}):window.setTimeout(n,900)}const X=()=>getComputedStyle(l).gridTemplateColumns.split(" ").length,h=()=>{const c=X(),n=Math.ceil(q.length/c),k=O%c,C=Math.floor(O/c);l.style.setProperty("--wy",`${(-(k-(c-1)/2)*3.2).toFixed(2)}deg`),l.style.setProperty("--wx",`${((C-(n-1)/2)*2.4).toFixed(2)}deg`);const G=q[0];if(!G)return;const b=G.offsetWidth+ua,u=G.offsetHeight+ga,_=Qt/(Qt+va),N=(L.getBoundingClientRect().bottom||0)+46,ie=e.querySelector(".deck__plate"),J=ie?ie.getBoundingClientRect().top-28:window.innerHeight-130,s=Math.max(240,J-N);l.style.setProperty("--top",`${Math.round(N+s/2)}px`),l.style.setProperty("--fit",Math.min(1,s/(l.offsetHeight*_),(window.innerWidth-90)/(l.offsetWidth*_)).toFixed(3)),q.forEach((I,T)=>I.classList.toggle("is-here",T===O));const v=q[O];if(v?.style.setProperty("--dx",`${(-(k-(c-1)/2)*b*Jt).toFixed(0)}px`),v?.style.setProperty("--dy",`${(-(C-(n-1)/2)*u*Jt).toFixed(0)}px`),S.textContent=$[O]?.name??"",m.textContent=$[O]?.role??"",g){const I=wt.find(T=>T.id===z);g.textContent=`${I?.label??""} · ${O+1} / ${$.length}`}},w=(c,n=!1)=>{O=Math.max(0,Math.min(q.length-1,c)),l.classList.toggle("is-snapped",n),h(),n&&requestAnimationFrame(()=>l.classList.remove("is-snapped"))};let j=0,t=0;o.addEventListener("wheel",c=>{c.preventDefault(),!(Date.now()<t)&&(j+=c.deltaY,Math.abs(j)>90&&(w(O+(j>0?1:-1)),j=0,t=Date.now()+260))},{passive:!1}),window.addEventListener("keydown",c=>{if(document.body.dataset.openRoom!=="crew")return;const n=X();c.key==="ArrowRight"&&(c.preventDefault(),w(O+1)),c.key==="ArrowLeft"&&(c.preventDefault(),w(O-1)),c.key==="ArrowDown"&&(c.preventDefault(),w(O+n)),c.key==="ArrowUp"&&(c.preventDefault(),w(O-n)),c.key==="Home"&&(c.preventDefault(),w(0)),c.key==="End"&&(c.preventDefault(),w(q.length-1))}),window.addEventListener("resize",()=>{document.body.dataset.openRoom==="crew"&&h()}),Ee(c=>{c==="crew"&&w(0,!0)}),p(),h()}function ka(){Ee(e=>{e==="city"&&window.location.assign("/city/")})}function xa(e,o,l){if(!e||!o)return;const S=window.matchMedia("(prefers-reduced-motion: reduce)").matches,m=e.getContext("2d",{alpha:!0}),g=document.createElement("canvas"),L=g.getContext("2d",{willReadFrequently:!0});if(!m||!L)return;const z=[],$=46,q=()=>{const t=e.parentElement;if(!t)return;const c=Math.min(2400,Math.round(t.offsetWidth)),n=Math.round(t.offsetHeight);c===e.width&&n===e.height||(e.width=c,e.height=n,m.clearRect(0,0,c,n))},O=()=>{for(let t=0;t<8;t++){const c=e.width*(.13+Math.random()*.15),n=e.height*(.15+Math.random()*.18),k=e.height*l.band[0],C=e.height*l.band[1]-n,G={x:e.width*.05+Math.random()*(e.width*.9-c),y:k+Math.random()*Math.max(1,C-k),w:c,h:n};if(!z.some(u=>u&&!(G.x>u.x+u.w+$*2||G.x+G.w+$*2<u.x||G.y>u.y+u.h+8||G.y+G.h+8<u.y)))return G}return null},U=t=>{t&&m.clearRect(t.x-$,t.y-2,t.w+$*2,t.h+4)},p=t=>{const c=l.src(t);if(!c)return;const n=Math.max(5,Math.round(Math.min(t.w,t.h)/22)),k=Math.max(2,Math.round(t.w/n)),C=Math.max(2,Math.round(t.h/n));g.width=k,g.height=C,L.clearRect(0,0,k,C),L.drawImage(o,c.x,c.y,c.w,c.h,0,0,k,C);try{const u=L.getImageData(0,0,k,C),_=u.data;for(let N=0;N<_.length;N+=4){const ie=Math.max(_[N],_[N+1],_[N+2]),J=Math.min(_[N],_[N+1],_[N+2]);for(let s=0;s<3;s++){const v=Math.min(255,J+(_[N+s]-J)*1.45);_[N+s]=Math.round(v/51)*51}ie-J<10&&(_[N+2]=Math.min(255,_[N+2]+26))}L.putImageData(u,0,0)}catch{}m.imageSmoothingEnabled=!1,m.drawImage(g,0,0,k,C,t.x,t.y,t.w,t.h),m.imageSmoothingEnabled=!0,m.save(),m.beginPath(),m.rect(t.x,t.y,t.w,t.h),m.clip(),m.globalAlpha=.16,m.fillStyle="#04050A";for(let u=t.x;u<t.x+t.w;u+=n)m.fillRect(u,t.y,1,t.h);for(let u=t.y;u<t.y+t.h;u+=n)m.fillRect(t.x,u,t.w,1);m.restore();const G=Math.ceil(t.w/n),b=Math.ceil(t.h/n);for(let u=0;u<G;u++)for(let _=0;_<b;_++){const N=u===0||_===0||u===G-1||_===b-1,ie=u===1||_===1||u===G-2||_===b-2;(N&&Math.random()<.62||ie&&Math.random()<.24)&&m.clearRect(t.x+u*n,t.y+_*n,n+.5,n+.5)}},R=(t,c)=>{if(!t)return;const n=l.src(t);if(!n)return;U(t);const k=14+Math.round(Math.random()*10);for(let C=0;C<k;C++){const G=C/k,b=t.h/k,u=(Math.random()-.5)*t.w*.42*c;m.drawImage(o,n.x,n.y+G*n.h,n.w,n.h/k,t.x+u,t.y+G*b,t.w,b+1)}m.globalCompositeOperation="screen",m.globalAlpha=.5*c,m.drawImage(o,n.x,n.y,n.w,n.h,t.x-7*c,t.y,t.w,t.h),m.globalCompositeOperation="source-over",m.globalAlpha=1;for(let C=0;C<3;C++)Math.random()>.55*c||(m.fillStyle=Math.random()<.5?"rgba(0,209,255,.55)":"rgba(255,43,107,.45)",m.fillRect(t.x,t.y+Math.random()*t.h,t.w,2+Math.random()*7))},K=(t,c)=>{t&&(U(t),m.save(),m.globalAlpha=Math.max(0,Math.min(1,c)),p(t),m.restore())},X=(t,c)=>{let n=null,k=0,C=0;const G=(_,N,ie,J)=>{let s=0;cancelAnimationFrame(k);const v=I=>{s||(s=I);const T=Math.min(1,(I-s)/ie);S?K(n,_+(N-_)*T):R(n,_+(N-_)*T),T<1?k=requestAnimationFrame(v):J()};k=requestAnimationFrame(v)},b=()=>{U(n),n=null,z[t]=null},u=()=>{if(document.hidden||!l.ready()){C=window.setTimeout(u,900);return}if(z.some(Boolean)||q(),!e.width||!e.height||!o.naturalWidth){C=window.setTimeout(u,600);return}if(n=O(),!n){C=window.setTimeout(u,1200);return}z[t]=n,G(S?0:.15,1,S?700:240,()=>{n&&(U(n),p(n),C=window.setTimeout(()=>{if(!n||!l.ready()){b(),C=window.setTimeout(u,1500);return}G(1,S?0:.12,S?800:280,()=>{b(),C=window.setTimeout(u,l.gap[0]+Math.random()*l.gap[1])})},l.hold[0]+Math.random()*l.hold[1]))})};return C=window.setTimeout(u,c),{stop:()=>{clearTimeout(C),cancelAnimationFrame(k),b()}}};let h=[];const w=()=>{if(!h.length){q();for(let t=0;t<l.sparks;t++)h.push(X(t,500+t*1400+Math.random()*900))}},j=()=>{for(const t of h)t.stop();h=[],z.length=0};o.complete&&o.naturalWidth?w():(o.addEventListener("load",w),o.decode?.().then(w).catch(()=>{})),window.addEventListener("resize",()=>{z.some(Boolean)||q()}),document.addEventListener("visibilitychange",()=>{document.hidden?j():o.complete&&o.naturalWidth&&w()})}function Ma(){const e=document.querySelector('[data-room="cellar"]'),o=e?.querySelector("[data-spots]"),l=e?.querySelector("[data-spot-tips]");if(!e||!o||!l)return;const S="http://www.w3.org/2000/svg";o.setAttribute("viewBox",`0 0 ${Se.w} ${Se.h}`);const m=e.querySelector(".hub__media"),g=e.querySelector(".hub__screen");m?.style.setProperty("--room-art",`url('${V("/media/club_room.webp")}')`);const L=()=>{if(!g||!m)return;const p=m.getBoundingClientRect();if(!p.width||!p.height)return;const R=Math.min(p.width/Se.w,p.height/Se.h),K=(p.width-Se.w*R)/2,X=(p.height-Se.h*R)/2;g.style.setProperty("--sx",`${K+Ye.x*R}px`),g.style.setProperty("--sy",`${X+Ye.y*R}px`),g.style.setProperty("--sw",`${Ye.w*R}px`),g.style.setProperty("--sh",`${Ye.h*R}px`),g.style.setProperty("--unit",`${Ye.w*R/100}px`),e.classList.add("is-fitted"),e.dataset.stop==="legend"&&e.dataset.plate!=="open"&&(e.dataset.plate="screen"),$()},z=g?.querySelector(".hub__body"),$=()=>{if(!g||!z||e.dataset.plate!=="screen")return;const p=g.querySelector(".hub__plane");if(!p||!p.clientHeight)return;const R=getComputedStyle(p),K=p.clientHeight-parseFloat(R.paddingTop)-parseFloat(R.paddingBottom),X=()=>{const w=[...p.children].filter(c=>c.offsetHeight>0&&getComputedStyle(c).position!=="absolute");if(!w.length)return 0;const j=Math.min(...w.map(c=>c.offsetTop));return Math.max(...w.map(c=>c.offsetTop+c.offsetHeight))-j};let h=12;for(z.style.setProperty("--lines",String(h));h>1&&X()>K;)h-=1,z.style.setProperty("--lines",String(h))};L(),window.addEventListener("resize",L),Ee(p=>{p==="cellar"&&(L(),requestAnimationFrame(L))}),m&&"ResizeObserver"in window&&new ResizeObserver(()=>L()).observe(m),document.fonts?.ready.then(L),new MutationObserver($).observe(e,{attributes:!0,attributeFilter:["data-plate"]});const q=e.querySelector(".hub__media img");q&&!q.complete&&q.addEventListener("load",L);const O=e.querySelector("[data-glitch]"),U=new Image;U.src=V("/media/club_room.webp"),$e()||xa(O,U,{sparks:2,band:[.2,.84],hold:[1800,2200],gap:[1600,2200],src:p=>{if(!O?.width||!U.naturalWidth)return null;const R=Math.min(O.width/Se.w,O.height/Se.h),K=Se.w*R,X=Se.h*R,h=(O.width-K)/2,w=(O.height-X)/2,j=U.naturalWidth/K;return{x:(p.x-h)*j,y:(p.y-w)*j,w:p.w*j,h:p.h*j}},ready:()=>document.body.dataset.openRoom==="cellar"&&e.dataset.stop==="legend"&&e.dataset.plate==="screen"});for(const p of zi){const R=document.createElementNS(S,"g");R.setAttribute("class","spot"),R.setAttribute("role","button"),R.setAttribute("tabindex","0"),R.setAttribute("aria-label",`${p.title} — ${p.note}`);const K=document.createElementNS(S,"ellipse");K.setAttribute("class","spot__halo"),K.setAttribute("cx",String(p.cx)),K.setAttribute("cy",String(p.cy)),K.setAttribute("rx",String(p.rx)),K.setAttribute("ry",String(p.ry)),K.setAttribute("fill","url(#spotGlow)");const X=document.createElementNS(S,"circle");X.setAttribute("class","spot__ring"),X.setAttribute("cx",String(p.cx)),X.setAttribute("cy",String(p.cy)),X.setAttribute("r","5");const h=document.createElementNS(S,"circle");h.setAttribute("class","spot__dot"),h.setAttribute("cx",String(p.cx)),h.setAttribute("cy",String(p.cy)),h.setAttribute("r","5");const w=document.createElementNS(S,"ellipse");w.setAttribute("class","spot__hit"),w.setAttribute("cx",String(p.cx)),w.setAttribute("cy",String(p.cy)),w.setAttribute("rx",String(p.rx)),w.setAttribute("ry",String(Math.max(p.ry,p.rx*.4))),R.append(K,X,h,w),o.append(R);const j=document.createElement("div");j.className="spot__tip",j.style.setProperty("--l",`${p.cx/Se.w*100}%`),j.style.setProperty("--t",`${p.cy/Se.h*100}%`),j.innerHTML=`<b>${p.title}</b><i>${p.note}</i>`,l.append(j);const t=n=>{R.classList.toggle("is-lit",n),j.classList.toggle("is-lit",n)},c=()=>Ve(p.room);R.addEventListener("pointerenter",()=>t(!0)),R.addEventListener("pointerleave",()=>t(!1)),R.addEventListener("focus",()=>t(!0)),R.addEventListener("blur",()=>t(!1)),R.addEventListener("click",c),R.addEventListener("keydown",n=>{(n.key==="Enter"||n.key===" ")&&(n.preventDefault(),c())})}}const Sa=V("/media/club_room.webp"),ei=e=>e.replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;"),_a={id:"legend",label:"Basement",kicker:"X Cup CTF Russia · 2026",title:`META
-The Universe`,body:"Sophie's consciousness — here. More doubles., needle, And the backup key is only for the real one.. Backup disassembled by game worlds: Every world gives its share., The key to the decoding is only the one, to be found.",media:"",poster:"",world:null};function Ea(){return[_a,...yt.map(e=>({id:e.id,label:e.name,kicker:`${e.index} · ${e.theme}`,title:e.name,body:e.body,media:e.video,poster:e.poster,world:e}))]}function La(){const e=document.querySelector("[data-hub]");if(!e)return null;const o=p=>e.querySelector(p),l=o("[data-hub-video]"),S=o("[data-hub-kicker]"),m=o("[data-hub-title]"),g=o("[data-hub-body]"),L=o("[data-hub-meta]"),z=o("[data-hub-rail]"),$=o("[data-hub-label]"),q=o("[data-hub-count]"),O=o("[data-hub-prev]"),U=o("[data-hub-next]");return!l||!S||!m||!g||!L||!z||!$||!q||!O||!U?null:{root:e,video:l,kicker:S,title:m,body:g,meta:L,rail:z,label:$,count:q,prev:O,next:U}}function Aa(){const e=La();if(!e)return;let o=!1;const l=e.root.querySelector(".hub__play"),S=()=>{const h=e.root.classList.contains("is-fitted");o?e.root.dataset.plate="open":h&&e.root.dataset.stop==="legend"?e.root.dataset.plate="screen":delete e.root.dataset.plate},m=Ea();let g=0;const L=m.map((h,w)=>{const j=document.createElement("button");return j.type="button",j.className="hub__tick",j.setAttribute("aria-label",h.label),j.addEventListener("click",()=>$(w)),e.rail.append(j),j}),z=()=>{const h=m[g];e.root.dataset.stop=h.id,S(),l&&(l.hidden=!h.world?.play,h.world?.id==="city"?l.dataset.goto="city":l.dataset.goto="kzf"),e.kicker.textContent=h.kicker;const[w="",...j]=h.title.split(`
-`);e.title.innerHTML=ei(w)+j.map(c=>`<span class="l2">${ei(c)}</span>`).join(""),e.body.textContent=h.body,e.label.textContent=h.label,e.meta.innerHTML=h.world===null?ci.map(c=>`<span><i>${c.label}</i> ${c.value}</span>`).join(""):h.world.statusLabel?`<span><i>status</i> ${h.world.statusLabel}</span>`:"",e.count.innerHTML=`<b>${yt.length}</b> game-world · online selection, finale`,L.forEach((c,n)=>c.classList.toggle("is-here",n===g)),e.prev.disabled=g===0,e.next.disabled=g===m.length-1,e.root.querySelector(".hub__media")?.style.setProperty("--room-art",`url('${h.poster||Sa}')`),e.root.dataset.hasVideo=h.media&&!$e()?"1":"0",!h.media||$e()?(e.video.removeAttribute("src"),e.video.dataset.src=""):e.video.dataset.src!==h.media&&(e.video.dataset.src=h.media,e.video.poster=h.poster,e.video.src=h.media,e.video.play().catch(()=>{}))},$=h=>{const w=Math.max(0,Math.min(m.length-1,h));w!==g&&(e.root.classList.add("is-moving"),e.root.dataset.dir=w>g?"next":"prev",g=w,z(),window.setTimeout(()=>e.root.classList.remove("is-moving"),420))};e.prev.addEventListener("click",()=>$(g-1)),e.next.addEventListener("click",()=>$(g+1)),window.addEventListener("keydown",h=>{const w=(document.activeElement?.tagName??"").toLowerCase();w==="input"||w==="textarea"||(h.key==="ArrowLeft"&&$(g-1),h.key==="ArrowRight"&&$(g+1))});let q=null,O=0;e.root.addEventListener("pointerdown",h=>{h.target.closest("button, a, .spot")||(q=h.clientX,O=h.clientY)}),window.addEventListener("pointerup",h=>{if(q===null)return;const w=h.clientX-q,j=h.clientY-O;q=null,Math.abs(w)>90&&Math.abs(w)>Math.abs(j)*1.6&&$(g+(w<0?1:-1))});const U=e.root.querySelector("[data-hub-expand]"),p=h=>{o=h,e.root.classList.toggle("is-expanded",h),S(),U?.setAttribute("aria-expanded",String(h)),U&&(U.textContent=h?"✕ Swerve":"⤢ Deploy")},R=e.root.querySelector(".hub__screen"),K=()=>p(!o);U?.addEventListener("click",K),R?.addEventListener("click",h=>{h.target.closest("button, a")||o||K()}),window.addEventListener("keydown",h=>{h.key==="Escape"&&p(!1)});const X=()=>{if(window.location.hash!=="#worlds")return;const h=Math.min(1,m.length-1);g!==h&&(g=h,z())};Ee(h=>{h==="cellar"&&(p(!1),X())}),window.addEventListener("hashchange",X),e.root.addEventListener("pointermove",h=>{const w=(h.clientX/window.innerWidth-.5)*-24,j=(h.clientY/window.innerHeight-.5)*-16;e.root.style.setProperty("--px",`${w.toFixed(1)}px`),e.root.style.setProperty("--py",`${j.toFixed(1)}px`)}),z()}function $a(){const e=document.querySelector('[data-room="info"]'),o=e?.querySelector("[data-info-lead]"),l=e?.querySelector("[data-info-terms]"),S=e?.querySelector("[data-info-signup]"),m=e?.querySelector("[data-info-toggle]");if(!(!e||!o||!l||!S||!m)){o.textContent=Hi;for(const g of Ri){const L=document.createElement("div");L.className="rack__term",L.innerHTML=`<span class="rack__key">${g.key}</span><span class="rack__value">${g.value}</span>`,l.append(L)}for(const g of Di){const L=document.createElement("a");L.className="rack__signup",L.href=g.href,L.target="_blank",L.rel="noopener",L.innerHTML=`<b>${g.name}</b><span>sign up →</span>`,S.append(L)}m.addEventListener("click",()=>{const g=S.hidden;S.hidden=!g,m.setAttribute("aria-expanded",String(g))}),Ee(g=>{g==="info"&&(S.hidden=!0,m.setAttribute("aria-expanded","false"))})}}function qa(){const e=document.querySelector('[data-room="legend"]'),o=e?.querySelector("[data-legend-lead]"),l=e?.querySelector("[data-legend-story]"),S=e?.querySelector("[data-legend-blocks]"),m=e?.querySelector("[data-legend-facts]"),g=e?.querySelector("[data-legend-page]");if(!e||!o||!l||!S||!m||!g)return;o.textContent=Fi;const L=`<figure class="legend__shot">
+      </div>`),
+        (S.hidden = !1));
+      const _ = S.querySelector("button");
+      (_?.addEventListener("click", (N) => {
+        (N.stopPropagation(), j(), u.focus());
+      }),
+        _?.focus());
+    };
+  (S.addEventListener("click", (b) => {
+    b.target === S && j();
+  }),
+    o.addEventListener(
+      "wheel",
+      (b) => {
+        S.hidden && (b.preventDefault(), h(R + b.deltaY * 1.6, !0));
+      },
+      { passive: !1 },
+    ));
+  let c = null,
+    n = !1;
+  const k = (b, u) => {
+    let _ = -1,
+      N = 1 / 0;
+    return (
+      O.forEach((ie, J) => {
+        const s = ie.getBoundingClientRect();
+        if (
+          s.width < 8 ||
+          b < s.left ||
+          b > s.right ||
+          u < s.top ||
+          u > s.bottom
+        )
+          return;
+        const v = s.width * s.height;
+        v < N && ((N = v), (_ = J));
+      }),
+      _
+    );
+  };
+  (o.addEventListener("pointerdown", (b) => {
+    b.target.closest(".hall__nav, .hall__card") ||
+      (b.preventDefault(),
+      (c = { y: b.clientY, at: R, x: b.clientX, moved: !1 }));
+  }),
+    o.addEventListener("click", (b) => {
+      if (b.target.closest(".hall__nav, .hall__card") || n) return;
+      const u = k(b.clientX, b.clientY),
+        _ = Oe[u],
+        N = O[u];
+      u < 0 || !_ || !N || (w(u), t(_, N));
+    }),
+    window.addEventListener("pointermove", (b) => {
+      c &&
+        ((Math.abs(b.clientY - c.y) > 6 || Math.abs(b.clientX - c.x) > 6) &&
+          (c.moved = !0),
+        c.moved && h(c.at + (c.y - b.clientY) * 3.2, !0));
+    }),
+    window.addEventListener("pointerup", () => {
+      ((n = c?.moved ?? !1),
+        (c = null),
+        n &&
+          window.setTimeout(() => {
+            n = !1;
+          }, 0));
+    }),
+    window.addEventListener("keydown", (b) => {
+      if (document.body.dataset.openRoom !== "jury" || !S.hidden) return;
+      const u = K();
+      ((b.key === "ArrowRight" || b.key === "ArrowDown") &&
+        (b.preventDefault(), w(u + 1)),
+        (b.key === "ArrowLeft" || b.key === "ArrowUp") &&
+          (b.preventDefault(), w(u - 1)),
+        b.key === "Home" && (b.preventDefault(), w(0)),
+        b.key === "End" && (b.preventDefault(), w(U.length - 1)));
+    }),
+    g.addEventListener("click", () => w(K() - 1)),
+    L.addEventListener("click", () => w(K() + 1)));
+  const C = () => {
+      for (const b of O)
+        $e() ||
+          b
+            .querySelector("img")
+            ?.decode()
+            .catch(() => {});
+    },
+    G = window.requestIdleCallback;
+  (G ? G(C, { timeout: 2500 }) : window.setTimeout(C, 900),
+    Ee((b) => {
+      b === "jury" &&
+        (j(),
+        h(p, !0),
+        requestAnimationFrame(() => l.classList.remove("is-snapped")));
+    }),
+    X());
+}
+const ht = [
+    {
+      key: "lamp",
+      sign: "KZ7",
+      name: "Communication dome",
+      x: 0.375,
+      y: 0.545,
+      text: "Megalith Controls all networks — That's why the clans couldn't agree.. Dome lighthouse back on the air: They have a common channel..",
+    },
+    {
+      key: "spire",
+      sign: "SY2",
+      name: "Dome Synthetix",
+      x: 0.635,
+      y: 0.545,
+      text: "«There's this transparent corkscrew. — teleport?» — «No., lighthouse». That's it., sketchy. Second one..",
+    },
+    {
+      key: "frost",
+      sign: "WD4",
+      name: "West drawback",
+      x: 0.368,
+      y: 0.665,
+      text: "Thirty years minus sixty. Climate control withdrawal still warm — enough, lighthouse.",
+    },
+    {
+      key: "plan",
+      sign: "ED8",
+      name: "Eastern withdrawal",
+      x: 0.61,
+      y: 0.665,
+      text: "Thirty lighthouses — thirty, And they all turn on the same signal.. There's another one up here..",
+    },
+    {
+      key: "hall",
+      sign: "BD5",
+      name: "Billboard",
+      x: 0.17,
+      y: 0.645,
+      text: "Fixers in surviving urban centers still have work to do.. Board accepts applications again — signify, channel.",
+    },
+    {
+      key: "watch",
+      sign: "FX3",
+      name: "Stock exchange fixers",
+      x: 0.75,
+      y: 0.72,
+      text: "Save some money. — Start working on connecting beacons. Stock exchange counts again, and thinks in our favor.",
+    },
+  ],
+  ot = 4,
+  rt = [
+    [0.255, 0.435],
+    [0.345, 0.4],
+    [0.44, 0.385],
+    [0.56, 0.385],
+    [0.655, 0.4],
+    [0.745, 0.425],
+    [0.825, 0.475],
+    [0.885, 0.545],
+    [0.915, 0.625],
+    [0.915, 0.705],
+    [0.885, 0.775],
+    [0.835, 0.83],
+    [0.735, 0.875],
+    [0.615, 0.9],
+    [0.5, 0.895],
+    [0.385, 0.9],
+    [0.265, 0.875],
+    [0.165, 0.83],
+    [0.105, 0.76],
+    [0.085, 0.68],
+    [0.095, 0.6],
+    [0.135, 0.525],
+    [0.19, 0.47],
+  ],
+  Ft = [
+    { x: 0.5, y: 0.455, rx: 0.132, ry: 0.088 },
+    { x: 0.485, y: 0.545, rx: 0.086, ry: 0.076 },
+    { x: 0.485, y: 0.7, rx: 0.064, ry: 0.101 },
+  ],
+  dt = { x: 0.5, y: 0.44 },
+  De = { x: 0.5, y: 0.845 },
+  de = { a: 0.115, b: 0.335, k: 0.34 },
+  xt = (de.b - de.a) * (1 - de.k),
+  he = { x0: 0.02, x1: 0.98, y0: 0.005, y1: 0.93 - xt },
+  Xi = (e) => (e <= de.a ? e : e >= de.b ? e - xt : de.a + (e - de.a) * de.k),
+  jt = 2.4,
+  ct = 0.3,
+  Vi = 0.05,
+  Ot = 2,
+  Nt = 0.095,
+  Zi = 0.163,
+  Wt = 0.125,
+  Bt = 0.17,
+  ft = 0.55,
+  Ji = 0.055,
+  Qi = 0.45,
+  ea = 2.4,
+  Ut = 3.4,
+  Yt = 3,
+  Ge = 0.07,
+  Gt = 0.4,
+  ta = 0.45,
+  ia = 0.72,
+  aa = 0.034,
+  na = 0.85,
+  oa = 0.26,
+  ra = 0.018,
+  Kt = 0.075,
+  Xt = 0.34,
+  da = 0.2,
+  Vt = 4.5,
+  ca = 22,
+  la = 10,
+  sa = 7,
+  pa = 10,
+  ma = 12,
+  ba = 1.6;
+function ha() {
+  const e = document.querySelector('[data-room="kzf"]'),
+    o = e?.querySelector("[data-kzf-canvas]"),
+    l = e?.querySelector("[data-kzf-say]"),
+    S = e?.querySelector("[data-kzf-goal]"),
+    m = e?.querySelector("[data-kzf-list]"),
+    g = e?.querySelector("[data-kzf-warm]"),
+    L = e?.querySelector("[data-kzf-heat]"),
+    z = e?.querySelector("[data-kzf-brief]"),
+    $ = e?.querySelector("[data-kzf-go]"),
+    q = e?.querySelector("[data-kzf-card]"),
+    O = e?.querySelector("[data-kzf-card-art]"),
+    U = e?.querySelector("[data-kzf-card-title]"),
+    p = e?.querySelector("[data-kzf-card-text]"),
+    R = e?.querySelector("[data-kzf-card-sig]"),
+    K = e?.querySelector("[data-kzf-card-btn]"),
+    X = e?.querySelector("[data-kzf-state]"),
+    h = e?.querySelector("[data-kzf-pick]"),
+    w = e?.querySelector('[data-kzf-twin="0"]'),
+    j = e?.querySelector('[data-kzf-twin="1"]');
+  if (
+    !e ||
+    !o ||
+    !l ||
+    !S ||
+    !m ||
+    !g ||
+    !L ||
+    !z ||
+    !$ ||
+    !q ||
+    !O ||
+    !U ||
+    !p ||
+    !K ||
+    !R ||
+    !X ||
+    !h ||
+    !w ||
+    !j
+  )
+    return;
+  const t = o.getContext("2d");
+  if (!t) return;
+  let c = null,
+    n = null,
+    k = 0,
+    C = 0,
+    G = [];
+  const b = document.createElement("canvas"),
+    u = b.getContext("2d");
+  let _ = null,
+    N = null,
+    ie = 1,
+    J = [],
+    s = [],
+    v = [],
+    I = [],
+    T = De.x,
+    E = De.y,
+    te = 0,
+    oe = 0,
+    se = 1,
+    ve = 0,
+    y = 0,
+    B = 0,
+    Q = 0,
+    ae = 0,
+    Z = 100,
+    ne = 0,
+    be = 0,
+    le = "brief",
+    _e = { ghost: "", sign: "" },
+    Te = 0,
+    ye = "cold",
+    re = 0,
+    Le = 0,
+    Ie = 0,
+    we = 0,
+    qe = 0,
+    Pe = null;
+  const fe = new Set(),
+    ke = [],
+    fi = Array.from({ length: 90 }, () => ({
+      x: Math.random(),
+      y: Math.random(),
+      s: 0.4 + Math.random() * 0.9,
+    }));
+  let Ae = null;
+  const wi = new Map(
+      ["lamp", "spire", "frost", "plan", "hall", "watch", "open"].map((i) => [
+        i,
+        V(`/media/kzf/card-${i}.webp`),
+      ]),
+    ),
+    ui = () => {
+      const i = o.getBoundingClientRect(),
+        d = Math.min(2, window.devicePixelRatio || 1),
+        r = Math.max(1, Math.round(i.width * d)),
+        x = Math.max(1, Math.round(i.height * d));
+      return (
+        (o.width !== r || o.height !== x) && ((o.width = r), (o.height = x)),
+        { w: r, h: x }
+      );
+    },
+    gi = (i, d) => {
+      let r = !1;
+      for (let x = 0, A = rt.length - 1; x < rt.length; A = x, x += 1) {
+        const H = rt[x],
+          F = rt[A];
+        H[1] > d != F[1] > d &&
+          i < ((F[0] - H[0]) * (d - H[1])) / (F[1] - H[1]) + H[0] &&
+          (r = !r);
+      }
+      return r;
+    },
+    Mt = (i, d) =>
+      Ft.some((r) => ((i - r.x) / r.rx) ** 2 + ((d - r.y) / r.ry) ** 2 < 1),
+    Be = (i, d) => {
+      if (!n) return !0;
+      const r = Math.round(i * k),
+        x = Math.round((d / ie) * C);
+      return r < 0 || x < 0 || r >= k || x >= C ? !1 : n[x * k + r] === 1;
+    },
+    Ze = 0.02,
+    pe = (i, d) =>
+      gi(i, d) &&
+      !Mt(i, d) &&
+      Be(i, d) &&
+      Be(i - Ze, d) &&
+      Be(i + Ze, d) &&
+      Be(i, d - Ze) &&
+      Be(i, d + Ze),
+    vi = (i) => {
+      const d = document.createElement("canvas");
+      ((k = 240),
+        (C = Math.round(240 * (i.naturalHeight / i.naturalWidth))),
+        (d.width = k),
+        (d.height = C));
+      const r = d.getContext("2d", { willReadFrequently: !0 });
+      if (!r) return;
+      r.drawImage(i, 0, 0, k, C);
+      const x = r.getImageData(0, 0, k, C).data,
+        A = new Uint8Array(k * C);
+      for (let F = 0; F < A.length; F += 1) A[F] = x[F * 4 + 3] > 90 ? 1 : 0;
+      ((n = A), (G = []));
+      const H = 132;
+      for (let F = 0; F < H; F += 1)
+        for (let a = 0; a < H; a += 1) {
+          const f = a / H,
+            P = (F / H) * ie;
+          if (!pe(f, P)) continue;
+          const D = 1 / H;
+          (!pe(f - D, P) || !pe(f + D, P) || !pe(f, P - D) || !pe(f, P + D)) &&
+            G.push({ x: f, y: P });
+        }
+    },
+    St = (i, d) => {
+      const r = Math.atan2(d - dt.y, i - dt.x);
+      return s.some((x) => {
+        let A = r - x.angle;
+        for (; A > Math.PI;) A -= Math.PI * 2;
+        for (; A < -Math.PI;) A += Math.PI * 2;
+        return Math.abs(A) < x.half;
+      });
+    },
+    yi = () => {
+      const i = (r, x, A) => {
+          for (const H of [A, A * 0.6, A * 0.3, 0]) {
+            const F = r + (r - 0.5) * H,
+              a = x + (x - 0.64) * H;
+            if (pe(F, a)) return { x: F, y: a };
+          }
+          return { x: r, y: x };
+        },
+        d = ht
+          .map((r) => i(r.x, r.y, 0.42))
+          .sort(
+            (r, x) =>
+              Math.atan2(r.y - 0.64, r.x - 0.5) -
+              Math.atan2(x.y - 0.64, x.x - 0.5),
+          );
+      I = [];
+      for (let r = 0; r < d.length; r += 1) {
+        const x = d[r],
+          A = d[(r + 1) % d.length];
+        I.push(x);
+        for (const H of [0.34, 0.67]) {
+          const F = x.x + (A.x - x.x) * H,
+            a = x.y + (A.y - x.y) * H;
+          if (pe(F, a)) {
+            I.push({ x: F, y: a });
+            continue;
+          }
+          for (const f of [0.05, 0.1, 0.16]) {
+            const P = F + (F - 0.5) * f,
+              D = a + (a - 0.64) * f;
+            if (pe(P, D)) {
+              I.push({ x: P, y: D });
+              break;
+            }
+          }
+        }
+      }
+    },
+    Je = () => {
+      (g.style.setProperty("--v", `${Math.max(0, Math.min(100, Z))}%`),
+        L.style.setProperty("--v", `${Math.max(0, Math.min(100, ne))}%`),
+        (S.innerHTML = `<b>${be}</b><span>from ${ot} lighthouse</span>`),
+        (m.innerHTML = J.map(
+          (i) =>
+            `<li${i.on ? ' class="on"' : ""}><span>${i.name}<em>${i.on ? i.sign : "···"}</em></span><i style="--v:${Math.round(i.charge * 100)}%"></i></li>`,
+        ).join("")));
+    },
+    Qe = (i, d) => {
+      l.innerHTML = `<b>${i}</b><span>${d}</span>`;
+    },
+    _t = (i, d, r, x, A) => {
+      (O.style.setProperty("--art", `url('${wi.get(i) ?? ""}')`),
+        (U.innerHTML = `<i>${x}</i>${d}`),
+        (p.textContent = r),
+        (R.hidden = !A),
+        A &&
+          (R.innerHTML = `<i>signature</i><b>${A}</b><span>She'll be called the real Sophie. — lighthouse</span>`),
+        (q.hidden = !1),
+        (le = "card"));
+    },
+    Et = () => {
+      if (((q.hidden = !0), Pe && (Pe = null), be >= ot)) {
+        ki();
+        return;
+      }
+      ((le = "run"), (qe = performance.now()));
+    },
+    et = (i) => {
+      ((le = i ? "won" : "lost"),
+        (e.dataset.over = le),
+        (h.hidden = !0),
+        (q.hidden = !0),
+        (z.hidden = !1),
+        (z.dataset.mode = i ? "won" : "lost"));
+      const d = z.querySelector("[data-kzf-brief-head]"),
+        r = z.querySelector("[data-kzf-brief-body]");
+      (d &&
+        (d.textContent = i
+          ? "The first piece of backup we have."
+          : ye === "twin"
+            ? "The key was a stranger."
+            : "Entry fails"),
+        r &&
+          (r.innerHTML = i
+            ? "<p>The key is real.: Sophie backup fragment removed from Kzland-52 and went upstairs.. First of four. — The rest lie in other worlds..</p><p>The lesson of this world is simple.: beforehand, check, from whomever.</p>"
+            : ye === "twin"
+              ? `<p>The double key: it has a signature ${_e.sign} — lighthouse «${_e.ghost}», never aired. The real Sophie only hears those beacons., burnt.</p><p>The key fell apart., fragment.</p>`
+              : ye === "seen"
+                ? "<p>Megalith profile: Too long under the beam and too many patrol encounters. Crossbows jam lighthouses earlier, how they get on the air.</p><p>The beam warms — but underneath. Come in with a little jerk., And freeze in plain sight.</p>"
+                : "<p>Minus sixty outside.. Ave didn't make it to the next challenge. — heat ran out halfway.</p><p>You live without a beam for about twenty seconds.. Plan a route through the light.</p>"),
+        ($.textContent = i ? "Walk again." : "More time."));
+    },
+    ki = () => {
+      le = "pick";
+      const i = J.filter((f) => f.on).sort((f, P) => f.lit - P.lit),
+        d = J.filter((f) => !f.on),
+        r = Math.floor(Math.random() * i.length),
+        x = d[Math.floor(Math.random() * d.length)] ?? i[0],
+        A = i.map((f) => f.sign),
+        H = A.map((f, P) => (P === r ? x.sign : f));
+      ((_e = { ghost: x.name, sign: x.sign }),
+        (Te = Math.random() < 0.5 ? 0 : 1));
+      const F = Te === 0 ? [A, H] : [H, A],
+        a = (f, P) => {
+          const D = f.querySelector("span");
+          D && (D.textContent = P.join(" · "));
+        };
+      (a(w, F[0]), a(j, F[1]), (q.hidden = !0), (h.hidden = !1));
+    },
+    Lt = (i) => {
+      ((h.hidden = !0), i === Te ? et(!0) : ((ye = "twin"), et(!1)));
+    },
+    At = () => {
+      ((J = ht.map((i) => ({
+        ...i,
+        charge: 0,
+        on: !1,
+        told: !1,
+        pulse: 0,
+        lit: 0,
+      }))),
+        (Ie = 0),
+        (re = 0),
+        (Le = 0),
+        (s = Array.from(
+          { length: 2 + (Math.random() < 0.45 ? 1 : 0) },
+          (i, d) => ({
+            angle: Math.random() * Math.PI * 2,
+            spin: (0.25 + Math.random() * 0.16) * (d % 2 === 0 ? 1 : -1),
+            half: 0.22 + Math.random() * 0.1,
+          }),
+        )),
+        yi(),
+        (v = Array.from({ length: Ot }, (i, d) => {
+          const r =
+              (Math.floor(I.length * 0.35) + Math.floor((I.length / Ot) * d)) %
+              I.length,
+            x = I[r] ?? De;
+          return {
+            x: x.x,
+            y: x.y,
+            face: 1,
+            mood: "patrol",
+            wp: r,
+            lock: 0,
+            wait: 0,
+            lx: x.x,
+            ly: x.y,
+            hunt: 0,
+            jam: 0,
+            turn: 0,
+            turnAge: 0,
+            cool: 0,
+          };
+        })),
+        (T = De.x),
+        (E = De.y),
+        (te = 0),
+        (oe = 0),
+        (Z = 100),
+        (ne = 0),
+        (be = 0),
+        (y = 3),
+        (ke.length = 0),
+        (Pe = null),
+        (Ae = null),
+        (Q = 0),
+        (ae = 0),
+        (B = 0),
+        (ye = "cold"),
+        (h.hidden = !0),
+        fe.clear(),
+        delete e.dataset.over,
+        (z.hidden = !0),
+        (q.hidden = !0),
+        (le = "run"),
+        Je(),
+        Qe(
+          "Good hunting.",
+          `The lighthouse starts only under the beam — With your own hands, eight seconds.. Rays today. ${s.length}.`,
+        ),
+        (qe = performance.now()),
+        we || (we = requestAnimationFrame(tt)));
+    },
+    xi = (i) => {
+      let d = 0,
+        r = 0;
+      if (
+        ((fe.has("ArrowLeft") || fe.has("KeyA")) && (d -= 1),
+        (fe.has("ArrowRight") || fe.has("KeyD")) && (d += 1),
+        (fe.has("ArrowUp") || fe.has("KeyW")) && (r -= 1),
+        (fe.has("ArrowDown") || fe.has("KeyS")) && (r += 1),
+        !d && !r && Ae)
+      ) {
+        const a = Ae.x - T,
+          f = Ae.y - E,
+          P = Math.hypot(a, f);
+        P > 0.012 && ((d = a / P), (r = f / P));
+      }
+      const x = Math.hypot(d, r);
+      if (x) {
+        ((d /= x), (r /= x));
+        const a = { turn: Q, turnAge: ae },
+          [f, P] = qt(T, E, d, r, a, i);
+        ((Q = a.turn),
+          (ae = a.turnAge),
+          (d = f),
+          (r = P),
+          (te += d * jt * i),
+          (oe += r * jt * i),
+          (se = d !== 0 ? (d > 0 ? 1 : -1) : se));
+      }
+      const A = Math.exp(-7 * i);
+      ((te *= x ? Math.exp(-7 * 0.25 * i) : A),
+        (oe *= x ? Math.exp(-7 * 0.25 * i) : A));
+      const H = Math.hypot(te, oe);
+      H > ct && ((te = (te / H) * ct), (oe = (oe / H) * ct));
+      const F = Math.min(H, ct) * i;
+      if (F > 0) {
+        const a = te / H,
+          f = oe / H,
+          P = (D, Y) => {
+            const xe = T + D * F,
+              ue = E + Y * F;
+            let me = !1;
+            return (
+              pe(xe, E) && ((T = xe), (me = !0)),
+              pe(T, ue) && ((E = ue), (me = !0)),
+              me
+            );
+          };
+        if (!P(a, f)) {
+          let D = !1;
+          for (const Y of [0.7, -0.7, 1.3, -1.3]) {
+            const xe = Math.cos(Y),
+              ue = Math.sin(Y);
+            if (P(a * xe - f * ue, a * ue + f * xe)) {
+              D = !0;
+              break;
+            }
+          }
+          D || ((te = 0), (oe = 0));
+        }
+      }
+      if (((B = H < 0.03 ? B + i : 0), H > 0.04)) {
+        const a = ke[ke.length - 1];
+        (!a || Math.hypot(T - a.x, E - a.y) > 0.018) &&
+          (ke.push({ x: T, y: E, life: 1 }), ke.length > 30 && ke.shift());
+      }
+    },
+    $t = (i, d) => {
+      const r = T - i.x,
+        x = E - i.y,
+        A = Math.hypot(r, x),
+        H = B > Gt;
+      if (A < Ji && !H) return !0;
+      const F = (i.mood === "chase" ? Bt : Wt) * (d ? 1.6 : ia) * (H ? ta : 1);
+      if (A > F) return !1;
+      let a = Math.atan2(x, r) - i.face;
+      for (; a > Math.PI;) a -= Math.PI * 2;
+      for (; a < -Math.PI;) a += Math.PI * 2;
+      if (Math.abs(a) >= ft) return !1;
+      for (let f = 0.15; f < 0.95; f += 0.15)
+        if (Mt(i.x + r * f, i.y + x * f)) return !1;
+      return !0;
+    },
+    qt = (i, d, r, x, A, H) => {
+      if (pe(i + r * 0.05, d + x * 0.05))
+        return ((A.turn = 0), (A.turnAge = 0), [r, x]);
+      if (
+        ((A.turnAge += H),
+        A.turnAge > 1.4 && ((A.turn = -A.turn), (A.turnAge = 0)),
+        !A.turn)
+      ) {
+        let a = 0.5,
+          f = 0.62,
+          P = 1 / 0;
+        for (const D of Ft) {
+          const Y = Math.hypot(D.x - i, D.y - d);
+          Y < P && ((P = Y), (a = D.x), (f = D.y));
+        }
+        A.turn = r * (d - f) - x * (i - a) > 0 ? 1 : -1;
+      }
+      for (const a of [0.5, 0.9, 1.35, 1.85, 2.4]) {
+        const f = Math.cos(a * A.turn),
+          P = Math.sin(a * A.turn),
+          D = r * f - x * P,
+          Y = r * P + x * f;
+        if (pe(i + D * 0.05, d + Y * 0.05)) return [D, Y];
+      }
+      return [r, x];
+    },
+    Mi = (i) => {
+      for (let d = 0; d < v.length; d += 1)
+        for (let r = d + 1; r < v.length; r += 1) {
+          const x = v[d],
+            A = v[r];
+          let H = A.x - x.x,
+            F = A.y - x.y,
+            a = Math.hypot(H, F);
+          if (a > Ge) continue;
+          a < 1e-4 &&
+            ((H = Math.cos(d * 2.4)), (F = Math.sin(d * 2.4)), (a = 1));
+          const f = ((Ge - a) / 2) * Math.min(1, i * 8),
+            P = (H / a) * f,
+            D = (F / a) * f;
+          (pe(x.x - P, x.y - D) && ((x.x -= P), (x.y -= D)),
+            pe(A.x + P, A.y + D) && ((A.x += P), (A.y += D)));
+        }
+    },
+    Si = (i, d, r) => {
+      i.cool > 0 && (i.cool -= d);
+      const x = y <= 0 && i.cool <= 0 && $t(i, r);
+      i.mood === "patrol" || i.mood === "search"
+        ? x && ((i.mood = "lock"), (i.lock = 0))
+        : x && ((i.mood = "chase"), (i.hunt = 0), (i.lx = T), (i.ly = E));
+      let A = i.x,
+        H = i.y,
+        F = Nt;
+      if (i.mood === "lock")
+        ((i.lock += d),
+          (F = 0),
+          x
+            ? i.lock >= Qi &&
+              ((i.mood = "chase"), (i.hunt = 0), (i.lx = T), (i.ly = E))
+            : (i.mood = "patrol"));
+      else if (i.mood === "chase")
+        ((A = i.lx),
+          (H = i.ly),
+          (F = Zi),
+          (i.hunt += d),
+          (i.hunt > Ut || (!x && Math.hypot(i.x - i.lx, i.y - i.ly) < 0.03)) &&
+            ((i.mood = "search"), (i.wait = ea), i.hunt > Ut && (i.cool = Yt)));
+      else if (i.mood === "search") {
+        ((i.wait -= d), (F = Nt * 0.55));
+        const a = I[i.wp] ?? De;
+        ((A = a.x),
+          (H = a.y),
+          i.wait <= 0 && ((i.mood = "patrol"), (i.hunt = 4)));
+      } else {
+        const a = I[i.wp] ?? De;
+        if (((A = a.x), (H = a.y), Math.hypot(i.x - a.x, i.y - a.y) < 0.04)) {
+          let f = (i.wp + 1) % I.length;
+          for (let P = 0; P < I.length; P += 1) {
+            const D = (i.wp + 1 + P) % I.length;
+            if (!v.some((Y) => Y !== i && Y.wp === D)) {
+              f = D;
+              break;
+            }
+          }
+          i.wp = f;
+        }
+      }
+      if (F > 0) {
+        let a = A - i.x,
+          f = H - i.y;
+        const P = Math.hypot(a, f) || 1;
+        ((a /= P), (f /= P));
+        for (const Me of v) {
+          if (Me === i) continue;
+          const ge = i.x - Me.x,
+            M = i.y - Me.y,
+            W = Math.hypot(ge, M);
+          if (W > 1e-4 && W < Ge) {
+            const ee = (Ge - W) / Ge;
+            ((a += (ge / W) * ee * 1.6), (f += (M / W) * ee * 1.6));
+          }
+        }
+        const D = Math.hypot(a, f) || 1;
+        ((a /= D), (f /= D));
+        const [Y, xe] = qt(i.x, i.y, a, f, i, d);
+        ((a = Y), (f = xe));
+        const ue = (Me, ge) => {
+          const M = i.x + Me * F * d,
+            W = i.y + ge * F * d;
+          let ee = !1;
+          return (
+            pe(M, i.y) && ((i.x = M), (ee = !0)),
+            pe(i.x, W) && ((i.y = W), (ee = !0)),
+            ee
+          );
+        };
+        let me = ue(a, f);
+        if (!me)
+          for (const Me of [0.9, -0.9, 1.9, -1.9, 2.8]) {
+            const ge = Math.cos(Me),
+              M = Math.sin(Me);
+            if (ue(a * ge - f * M, a * M + f * ge)) {
+              me = !0;
+              break;
+            }
+          }
+        if (((i.jam = me ? 0 : i.jam + d), i.jam > 0.9)) {
+          const Me = new Set(v.filter((W) => W !== i).map((W) => W.wp));
+          let ge = (i.wp + 1) % I.length,
+            M = 1 / 0;
+          for (let W = 0; W < I.length; W += 1) {
+            if (Me.has(W)) continue;
+            const ee = I[W],
+              ce = Math.hypot(ee.x - i.x, ee.y - i.y);
+            ce > 0.09 && ce < M && ((M = ce), (ge = W));
+          }
+          ((i.wp = ge), (i.mood = "patrol"), (i.hunt = 0), (i.jam = 0));
+        }
+        me && (i.face = Math.atan2(f, a));
+      }
+      for (const a of J)
+        a.on &&
+          Math.hypot(a.x - i.x, a.y - i.y) < 0.05 &&
+          (a.charge = Math.max(0, a.charge - da * d));
+      if (
+        i.mood === "chase" &&
+        y <= 0 &&
+        re <= 0 &&
+        Math.hypot(i.x - T, i.y - E) < aa
+      ) {
+        ((Le += 1), (re = ba), (ne = Math.min(100, ne + pa)));
+        let a = null;
+        for (const f of J) f.on && (!a || f.lit > a.lit) && (a = f);
+        (a && (a.charge = Math.min(a.charge, Xt + 0.12)),
+          Qe(
+            "Detention",
+            a
+              ? `Crossbow holds Ave, second «${a.name}» near-zero. Get out. — press the gap or run.`
+              : "Crossbow holds Ave. Get out. — press the gap or run.",
+          ));
+        return;
+      }
+    },
+    tt = (i) => {
+      const d = Math.min(0.05, (i - qe) / 1e3);
+      if (((qe = i), le === "run")) {
+        for (const a of s) a.angle += a.spin * d;
+        if ((y > 0 && (y -= d), re > 0)) {
+          ((re -= d),
+            (ne = Math.min(100, ne + ma * d)),
+            (Z = Math.max(0, Z - Vt * d)));
+          for (const a of J) a.charge = Math.max(0, a.charge - Kt * 3 * d);
+          if (re <= 0) {
+            y = 3.4;
+            const a = v.reduce(
+              (f, P) =>
+                Math.hypot(P.x - T, P.y - E) < Math.hypot(f.x - T, f.y - E)
+                  ? P
+                  : f,
+              v[0],
+            );
+            if (a) {
+              const f = T - a.x,
+                P = E - a.y,
+                D = Math.hypot(f, P) || 1;
+              for (let Y = 0.18; Y > 0.02; Y -= 0.02)
+                if (pe(T + (f / D) * Y, E + (P / D) * Y)) {
+                  ((T += (f / D) * Y), (E += (P / D) * Y));
+                  break;
+                }
+              for (let Y = 0.16; Y > 0.02; Y -= 0.02)
+                if (pe(a.x - (f / D) * Y, a.y - (P / D) * Y)) {
+                  ((a.x -= (f / D) * Y), (a.y -= (P / D) * Y));
+                  break;
+                }
+            }
+            for (const f of v) {
+              f.cool = Yt;
+              let P = -1,
+                D = f.wp;
+              for (let Y = 0; Y < I.length; Y += 1) {
+                const xe = I[Y],
+                  ue = Math.hypot(xe.x - T, xe.y - E);
+                ue > P && ((P = ue), (D = Y));
+              }
+              ((f.wp = D),
+                (f.mood = "patrol"),
+                (f.hunt = 0),
+                (f.turn = 0),
+                (f.turnAge = 0));
+            }
+            Qe(
+              "Got out.",
+              Le > 1
+                ? `Ave's out of capture.. Megalith recorded ${Le} contact — slightly, And the profile fits..`
+                : "Ave's out of capture.. Megalith contact.",
+            );
+          }
+          (Je(),
+            (X.dataset.tone = "hot"),
+            (X.textContent = "They keep you. — get out"),
+            (Z <= 0 || ne >= 100) &&
+              ((ye = ne >= 100 ? "seen" : "cold"), et(!1)),
+            it(),
+            (we = requestAnimationFrame(tt)));
+          return;
+        }
+        xi(d);
+        const r = St(T, E);
+        ((Z = Math.min(100, Z + (r ? ca : -Vt) * d)),
+          (ne = Math.max(0, ne + (r ? la : -6) * d)));
+        for (const a of v) Si(a, d, r);
+        Mi(d);
+        const x = v.some((a) => a.mood !== "patrol" && $t(a, r));
+        x && (ne = Math.min(100, ne + sa * d));
+        let A = null;
+        for (const a of J) {
+          const f = Math.hypot(a.x - T, a.y - E),
+            P = f < Vi;
+          if (
+            (P && (!A || f < Math.hypot(A.x - T, A.y - E)) && (A = a),
+            P
+              ? (a.charge = Math.min(
+                  1,
+                  a.charge + (St(a.x, a.y) ? na : oa) * d,
+                ))
+              : (a.charge = Math.max(0, a.charge - (a.on ? ra : Kt) * d)),
+            (a.pulse += d * (a.on ? 3.2 : 1.4)),
+            !a.on && a.charge >= 1)
+          ) {
+            ((a.on = !0),
+              (Ie += 1),
+              (a.lit = Ie),
+              a.told || ((a.told = !0), (Pe = a)));
+            let D = v[0];
+            for (const Y of v)
+              (!D ||
+                Math.hypot(Y.x - a.x, Y.y - a.y) <
+                  Math.hypot(D.x - a.x, D.y - a.y)) &&
+                (D = Y);
+            D && ((D.mood = "chase"), (D.hunt = 0), (D.lx = a.x), (D.ly = a.y));
+          } else a.on && a.charge < Xt && (a.on = !1);
+        }
+        be = J.filter((a) => a.on).length;
+        for (const a of ke) a.life -= d * 0.5;
+        for (; ke.length && (ke[0]?.life ?? 0) <= 0;) ke.shift();
+        const H = B > Gt,
+          F = v.some((a) => Math.hypot(a.x - T, a.y - E) < 0.16);
+        if (
+          ((X.dataset.tone = x ? "hot" : H ? "hush" : r ? "lit" : "dark"),
+          (X.textContent = x
+            ? "see"
+            : F
+              ? H
+                ? "patrol — You're frozen."
+                : "patrol"
+              : H
+                ? "lurk"
+                : r
+                  ? "sublight — heat, see"
+                  : "shadowy"),
+          Je(),
+          Z <= 0 || ne >= 100)
+        )
+          ((ye = ne >= 100 ? "seen" : "cold"), et(!1));
+        else if (Pe) {
+          const a = Pe;
+          _t(a.key, a.name, a.text, `lighthouse ${be} from ${ot}`, a.sign);
+        } else
+          be >= ot &&
+            _t(
+              "open",
+              "Telephone responds",
+              "Four lighthouses broadcast simultaneously — castle Megalith ripped. There's a signal coming from the teleport.: The key to the first piece of backup came.",
+              "linkage",
+            );
+      }
+      (it(), (we = requestAnimationFrame(tt)));
+    },
+    it = () => {
+      const { w: i, h: d } = ui(),
+        r = Math.min(i / (he.x1 - he.x0), d / (he.y1 - he.y0)),
+        x = i / 2 - ((he.x0 + he.x1) / 2) * r,
+        A = d / 2 - ((he.y0 + he.y1) / 2) * r,
+        H = (M) => x + M * r,
+        F = (M) => A + Xi(M) * r;
+      t.clearRect(0, 0, i, d);
+      const a = t.createLinearGradient(0, 0, 0, d);
+      if (
+        (a.addColorStop(0, "#050917"),
+        a.addColorStop(1, "#02030a"),
+        (t.fillStyle = a),
+        t.fillRect(0, 0, i, d),
+        c)
+      ) {
+        const M = c.naturalWidth,
+          W = (ee) => ee * M;
+        (t.drawImage(c, 0, 0, M, W(de.a), H(0), F(0), r, de.a * r),
+          t.drawImage(
+            c,
+            0,
+            W(de.a),
+            M,
+            W(de.b - de.a),
+            H(0),
+            F(de.a),
+            r,
+            (de.b - de.a) * de.k * r,
+          ),
+          t.drawImage(
+            c,
+            0,
+            W(de.b),
+            M,
+            W(ie - de.b),
+            H(0),
+            F(de.b),
+            r,
+            (ie - de.b) * r,
+          ));
+      }
+      ((t.fillStyle = "rgba(6, 11, 30, 0.55)"), t.fillRect(0, 0, i, d));
+      const f = H(dt.x),
+        P = F(dt.y),
+        D = Math.hypot(i, d) * 1.4;
+      if (u && c) {
+        ((b.width !== i || b.height !== d) && ((b.width = i), (b.height = d)),
+          u.clearRect(0, 0, i, d),
+          (u.globalCompositeOperation = "source-over"));
+        const M = u.createRadialGradient(f, P, 0, f, P, D);
+        (M.addColorStop(0, "rgba(170, 215, 255, 0.42)"),
+          M.addColorStop(0.45, "rgba(105, 165, 255, 0.2)"),
+          M.addColorStop(1, "rgba(70, 120, 255, 0)"),
+          (u.fillStyle = M));
+        for (const ee of s)
+          (u.beginPath(),
+            u.moveTo(f, P),
+            u.arc(f, P, D, ee.angle - ee.half, ee.angle + ee.half),
+            u.closePath(),
+            u.fill());
+        u.globalCompositeOperation = "destination-in";
+        const W = c.naturalWidth;
+        (u.drawImage(
+          c,
+          0,
+          de.b * W,
+          W,
+          (ie - de.b) * W,
+          H(0),
+          F(de.b),
+          r,
+          (ie - de.b) * r,
+        ),
+          t.save(),
+          (t.globalCompositeOperation = "lighter"),
+          t.drawImage(b, 0, 0),
+          t.restore());
+      }
+      t.fillStyle = "rgba(120, 200, 255, 0.5)";
+      const Y = Math.max(1.4, r * 0.0032);
+      for (const M of G) t.fillRect(H(M.x) - Y / 2, F(M.y) - Y / 2, Y, Y);
+      for (const M of ke)
+        ((t.fillStyle = `rgba(190, 225, 255, ${0.16 * M.life})`),
+          t.beginPath(),
+          t.ellipse(H(M.x), F(M.y), r * 0.006, r * 0.003, 0, 0, Math.PI * 2),
+          t.fill());
+      for (const M of J) {
+        const W = H(M.x),
+          ee = F(M.y),
+          ce = r * 0.028;
+        ((t.strokeStyle = M.on
+          ? "rgba(0, 230, 255, 0.9)"
+          : "rgba(255, 190, 110, 0.55)"),
+          (t.lineWidth = Math.max(1, r * 0.0022)),
+          t.beginPath(),
+          t.ellipse(W, ee, ce, ce * 0.45, 0, 0, Math.PI * 2),
+          t.stroke(),
+          M.charge > 0 &&
+            ((t.strokeStyle = M.on
+              ? "rgba(120, 255, 230, 0.95)"
+              : "rgba(255, 214, 130, 0.95)"),
+            (t.lineWidth = Math.max(2, r * 0.005)),
+            t.beginPath(),
+            t.ellipse(
+              W,
+              ee,
+              ce,
+              ce * 0.45,
+              0,
+              -Math.PI / 2,
+              -Math.PI / 2 + Math.PI * 2 * M.charge,
+            ),
+            t.stroke()));
+        const Ce = r * (0.02 + 0.16 * M.charge),
+          ze = t.createLinearGradient(W, ee, W, ee - Ce),
+          Fe = M.on ? "0, 230, 255" : "255, 190, 110";
+        if (
+          (ze.addColorStop(0, `rgba(${Fe}, ${0.42 + 0.3 * M.charge})`),
+          ze.addColorStop(1, `rgba(${Fe}, 0)`),
+          (t.fillStyle = ze),
+          t.fillRect(W - r * 0.007, ee - Ce, r * 0.014, Ce),
+          M.on)
+        ) {
+          const Re = M.pulse % 1;
+          ((t.strokeStyle = `rgba(0, 230, 255, ${0.5 * (1 - Re)})`),
+            (t.lineWidth = Math.max(1, r * 0.002)),
+            t.beginPath(),
+            t.ellipse(
+              W,
+              ee,
+              ce * (1 + Re * 1.6),
+              ce * 0.45 * (1 + Re * 1.6),
+              0,
+              0,
+              Math.PI * 2,
+            ),
+            t.stroke());
+        }
+        const lt = ee - Ce - r * 0.016;
+        ((t.fillStyle = M.on
+          ? "rgba(0, 230, 255, 0.95)"
+          : "rgba(255, 200, 120, 0.9)"),
+          t.beginPath(),
+          t.moveTo(W, lt + r * 0.012),
+          t.lineTo(W - r * 0.009, lt),
+          t.lineTo(W + r * 0.009, lt),
+          t.closePath(),
+          t.fill(),
+          (t.textAlign = "center"));
+        let je = ee + ce * 1.15;
+        if (M.on) {
+          t.font = `${Math.round(r * 0.021)}px ui-monospace, monospace`;
+          const at = t.measureText(M.sign).width + r * 0.018,
+            nt = r * 0.03;
+          ((t.fillStyle = "rgba(3, 12, 28, 0.88)"),
+            t.fillRect(W - at / 2, je, at, nt),
+            (t.strokeStyle = "rgba(0, 230, 255, 0.7)"),
+            (t.lineWidth = Math.max(1, r * 0.0015)),
+            t.strokeRect(W - at / 2, je, at, nt),
+            (t.fillStyle = "rgba(150, 245, 255, 0.98)"),
+            t.fillText(M.sign, W, je + nt * 0.72),
+            (je += nt + r * 0.008));
+        }
+        if (Math.hypot(M.x - T, M.y - E) < 0.12) {
+          t.font = `${Math.round(r * 0.017)}px ui-monospace, monospace`;
+          const Re = t.measureText(M.name.toUpperCase()).width;
+          ((t.fillStyle = "rgba(6, 11, 26, 0.75)"),
+            t.fillRect(W - Re / 2 - r * 0.008, je, Re + r * 0.016, r * 0.026),
+            (t.fillStyle = M.on
+              ? "rgba(120, 240, 255, 0.95)"
+              : "rgba(226, 236, 255, 0.9)"),
+            t.fillText(M.name.toUpperCase(), W, je + r * 0.019));
+        }
+      }
+      for (const M of fi)
+        ((M.y += 42e-5 * M.s),
+          (M.x += 1e-4 * M.s),
+          M.y > 1 && ((M.y = 0), (M.x = Math.random())),
+          M.x > 1 && (M.x = 0),
+          (t.fillStyle = `rgba(220, 236, 255, ${0.2 * M.s})`),
+          t.fillRect(M.x * i, M.y * d, 2 * M.s, 2 * M.s));
+      for (const M of v) {
+        const W = H(M.x),
+          ee = F(M.y),
+          ce = r * 0.072,
+          Ce = M.mood === "chase" || M.mood === "lock",
+          ze = (M.mood === "chase" ? Bt : Wt) * r;
+        t.save();
+        const Fe = t.createRadialGradient(W, ee, 0, W, ee, ze);
+        (Fe.addColorStop(
+          0,
+          Ce ? "rgba(255, 70, 110, 0.3)" : "rgba(255, 190, 90, 0.16)",
+        ),
+          Fe.addColorStop(1, "rgba(255, 90, 120, 0)"),
+          (t.fillStyle = Fe),
+          t.beginPath(),
+          t.moveTo(W, ee),
+          t.arc(W, ee, ze, M.face - ft, M.face + ft),
+          t.closePath(),
+          t.fill(),
+          t.restore(),
+          (t.fillStyle = "rgba(0, 0, 0, 0.42)"),
+          t.beginPath(),
+          t.ellipse(W, ee + ce * 0.05, ce * 0.3, ce * 0.11, 0, 0, Math.PI * 2),
+          t.fill(),
+          N &&
+            (t.save(),
+            t.translate(W, ee),
+            t.scale(Math.cos(M.face) >= 0 ? 1 : -1, 1),
+            t.drawImage(N, -ce * 0.36, -ce * 1.05, ce * 0.72, ce * 1.1),
+            t.restore()),
+          Ce &&
+            ((t.fillStyle = "rgba(255, 70, 110, 0.95)"),
+            (t.font = `700 ${Math.round(ce * 0.5)}px ui-monospace, monospace`),
+            (t.textAlign = "center"),
+            t.fillText("!", W, ee - ce * 1.2)));
+      }
+      const xe = H(T),
+        ue = F(E),
+        me = r * 0.076,
+        Me = Math.sin(ve) * me * 0.05;
+      ((t.fillStyle = "rgba(0, 0, 0, 0.42)"),
+        t.beginPath(),
+        t.ellipse(xe, ue + me * 0.06, me * 0.32, me * 0.12, 0, 0, Math.PI * 2),
+        t.fill(),
+        _ &&
+          (t.save(),
+          t.translate(xe, ue + Me),
+          t.rotate(Math.sin(ve * 0.5) * 0.04),
+          t.scale(se, 1),
+          (t.globalAlpha = y > 0 && Math.floor(y * 10) % 2 === 0 ? 0.45 : 1),
+          (t.shadowColor = "rgba(0, 209, 255, 0.5)"),
+          (t.shadowBlur = me * 0.26),
+          t.drawImage(_, -me * 0.36, -me * 1.06, me * 0.72, me * 1.1),
+          t.restore()));
+      const ge = t.createRadialGradient(
+        i / 2,
+        d / 2,
+        Math.min(i, d) * 0.35,
+        i / 2,
+        d / 2,
+        Math.max(i, d) * 0.75,
+      );
+      (ge.addColorStop(0, "rgba(0, 0, 0, 0)"),
+        ge.addColorStop(1, "rgba(0, 0, 0, 0.55)"),
+        (t.fillStyle = ge),
+        t.fillRect(0, 0, i, d));
+    };
+  (window.addEventListener("keydown", (i) => {
+    if (document.body.dataset.openRoom === "kzf") {
+      if (i.code === "Space" || i.code === "Enter") {
+        if ((i.preventDefault(), le === "pick")) return;
+        if (le === "run" && re > 0) {
+          re = Math.max(0.001, re - 0.2);
+          return;
+        }
+        le === "card"
+          ? Et()
+          : (le === "brief" || le === "won" || le === "lost") && At();
+        return;
+      }
+      /^(Arrow|Key[WASD])/.test(i.code) &&
+        (i.preventDefault(),
+        re > 0 && !fe.has(i.code) && (re = Math.max(0.001, re - 0.14)),
+        fe.add(i.code),
+        (Ae = null));
+    }
+  }),
+    window.addEventListener("keyup", (i) => fe.delete(i.code)));
+  const Tt = (i) => {
+    const d = o.getBoundingClientRect(),
+      r = Math.min(d.width / (he.x1 - he.x0), d.height / (he.y1 - he.y0)),
+      x = d.width / 2 - ((he.x0 + he.x1) / 2) * r,
+      A = d.height / 2 - ((he.y0 + he.y1) / 2) * r;
+    Ae = {
+      x: (i.clientX - d.left - x) / r,
+      y: (i.clientY - d.top - A) / r + xt,
+    };
+  };
+  (o.addEventListener("pointerdown", (i) => {
+    (o.setPointerCapture(i.pointerId),
+      re > 0 && (re = Math.max(0.001, re - 0.2)),
+      Tt(i));
+  }),
+    o.addEventListener("pointermove", (i) => {
+      Ae && Tt(i);
+    }),
+    o.addEventListener("pointerup", () => {
+      Ae = null;
+    }),
+    o.addEventListener("pointercancel", () => {
+      Ae = null;
+    }),
+    $.addEventListener("click", At),
+    K.addEventListener("click", Et),
+    w.addEventListener("click", () => Lt(0)),
+    j.addEventListener("click", () => Lt(1)),
+    e
+      .querySelector("[data-kzf-back]")
+      ?.addEventListener("click", () => Ve("cellar")),
+    window.addEventListener("resize", () => {
+      we && it();
+    }),
+    e.style.setProperty("--kzf-ave", `url('${V("/media/kzf/ave.webp")}')`),
+    Promise.all([
+      Ke(V("/media/kzf/island.webp")),
+      Ke(V("/media/kzf/hero.webp")),
+      Ke(V("/media/kzf/guard.webp")),
+    ]).then(([i, d, r]) => {
+      ((c = i),
+        (_ = d),
+        (N = r),
+        i && ((ie = i.naturalHeight / i.naturalWidth), vi(i)),
+        it());
+    }),
+    Ee((i) => {
+      i === "kzf"
+        ? ((le = "brief"),
+          (z.hidden = !1),
+          (z.dataset.mode = "intro"),
+          (q.hidden = !0),
+          (h.hidden = !0),
+          Qe(
+            "Discussion",
+            "Six lighthouses, four at once. Read the intro and come in..",
+          ),
+          delete e.dataset.over,
+          (J = ht.map((d) => ({
+            ...d,
+            charge: 0,
+            on: !1,
+            told: !1,
+            pulse: 0,
+            lit: 0,
+          }))),
+          (v = []),
+          (s = []),
+          (be = 0),
+          (Z = 100),
+          (ne = 0),
+          Je(),
+          (qe = performance.now()),
+          we || (we = requestAnimationFrame(tt)))
+        : (cancelAnimationFrame(we), (we = 0), fe.clear(), (Ae = null));
+    }));
+}
+const Zt =
+  typeof requestIdleCallback == "function"
+    ? (e) => requestIdleCallback(() => e(), { timeout: 4e3 })
+    : (e) => window.setTimeout(e, 1200);
+function fa() {
+  const e = navigator.connection;
+  return e
+    ? e.saveData
+      ? !1
+      : !["slow-2g", "2g"].includes(e.effectiveType ?? "")
+    : !0;
+}
+function wa(e) {
+  if (!fa()) return;
+  const o = [...e],
+    l = () => {
+      const S = o.shift();
+      S &&
+        fetch(S, { cache: "force-cache", priority: "low" })
+          .catch(() => {})
+          .then(() => Zt(l));
+    };
+  Zt(l);
+}
+const wt = [
+    {
+      id: "org",
+      label: "Organizing Committee",
+      hint: "Jury and organizers of the Cup",
+    },
+    { id: "team", label: "Project team", hint: "those, season-maker" },
+  ],
+  ua = 16,
+  ga = 18,
+  Jt = 0.55,
+  va = 1250,
+  Qt = 1600;
+function ya() {
+  const e = document.querySelector('[data-room="crew"]'),
+    o = e?.querySelector("[data-deck]"),
+    l = e?.querySelector("[data-deck-wall]"),
+    S = e?.querySelector("[data-deck-name]"),
+    m = e?.querySelector("[data-deck-role]"),
+    g = e?.querySelector("[data-crew-count]"),
+    L = e?.querySelector("[data-deck-tabs]");
+  if (!e || !o || !l || !S || !m || !L) return;
+  let z = "org",
+    $ = [],
+    q = [],
+    O = 0;
+  const U = wt.map((c) => {
+      const n = document.createElement("button");
+      return (
+        (n.type = "button"),
+        (n.className = "deck__tab"),
+        (n.innerHTML = `<b>${c.label}</b><i>${It.filter((k) => k.wing === c.id).length}</i>`),
+        n.addEventListener("click", () => R(c.id)),
+        L.append(n),
+        n
+      );
+    }),
+    p = () => {
+      (($ = It.filter((c) => c.wing === z)),
+        (l.textContent = ""),
+        (q = $.map((c, n) => {
+          const k = document.createElement("button");
+          return (
+            (k.type = "button"),
+            (k.className = "deck__tile"),
+            (k.tabIndex = -1),
+            k.setAttribute("aria-label", c.name),
+            (k.innerHTML = `<img src="${c.photo}" alt="" loading="lazy" decoding="async" />`),
+            k.addEventListener("click", () => w(n)),
+            l.append(k),
+            k
+          );
+        })),
+        l.style.setProperty(
+          "--cols",
+          String(Math.min(8, Math.ceil(Math.sqrt($.length * 1.55)))),
+        ),
+        Xe(l),
+        K(l),
+        U.forEach((c, n) => c.classList.toggle("is-on", wt[n]?.id === z)));
+    },
+    R = (c) => {
+      c !== z && ((z = c), p(), w(0, !0));
+    };
+  function K(c) {
+    const n = () => {
+        for (const C of c.querySelectorAll("img")) C.decode().catch(() => {});
+      },
+      k = window.requestIdleCallback;
+    k ? k(n, { timeout: 2500 }) : window.setTimeout(n, 900);
+  }
+  const X = () => getComputedStyle(l).gridTemplateColumns.split(" ").length,
+    h = () => {
+      const c = X(),
+        n = Math.ceil(q.length / c),
+        k = O % c,
+        C = Math.floor(O / c);
+      (l.style.setProperty(
+        "--wy",
+        `${(-(k - (c - 1) / 2) * 3.2).toFixed(2)}deg`,
+      ),
+        l.style.setProperty(
+          "--wx",
+          `${((C - (n - 1) / 2) * 2.4).toFixed(2)}deg`,
+        ));
+      const G = q[0];
+      if (!G) return;
+      const b = G.offsetWidth + ua,
+        u = G.offsetHeight + ga,
+        _ = Qt / (Qt + va),
+        N = (L.getBoundingClientRect().bottom || 0) + 46,
+        ie = e.querySelector(".deck__plate"),
+        J = ie ? ie.getBoundingClientRect().top - 28 : window.innerHeight - 130,
+        s = Math.max(240, J - N);
+      (l.style.setProperty("--top", `${Math.round(N + s / 2)}px`),
+        l.style.setProperty(
+          "--fit",
+          Math.min(
+            1,
+            s / (l.offsetHeight * _),
+            (window.innerWidth - 90) / (l.offsetWidth * _),
+          ).toFixed(3),
+        ),
+        q.forEach((I, T) => I.classList.toggle("is-here", T === O)));
+      const v = q[O];
+      if (
+        (v?.style.setProperty(
+          "--dx",
+          `${(-(k - (c - 1) / 2) * b * Jt).toFixed(0)}px`,
+        ),
+        v?.style.setProperty(
+          "--dy",
+          `${(-(C - (n - 1) / 2) * u * Jt).toFixed(0)}px`,
+        ),
+        (S.textContent = $[O]?.name ?? ""),
+        (m.textContent = $[O]?.role ?? ""),
+        g)
+      ) {
+        const I = wt.find((T) => T.id === z);
+        g.textContent = `${I?.label ?? ""} · ${O + 1} / ${$.length}`;
+      }
+    },
+    w = (c, n = !1) => {
+      ((O = Math.max(0, Math.min(q.length - 1, c))),
+        l.classList.toggle("is-snapped", n),
+        h(),
+        n && requestAnimationFrame(() => l.classList.remove("is-snapped")));
+    };
+  let j = 0,
+    t = 0;
+  (o.addEventListener(
+    "wheel",
+    (c) => {
+      (c.preventDefault(),
+        !(Date.now() < t) &&
+          ((j += c.deltaY),
+          Math.abs(j) > 90 &&
+            (w(O + (j > 0 ? 1 : -1)), (j = 0), (t = Date.now() + 260))));
+    },
+    { passive: !1 },
+  ),
+    window.addEventListener("keydown", (c) => {
+      if (document.body.dataset.openRoom !== "crew") return;
+      const n = X();
+      (c.key === "ArrowRight" && (c.preventDefault(), w(O + 1)),
+        c.key === "ArrowLeft" && (c.preventDefault(), w(O - 1)),
+        c.key === "ArrowDown" && (c.preventDefault(), w(O + n)),
+        c.key === "ArrowUp" && (c.preventDefault(), w(O - n)),
+        c.key === "Home" && (c.preventDefault(), w(0)),
+        c.key === "End" && (c.preventDefault(), w(q.length - 1)));
+    }),
+    window.addEventListener("resize", () => {
+      document.body.dataset.openRoom === "crew" && h();
+    }),
+    Ee((c) => {
+      c === "crew" && w(0, !0);
+    }),
+    p(),
+    h());
+}
+function ka() {
+  Ee((e) => {
+    e === "city" && window.location.assign("/city/");
+  });
+}
+function xa(e, o, l) {
+  if (!e || !o) return;
+  const S = window.matchMedia("(prefers-reduced-motion: reduce)").matches,
+    m = e.getContext("2d", { alpha: !0 }),
+    g = document.createElement("canvas"),
+    L = g.getContext("2d", { willReadFrequently: !0 });
+  if (!m || !L) return;
+  const z = [],
+    $ = 46,
+    q = () => {
+      const t = e.parentElement;
+      if (!t) return;
+      const c = Math.min(2400, Math.round(t.offsetWidth)),
+        n = Math.round(t.offsetHeight);
+      (c === e.width && n === e.height) ||
+        ((e.width = c), (e.height = n), m.clearRect(0, 0, c, n));
+    },
+    O = () => {
+      for (let t = 0; t < 8; t++) {
+        const c = e.width * (0.13 + Math.random() * 0.15),
+          n = e.height * (0.15 + Math.random() * 0.18),
+          k = e.height * l.band[0],
+          C = e.height * l.band[1] - n,
+          G = {
+            x: e.width * 0.05 + Math.random() * (e.width * 0.9 - c),
+            y: k + Math.random() * Math.max(1, C - k),
+            w: c,
+            h: n,
+          };
+        if (
+          !z.some(
+            (u) =>
+              u &&
+              !(
+                G.x > u.x + u.w + $ * 2 ||
+                G.x + G.w + $ * 2 < u.x ||
+                G.y > u.y + u.h + 8 ||
+                G.y + G.h + 8 < u.y
+              ),
+          )
+        )
+          return G;
+      }
+      return null;
+    },
+    U = (t) => {
+      t && m.clearRect(t.x - $, t.y - 2, t.w + $ * 2, t.h + 4);
+    },
+    p = (t) => {
+      const c = l.src(t);
+      if (!c) return;
+      const n = Math.max(5, Math.round(Math.min(t.w, t.h) / 22)),
+        k = Math.max(2, Math.round(t.w / n)),
+        C = Math.max(2, Math.round(t.h / n));
+      ((g.width = k),
+        (g.height = C),
+        L.clearRect(0, 0, k, C),
+        L.drawImage(o, c.x, c.y, c.w, c.h, 0, 0, k, C));
+      try {
+        const u = L.getImageData(0, 0, k, C),
+          _ = u.data;
+        for (let N = 0; N < _.length; N += 4) {
+          const ie = Math.max(_[N], _[N + 1], _[N + 2]),
+            J = Math.min(_[N], _[N + 1], _[N + 2]);
+          for (let s = 0; s < 3; s++) {
+            const v = Math.min(255, J + (_[N + s] - J) * 1.45);
+            _[N + s] = Math.round(v / 51) * 51;
+          }
+          ie - J < 10 && (_[N + 2] = Math.min(255, _[N + 2] + 26));
+        }
+        L.putImageData(u, 0, 0);
+      } catch {}
+      ((m.imageSmoothingEnabled = !1),
+        m.drawImage(g, 0, 0, k, C, t.x, t.y, t.w, t.h),
+        (m.imageSmoothingEnabled = !0),
+        m.save(),
+        m.beginPath(),
+        m.rect(t.x, t.y, t.w, t.h),
+        m.clip(),
+        (m.globalAlpha = 0.16),
+        (m.fillStyle = "#04050A"));
+      for (let u = t.x; u < t.x + t.w; u += n) m.fillRect(u, t.y, 1, t.h);
+      for (let u = t.y; u < t.y + t.h; u += n) m.fillRect(t.x, u, t.w, 1);
+      m.restore();
+      const G = Math.ceil(t.w / n),
+        b = Math.ceil(t.h / n);
+      for (let u = 0; u < G; u++)
+        for (let _ = 0; _ < b; _++) {
+          const N = u === 0 || _ === 0 || u === G - 1 || _ === b - 1,
+            ie = u === 1 || _ === 1 || u === G - 2 || _ === b - 2;
+          ((N && Math.random() < 0.62) || (ie && Math.random() < 0.24)) &&
+            m.clearRect(t.x + u * n, t.y + _ * n, n + 0.5, n + 0.5);
+        }
+    },
+    R = (t, c) => {
+      if (!t) return;
+      const n = l.src(t);
+      if (!n) return;
+      U(t);
+      const k = 14 + Math.round(Math.random() * 10);
+      for (let C = 0; C < k; C++) {
+        const G = C / k,
+          b = t.h / k,
+          u = (Math.random() - 0.5) * t.w * 0.42 * c;
+        m.drawImage(
+          o,
+          n.x,
+          n.y + G * n.h,
+          n.w,
+          n.h / k,
+          t.x + u,
+          t.y + G * b,
+          t.w,
+          b + 1,
+        );
+      }
+      ((m.globalCompositeOperation = "screen"),
+        (m.globalAlpha = 0.5 * c),
+        m.drawImage(o, n.x, n.y, n.w, n.h, t.x - 7 * c, t.y, t.w, t.h),
+        (m.globalCompositeOperation = "source-over"),
+        (m.globalAlpha = 1));
+      for (let C = 0; C < 3; C++)
+        Math.random() > 0.55 * c ||
+          ((m.fillStyle =
+            Math.random() < 0.5
+              ? "rgba(0,209,255,.55)"
+              : "rgba(255,43,107,.45)"),
+          m.fillRect(
+            t.x,
+            t.y + Math.random() * t.h,
+            t.w,
+            2 + Math.random() * 7,
+          ));
+    },
+    K = (t, c) => {
+      t &&
+        (U(t),
+        m.save(),
+        (m.globalAlpha = Math.max(0, Math.min(1, c))),
+        p(t),
+        m.restore());
+    },
+    X = (t, c) => {
+      let n = null,
+        k = 0,
+        C = 0;
+      const G = (_, N, ie, J) => {
+          let s = 0;
+          cancelAnimationFrame(k);
+          const v = (I) => {
+            s || (s = I);
+            const T = Math.min(1, (I - s) / ie);
+            (S ? K(n, _ + (N - _) * T) : R(n, _ + (N - _) * T),
+              T < 1 ? (k = requestAnimationFrame(v)) : J());
+          };
+          k = requestAnimationFrame(v);
+        },
+        b = () => {
+          (U(n), (n = null), (z[t] = null));
+        },
+        u = () => {
+          if (document.hidden || !l.ready()) {
+            C = window.setTimeout(u, 900);
+            return;
+          }
+          if (
+            (z.some(Boolean) || q(), !e.width || !e.height || !o.naturalWidth)
+          ) {
+            C = window.setTimeout(u, 600);
+            return;
+          }
+          if (((n = O()), !n)) {
+            C = window.setTimeout(u, 1200);
+            return;
+          }
+          ((z[t] = n),
+            G(S ? 0 : 0.15, 1, S ? 700 : 240, () => {
+              n &&
+                (U(n),
+                p(n),
+                (C = window.setTimeout(
+                  () => {
+                    if (!n || !l.ready()) {
+                      (b(), (C = window.setTimeout(u, 1500)));
+                      return;
+                    }
+                    G(1, S ? 0 : 0.12, S ? 800 : 280, () => {
+                      (b(),
+                        (C = window.setTimeout(
+                          u,
+                          l.gap[0] + Math.random() * l.gap[1],
+                        )));
+                    });
+                  },
+                  l.hold[0] + Math.random() * l.hold[1],
+                )));
+            }));
+        };
+      return (
+        (C = window.setTimeout(u, c)),
+        {
+          stop: () => {
+            (clearTimeout(C), cancelAnimationFrame(k), b());
+          },
+        }
+      );
+    };
+  let h = [];
+  const w = () => {
+      if (!h.length) {
+        q();
+        for (let t = 0; t < l.sparks; t++)
+          h.push(X(t, 500 + t * 1400 + Math.random() * 900));
+      }
+    },
+    j = () => {
+      for (const t of h) t.stop();
+      ((h = []), (z.length = 0));
+    };
+  (o.complete && o.naturalWidth
+    ? w()
+    : (o.addEventListener("load", w),
+      o
+        .decode?.()
+        .then(w)
+        .catch(() => {})),
+    window.addEventListener("resize", () => {
+      z.some(Boolean) || q();
+    }),
+    document.addEventListener("visibilitychange", () => {
+      document.hidden ? j() : o.complete && o.naturalWidth && w();
+    }));
+}
+function Ma() {
+  const e = document.querySelector('[data-room="cellar"]'),
+    o = e?.querySelector("[data-spots]"),
+    l = e?.querySelector("[data-spot-tips]");
+  if (!e || !o || !l) return;
+  const S = "http://www.w3.org/2000/svg";
+  o.setAttribute("viewBox", `0 0 ${Se.w} ${Se.h}`);
+  const m = e.querySelector(".hub__media"),
+    g = e.querySelector(".hub__screen");
+  m?.style.setProperty("--room-art", `url('${V("/media/club_room.webp")}')`);
+  const L = () => {
+      if (!g || !m) return;
+      const p = m.getBoundingClientRect();
+      if (!p.width || !p.height) return;
+      const R = Math.min(p.width / Se.w, p.height / Se.h),
+        K = (p.width - Se.w * R) / 2,
+        X = (p.height - Se.h * R) / 2;
+      (g.style.setProperty("--sx", `${K + Ye.x * R}px`),
+        g.style.setProperty("--sy", `${X + Ye.y * R}px`),
+        g.style.setProperty("--sw", `${Ye.w * R}px`),
+        g.style.setProperty("--sh", `${Ye.h * R}px`),
+        g.style.setProperty("--unit", `${(Ye.w * R) / 100}px`),
+        e.classList.add("is-fitted"),
+        e.dataset.stop === "legend" &&
+          e.dataset.plate !== "open" &&
+          (e.dataset.plate = "screen"),
+        $());
+    },
+    z = g?.querySelector(".hub__body"),
+    $ = () => {
+      if (!g || !z || e.dataset.plate !== "screen") return;
+      const p = g.querySelector(".hub__plane");
+      if (!p || !p.clientHeight) return;
+      const R = getComputedStyle(p),
+        K =
+          p.clientHeight -
+          parseFloat(R.paddingTop) -
+          parseFloat(R.paddingBottom),
+        X = () => {
+          const w = [...p.children].filter(
+            (c) =>
+              c.offsetHeight > 0 && getComputedStyle(c).position !== "absolute",
+          );
+          if (!w.length) return 0;
+          const j = Math.min(...w.map((c) => c.offsetTop));
+          return Math.max(...w.map((c) => c.offsetTop + c.offsetHeight)) - j;
+        };
+      let h = 12;
+      for (z.style.setProperty("--lines", String(h)); h > 1 && X() > K;)
+        ((h -= 1), z.style.setProperty("--lines", String(h)));
+    };
+  (L(),
+    window.addEventListener("resize", L),
+    Ee((p) => {
+      p === "cellar" && (L(), requestAnimationFrame(L));
+    }),
+    m && "ResizeObserver" in window && new ResizeObserver(() => L()).observe(m),
+    document.fonts?.ready.then(L),
+    new MutationObserver($).observe(e, {
+      attributes: !0,
+      attributeFilter: ["data-plate"],
+    }));
+  const q = e.querySelector(".hub__media img");
+  q && !q.complete && q.addEventListener("load", L);
+  const O = e.querySelector("[data-glitch]"),
+    U = new Image();
+  ((U.src = V("/media/club_room.webp")),
+    $e() ||
+      xa(O, U, {
+        sparks: 2,
+        band: [0.2, 0.84],
+        hold: [1800, 2200],
+        gap: [1600, 2200],
+        src: (p) => {
+          if (!O?.width || !U.naturalWidth) return null;
+          const R = Math.min(O.width / Se.w, O.height / Se.h),
+            K = Se.w * R,
+            X = Se.h * R,
+            h = (O.width - K) / 2,
+            w = (O.height - X) / 2,
+            j = U.naturalWidth / K;
+          return { x: (p.x - h) * j, y: (p.y - w) * j, w: p.w * j, h: p.h * j };
+        },
+        ready: () =>
+          document.body.dataset.openRoom === "cellar" &&
+          e.dataset.stop === "legend" &&
+          e.dataset.plate === "screen",
+      }));
+  for (const p of zi) {
+    const R = document.createElementNS(S, "g");
+    (R.setAttribute("class", "spot"),
+      R.setAttribute("role", "button"),
+      R.setAttribute("tabindex", "0"),
+      R.setAttribute("aria-label", `${p.title} — ${p.note}`));
+    const K = document.createElementNS(S, "ellipse");
+    (K.setAttribute("class", "spot__halo"),
+      K.setAttribute("cx", String(p.cx)),
+      K.setAttribute("cy", String(p.cy)),
+      K.setAttribute("rx", String(p.rx)),
+      K.setAttribute("ry", String(p.ry)),
+      K.setAttribute("fill", "url(#spotGlow)"));
+    const X = document.createElementNS(S, "circle");
+    (X.setAttribute("class", "spot__ring"),
+      X.setAttribute("cx", String(p.cx)),
+      X.setAttribute("cy", String(p.cy)),
+      X.setAttribute("r", "5"));
+    const h = document.createElementNS(S, "circle");
+    (h.setAttribute("class", "spot__dot"),
+      h.setAttribute("cx", String(p.cx)),
+      h.setAttribute("cy", String(p.cy)),
+      h.setAttribute("r", "5"));
+    const w = document.createElementNS(S, "ellipse");
+    (w.setAttribute("class", "spot__hit"),
+      w.setAttribute("cx", String(p.cx)),
+      w.setAttribute("cy", String(p.cy)),
+      w.setAttribute("rx", String(p.rx)),
+      w.setAttribute("ry", String(Math.max(p.ry, p.rx * 0.4))),
+      R.append(K, X, h, w),
+      o.append(R));
+    const j = document.createElement("div");
+    ((j.className = "spot__tip"),
+      j.style.setProperty("--l", `${(p.cx / Se.w) * 100}%`),
+      j.style.setProperty("--t", `${(p.cy / Se.h) * 100}%`),
+      (j.innerHTML = `<b>${p.title}</b><i>${p.note}</i>`),
+      l.append(j));
+    const t = (n) => {
+        (R.classList.toggle("is-lit", n), j.classList.toggle("is-lit", n));
+      },
+      c = () => Ve(p.room);
+    (R.addEventListener("pointerenter", () => t(!0)),
+      R.addEventListener("pointerleave", () => t(!1)),
+      R.addEventListener("focus", () => t(!0)),
+      R.addEventListener("blur", () => t(!1)),
+      R.addEventListener("click", c),
+      R.addEventListener("keydown", (n) => {
+        (n.key === "Enter" || n.key === " ") && (n.preventDefault(), c());
+      }));
+  }
+}
+const Sa = V("/media/club_room.webp"),
+  ei = (e) =>
+    e.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"),
+  _a = {
+    id: "legend",
+    label: "Basement",
+    kicker: "X Cup CTF Russia · 2026",
+    title: `META
+The Universe`,
+    body: "Sophie's consciousness — here. More doubles., needle, And the backup key is only for the real one.. Backup disassembled by game worlds: Every world gives its share., The key to the decoding is only the one, to be found.",
+    media: "",
+    poster: "",
+    world: null,
+  };
+function Ea() {
+  return [
+    _a,
+    ...yt.map((e) => ({
+      id: e.id,
+      label: e.name,
+      kicker: `${e.index} · ${e.theme}`,
+      title: e.name,
+      body: e.body,
+      media: e.video,
+      poster: e.poster,
+      world: e,
+    })),
+  ];
+}
+function La() {
+  const e = document.querySelector("[data-hub]");
+  if (!e) return null;
+  const o = (p) => e.querySelector(p),
+    l = o("[data-hub-video]"),
+    S = o("[data-hub-kicker]"),
+    m = o("[data-hub-title]"),
+    g = o("[data-hub-body]"),
+    L = o("[data-hub-meta]"),
+    z = o("[data-hub-rail]"),
+    $ = o("[data-hub-label]"),
+    q = o("[data-hub-count]"),
+    O = o("[data-hub-prev]"),
+    U = o("[data-hub-next]");
+  return !l || !S || !m || !g || !L || !z || !$ || !q || !O || !U
+    ? null
+    : {
+        root: e,
+        video: l,
+        kicker: S,
+        title: m,
+        body: g,
+        meta: L,
+        rail: z,
+        label: $,
+        count: q,
+        prev: O,
+        next: U,
+      };
+}
+function Aa() {
+  const e = La();
+  if (!e) return;
+  let o = !1;
+  const l = e.root.querySelector(".hub__play"),
+    S = () => {
+      const h = e.root.classList.contains("is-fitted");
+      o
+        ? (e.root.dataset.plate = "open")
+        : h && e.root.dataset.stop === "legend"
+          ? (e.root.dataset.plate = "screen")
+          : delete e.root.dataset.plate;
+    },
+    m = Ea();
+  let g = 0;
+  const L = m.map((h, w) => {
+      const j = document.createElement("button");
+      return (
+        (j.type = "button"),
+        (j.className = "hub__tick"),
+        j.setAttribute("aria-label", h.label),
+        j.addEventListener("click", () => $(w)),
+        e.rail.append(j),
+        j
+      );
+    }),
+    z = () => {
+      const h = m[g];
+      ((e.root.dataset.stop = h.id),
+        S(),
+        l &&
+          ((l.hidden = !h.world?.play),
+          h.world?.id === "city"
+            ? (l.dataset.goto = "city")
+            : (l.dataset.goto = "kzf")),
+        (e.kicker.textContent = h.kicker));
+      const [w = "", ...j] = h.title.split(`
+`);
+      ((e.title.innerHTML =
+        ei(w) + j.map((c) => `<span class="l2">${ei(c)}</span>`).join("")),
+        (e.body.textContent = h.body),
+        (e.label.textContent = h.label),
+        (e.meta.innerHTML =
+          h.world === null
+            ? ci
+                .map((c) => `<span><i>${c.label}</i> ${c.value}</span>`)
+                .join("")
+            : h.world.statusLabel
+              ? `<span><i>status</i> ${h.world.statusLabel}</span>`
+              : ""),
+        (e.count.innerHTML = `<b>${yt.length}</b> game-world · online selection, finale`),
+        L.forEach((c, n) => c.classList.toggle("is-here", n === g)),
+        (e.prev.disabled = g === 0),
+        (e.next.disabled = g === m.length - 1),
+        e.root
+          .querySelector(".hub__media")
+          ?.style.setProperty("--room-art", `url('${h.poster || Sa}')`),
+        (e.root.dataset.hasVideo = h.media && !$e() ? "1" : "0"),
+        !h.media || $e()
+          ? (e.video.removeAttribute("src"), (e.video.dataset.src = ""))
+          : e.video.dataset.src !== h.media &&
+            ((e.video.dataset.src = h.media),
+            (e.video.poster = h.poster),
+            (e.video.src = h.media),
+            e.video.play().catch(() => {})));
+    },
+    $ = (h) => {
+      const w = Math.max(0, Math.min(m.length - 1, h));
+      w !== g &&
+        (e.root.classList.add("is-moving"),
+        (e.root.dataset.dir = w > g ? "next" : "prev"),
+        (g = w),
+        z(),
+        window.setTimeout(() => e.root.classList.remove("is-moving"), 420));
+    };
+  (e.prev.addEventListener("click", () => $(g - 1)),
+    e.next.addEventListener("click", () => $(g + 1)),
+    window.addEventListener("keydown", (h) => {
+      const w = (document.activeElement?.tagName ?? "").toLowerCase();
+      w === "input" ||
+        w === "textarea" ||
+        (h.key === "ArrowLeft" && $(g - 1), h.key === "ArrowRight" && $(g + 1));
+    }));
+  let q = null,
+    O = 0;
+  (e.root.addEventListener("pointerdown", (h) => {
+    h.target.closest("button, a, .spot") || ((q = h.clientX), (O = h.clientY));
+  }),
+    window.addEventListener("pointerup", (h) => {
+      if (q === null) return;
+      const w = h.clientX - q,
+        j = h.clientY - O;
+      ((q = null),
+        Math.abs(w) > 90 &&
+          Math.abs(w) > Math.abs(j) * 1.6 &&
+          $(g + (w < 0 ? 1 : -1)));
+    }));
+  const U = e.root.querySelector("[data-hub-expand]"),
+    p = (h) => {
+      ((o = h),
+        e.root.classList.toggle("is-expanded", h),
+        S(),
+        U?.setAttribute("aria-expanded", String(h)),
+        U && (U.textContent = h ? "✕ Swerve" : "⤢ Deploy"));
+    },
+    R = e.root.querySelector(".hub__screen"),
+    K = () => p(!o);
+  (U?.addEventListener("click", K),
+    R?.addEventListener("click", (h) => {
+      h.target.closest("button, a") || o || K();
+    }),
+    window.addEventListener("keydown", (h) => {
+      h.key === "Escape" && p(!1);
+    }));
+  const X = () => {
+    if (window.location.hash !== "#worlds") return;
+    const h = Math.min(1, m.length - 1);
+    g !== h && ((g = h), z());
+  };
+  (Ee((h) => {
+    h === "cellar" && (p(!1), X());
+  }),
+    window.addEventListener("hashchange", X),
+    e.root.addEventListener("pointermove", (h) => {
+      const w = (h.clientX / window.innerWidth - 0.5) * -24,
+        j = (h.clientY / window.innerHeight - 0.5) * -16;
+      (e.root.style.setProperty("--px", `${w.toFixed(1)}px`),
+        e.root.style.setProperty("--py", `${j.toFixed(1)}px`));
+    }),
+    z());
+}
+function $a() {
+  const e = document.querySelector('[data-room="info"]'),
+    o = e?.querySelector("[data-info-lead]"),
+    l = e?.querySelector("[data-info-terms]"),
+    S = e?.querySelector("[data-info-signup]"),
+    m = e?.querySelector("[data-info-toggle]");
+  if (!(!e || !o || !l || !S || !m)) {
+    o.textContent = Hi;
+    for (const g of Ri) {
+      const L = document.createElement("div");
+      ((L.className = "rack__term"),
+        (L.innerHTML = `<span class="rack__key">${g.key}</span><span class="rack__value">${g.value}</span>`),
+        l.append(L));
+    }
+    for (const g of Di) {
+      const L = document.createElement("a");
+      ((L.className = "rack__signup"),
+        (L.href = g.href),
+        (L.target = "_blank"),
+        (L.rel = "noopener"),
+        (L.innerHTML = `<b>${g.name}</b><span>sign up →</span>`),
+        S.append(L));
+    }
+    (m.addEventListener("click", () => {
+      const g = S.hidden;
+      ((S.hidden = !g), m.setAttribute("aria-expanded", String(g)));
+    }),
+      Ee((g) => {
+        g === "info" &&
+          ((S.hidden = !0), m.setAttribute("aria-expanded", "false"));
+      }));
+  }
+}
+function qa() {
+  const e = document.querySelector('[data-room="legend"]'),
+    o = e?.querySelector("[data-legend-lead]"),
+    l = e?.querySelector("[data-legend-story]"),
+    S = e?.querySelector("[data-legend-blocks]"),
+    m = e?.querySelector("[data-legend-facts]"),
+    g = e?.querySelector("[data-legend-page]");
+  if (!e || !o || !l || !S || !m || !g) return;
+  o.textContent = Fi;
+  const L = `<figure class="legend__shot">
        <img src="${mt.src}" alt="High-rise at night — above that cellar" loading="lazy" decoding="async" />
        <figcaption><b>${mt.caption}</b> · ${mt.note}</figcaption>
-     </figure>`,z=Math.min(2,Pt.length-1);l.innerHTML=Pt.map(($,q)=>`<h3>${$.title}</h3>${$.body.map(O=>`<p>${O}</p>`).join("")}`+(q===z?L:"")).join(""),S.innerHTML=[`<div><h3>Game worlds</h3><p class="mono">${yt.map($=>`${$.index} · ${$.name.replace(/\n/g," ")}`).join("<br />")}</p></div>`,...ji.map($=>`<div><h3>${$.title}</h3><p class="mono">${$.lines.join("<br />")}</p></div>`)].join(""),m.innerHTML=ci.map($=>`<span><i>${$.label}</i> ${$.value}</span>`).join(""),Ee($=>{$==="legend"&&(g.scrollTop=0)})}const ti=620,Ta=232,ii=4,Ia=30,Pa=116;function Ca(){const e=document.querySelector('[data-room="partners"]'),o=e?.querySelector("[data-rot]"),l=e?.querySelector("[data-rot-shaft]"),S=e?.querySelector("[data-rot-name]"),m=e?.querySelector("[data-rot-hint]"),g=e?.querySelector("[data-rot-chips]"),L=e?.querySelector("[data-rot-up]"),z=e?.querySelector("[data-rot-down]");if(!e||!o||!l||!S||!g||!L||!z)return;const $=pt.map((n,k)=>{const C=document.createElement("div");C.className="rot__tier",C.style.setProperty("--y",`${k*ti}px`);const G=[];for(let b=0;b<n.logos.length;b+=ii)G.push(n.logos.slice(b,b+ii));return G.forEach((b,u)=>{const _=Math.min(Pa,b.length*Ia),N=(u-(G.length-1)/2)*Ta;b.forEach((ie,J)=>{const s=b.length===1?0:-_/2+_*J/(b.length-1),v=document.createElement("figure");v.className="rot__plate",v.style.setProperty("--a",`${s.toFixed(2)}deg`),v.style.setProperty("--dy",`${N.toFixed(0)}px`),v.innerHTML=`<img src="${ie}" alt="Partner logo" loading="lazy" decoding="async" />`,C.append(v)})}),l.append(C),C}),q=pt.map((n,k)=>{const C=document.createElement("button");return C.type="button",C.textContent=n.tier,C.addEventListener("click",()=>w(k)),g.append(C),C}),O=()=>{for(const n of l.querySelectorAll("img"))$e()||n.decode().catch(()=>{})},U=window.requestIdleCallback;U?U(O,{timeout:2500}):window.setTimeout(O,900);let p=0,R=[];const K=()=>{l.style.setProperty("--fit","1"),R=$.map(n=>{const k=[...n.querySelectorAll(".rot__plate")].map(_=>_.getBoundingClientRect());if(!k.length)return{w:0,h:0};const C=Math.min(...k.map(_=>_.top)),G=Math.max(...k.map(_=>_.bottom)),b=Math.min(...k.map(_=>_.left));return{w:Math.max(...k.map(_=>_.right))-b,h:G-C}})},X=()=>{const n=R[p],k=g.getBoundingClientRect().top;m&&(m.style.bottom=`${(window.innerHeight-k+8).toFixed(0)}px`);const C=S.getBoundingClientRect().bottom+16,G=(m?m.getBoundingClientRect().top:k)-12;if(l.style.top=`${((C+G)/2).toFixed(0)}px`,!n||!n.h){l.style.setProperty("--fit","1");return}const b=Math.min(1,(G-C)/n.h,(window.innerWidth-64)/n.w);l.style.setProperty("--fit",Math.max(.4,b).toFixed(3))},h=()=>{l.style.setProperty("--lift",(p*ti).toFixed(1)),$.forEach((n,k)=>n.classList.toggle("is-here",k===p)),q.forEach((n,k)=>n.setAttribute("aria-current",k===p?"true":"false")),S.textContent=pt[p]?.tier??"",L.disabled=p===0,z.disabled=p===$.length-1,X()},w=(n,k=!1)=>{p=Math.max(0,Math.min($.length-1,n)),l.classList.toggle("is-snapped",k),h(),k&&requestAnimationFrame(()=>l.classList.remove("is-snapped"))};let j=0,t=0;o.addEventListener("wheel",n=>{n.preventDefault(),!(Date.now()<t)&&(j+=n.deltaY,Math.abs(j)>90&&(w(p+(j>0?1:-1)),j=0,t=Date.now()+420))},{passive:!1});let c=null;o.addEventListener("pointerdown",n=>{n.target.closest("button")||(n.preventDefault(),c={y:n.clientY,at:p})}),window.addEventListener("pointermove",n=>{if(!c)return;const k=Math.round((c.y-n.clientY)/120);k!==0&&c.at+k!==p&&w(c.at+k)}),window.addEventListener("pointerup",()=>{c=null}),window.addEventListener("keydown",n=>{document.body.dataset.openRoom==="partners"&&((n.key==="ArrowDown"||n.key==="ArrowRight")&&(n.preventDefault(),w(p+1)),(n.key==="ArrowUp"||n.key==="ArrowLeft")&&(n.preventDefault(),w(p-1)),n.key==="Home"&&(n.preventDefault(),w(0)),n.key==="End"&&(n.preventDefault(),w($.length-1)))}),window.addEventListener("resize",()=>{document.body.dataset.openRoom==="partners"&&(K(),X())}),L.addEventListener("click",()=>w(p-1)),z.addEventListener("click",()=>w(p+1)),Ee(n=>{n==="partners"&&(K(),w(0,!0))}),h()}const Ra=[[0,.51157,.24792,.09028],[.00217,.51042,.24792,.09144],[.00434,.51042,.24792,.09144],[.00651,.51157,.24583,.09144],[.00868,.51157,.24583,.09144],[.01085,.51157,.24375,.09144],[.01302,.51157,.24167,.09144],[.01518,.51157,.24167,.09259],[.01735,.51157,.2375,.09259],[.01952,.51157,.23542,.09259],[.02169,.51157,.23333,.09375],[.02386,.51157,.22917,.09375],[.02603,.51157,.225,.09491],[.0282,.51157,.22083,.09491],[.03037,.51157,.21667,.09606],[.03254,.51157,.2125,.09606],[.03471,.51157,.20625,.09722],[.03688,.51157,.2,.09838],[.03905,.51157,.19375,.09838],[.04121,.51157,.1875,.09954],[.04338,.51157,.18125,.09954],[.04555,.51273,.175,.10069],[.04772,.51273,.16875,.10069],[.04989,.51273,.16458,.09954],[.05206,.51273,.15833,.09954],[.05423,.51273,.15417,.09838],[.0564,.51273,.14792,.09722],[.05857,.51273,.14167,.09606],[.06074,.51273,.1375,.09375],[.06291,.51273,.13125,.09259],[.06508,.51273,.125,.08912],[.06725,.51389,.11667,.08796],[.06941,.51273,.10833,.08565],[.07158,.51389,.09792,.08218],[.07375,.51389,.0875,.07986],[.07592,.51389,.07708,.07407],[.07809,.51505,.06667,.06829]],He=Ra,Da=1.32,ai=864,ni=480,Ha=2e4,ut=96,za=["/media/club_room.webp","/media/cellar.webp"].map(V),Fa=90,ja=700,Oa=1500,Ne=[...gt.map(e=>e.at),1];function Na(e){const o=document.querySelector('[data-room="home"]'),l=o?.querySelector("[data-town]"),S=o?.querySelector("[data-town-camera]");if(!o||!l||!S)return;const m=o.querySelector("[data-cue]"),g=o.querySelector("[data-step-up]"),L=o.querySelector("[data-step-down]"),z=o.querySelector("[data-flight]"),$=o.querySelector("[data-beacon]");let q=!1;const O=o.querySelector("[data-beats]");if(O)for(const y of gt){const B=document.createElement("article");B.className="beat",B.innerHTML=`<h2>${y.title}</h2><p>${y.body}</p>`,O.append(B)}const U=Array.from(o.querySelectorAll(".beat"));let p=0,R=0,K=0,X=!1;const h=y=>Math.max(0,Math.min(1,y)),w=()=>Math.max(1,S.scrollHeight-l.clientHeight),j=()=>{if(!$)return;const y=He[0],B=He[He.length-1];if(!y||!B||!q||p<y[0]||p>B[0]){$.removeAttribute("data-on");return}let Q=0;for(;Q<He.length-2&&He[Q+1][0]<p;)Q+=1;const ae=He[Q],Z=He[Q+1]??ae,ne=Z[0]-ae[0],be=ne>0?(p-ae[0])/ne:0,le=ae[1]+(Z[1]-ae[1])*be,_e=ae[2]+(Z[2]-ae[2])*be,Te=ae[3]+(Z[3]-ae[3])*be,ye=Math.max(c.w/ai,c.h/ni),re=ai*ye,Le=ni*ye,Ie=(c.w-re)/2,we=(c.h-Le)/2,qe=`${(Ie+le*re).toFixed(1)}|${(we+_e*Le).toFixed(1)}|${(Te*re*Da).toFixed(1)}`;if(qe!==G){G=qe;const[Pe,fe,ke]=qe.split("|");$.style.setProperty("--bx",`${Pe}px`),$.style.setProperty("--by",`${fe}px`),$.style.setProperty("--bw",`${ke}px`)}$.hidden=!1,$.dataset.on=""},t=new Array(ut).fill(null);let c={w:0,h:0},n=-1,k=-1,C=-1,G="";const b=()=>{const y=l.getBoundingClientRect();c={w:y.width,h:y.height}};b();const u=y=>{for(let B=0;B<t.length;B++){const Q=t[y-B];if(Q)return{img:Q,exact:B===0};const ae=t[y+B];if(ae)return{img:ae,exact:!1}}return null},_=()=>{if(!z)return;const y=Math.min(2,window.devicePixelRatio||1),B=Math.round(c.w*y),Q=Math.round(c.h*y);if(!B||!Q)return;const ae=p*(t.length-1),Z=Math.max(0,Math.min(t.length-1,Math.floor(ae))),ne=Math.round((ae-Z)*20)/20,be=z.width===B&&z.height===Q;if(be&&Z===n&&ne===k)return;const le=u(Z);if(!le)return;be||(z.width=B,z.height=Q);const _e=z.getContext("2d");if(!_e)return;n=Z,k=ne;const Te=re=>{const Le=Math.max(B/re.naturalWidth,Q/re.naturalHeight),Ie=re.naturalWidth*Le,we=re.naturalHeight*Le;_e.drawImage(re,(B-Ie)/2,(Q-we)/2,Ie,we)};_e.globalAlpha=1,Te(le.img);const ye=t[Z+1];le.exact&&ne>0&&ye&&(_e.globalAlpha=ne,Te(ye),_e.globalAlpha=1)},N=()=>{q&&_(),j(),q||(S.style.transform=`translate3d(0, ${-p*w()}px, 0)`),o.classList.toggle("is-underground",p>.72),m&&(m.style.opacity=p>.04?"0":"1");let y=0;gt.forEach((B,Q)=>{p>=B.at-.08&&(y=Q)}),y!==C&&(C=y,U.forEach((B,Q)=>B.classList.toggle("is-here",Q===y))),g&&(g.disabled=R<=Ne[0]),p>.995&&!X&&(X=!0,Ve("cellar"))};let ie=0,J=0;const s=y=>y<.5?4*y*y*y:1-(-2*y+2)**3/2,v=()=>{const y=Math.min(1,(performance.now()-J)/Oa);p=ie+(R-ie)*s(y),N(),K=y<1?requestAnimationFrame(v):0},I=y=>{const B=h(y);if(Math.abs(B-p)<5e-4){R=B,p=B,N();return}ie=p,R=B,J=performance.now(),K||(K=requestAnimationFrame(v))},T=()=>{let y=0,B=1/0;return Ne.forEach((Q,ae)=>{const Z=Math.abs(Q-R);Z<B&&(B=Z,y=ae)}),y},E=y=>{const B=Math.max(0,Math.min(Ne.length-1,T()+y));I(Ne[B]??0)};let te=0,oe=0;o.addEventListener("wheel",y=>{if(y.preventDefault(),Date.now()<oe){te=0;return}te+=y.deltaY,!(Math.abs(te)<Fa)&&(E(te>0?1:-1),te=0,oe=Date.now()+ja)},{passive:!1}),o.addEventListener("keydown",y=>{(y.key==="ArrowDown"||y.key==="PageDown")&&(y.preventDefault(),E(1)),(y.key==="ArrowUp"||y.key==="PageUp")&&(y.preventDefault(),E(-1)),y.key==="Home"&&(y.preventDefault(),I(0)),y.key==="End"&&(y.preventDefault(),I(1))});let se=null,ve=0;if(o.addEventListener("pointerdown",y=>{y.target.closest("button, a")||(se=y.clientY,ve=0)}),window.addEventListener("pointermove",y=>{if(se===null)return;const B=(se-y.clientY)/(l.clientHeight*4);ve+=B,R=h(R+B),se=y.clientY,K||(K=requestAnimationFrame(v))}),window.addEventListener("pointerup",()=>{se!==null&&(se=null,Math.abs(ve)>.004?E(ve>0?1:-1):I(Ne[T()]??0))}),g?.addEventListener("click",()=>E(-1)),L?.addEventListener("click",()=>E(1)),window.addEventListener("resize",()=>{b(),n=-1,N()}),!z)e.done();else{const y=()=>{q||(o.classList.remove("is-cine"),e.done())};window.setTimeout(y,Ha);const B=Z=>V(`/media/descent/${String(Z).padStart(3,"0")}.webp`),Q=$e()?[0]:Ne.map(Z=>Math.round(Z*(ut-1))),ae=()=>{if(!$e())for(let Z=0;Z<ut;Z++)t[Z]||Ke(B(Z)).then(ne=>{t[Z]=ne,q&&Math.abs(Z-n)<=1&&(n=-1,N())})};qi([...Q.map(B),...za],e.set).then(Z=>{if(Q.forEach((ne,be)=>{t[ne]=Z[be]??null}),!t.some(Boolean)){y();return}q=!0,o.classList.add("is-cine"),N(),e.done(),ae()}).catch(y)}Ee(y=>{y==="home"&&(X=!1,p=0,R=0,n=-1,k=-1,C=-1,b(),N())}),N()}const Wa={2017:[{file:"2017-2017-01.webp",title:"Finals. 2017 · snapshot 1",kind:"img",group:"photo"},{file:"2017-2017-02.webp",title:"Finals. 2017 · snapshot 2",kind:"img",group:"photo"},{file:"2017-2017-03.webp",title:"Finals. 2017 · snapshot 3",kind:"img",group:"photo"},{file:"2017-2017-04.webp",title:"Finals. 2017 · snapshot 4",kind:"img",group:"photo"},{file:"2017-2017-05.webp",title:"Finals. 2017 · snapshot 5",kind:"img",group:"photo"},{file:"2017-2017-06.webp",title:"Finals. 2017 · snapshot 6",kind:"img",group:"photo"},{file:"2017-2017-07.webp",title:"Finals. 2017 · snapshot 7",kind:"img",group:"photo"},{file:"2017-2017-08.webp",title:"Finals. 2017 · snapshot 8",kind:"img",group:"photo"},{file:"2017-2017-09.webp",title:"Finals. 2017 · snapshot 9",kind:"img",group:"photo"},{file:"2017-2017-10.webp",title:"Finals. 2017 · snapshot 10",kind:"img",group:"photo"},{file:"2017-2017-11.webp",title:"Finals. 2017 · snapshot 11",kind:"img",group:"photo"},{file:"2017-2017-12.webp",title:"Finals. 2017 · snapshot 12",kind:"img",group:"photo"}],2018:[{file:"2018-screensaver.webp",title:"Cup screensaver",kind:"img",group:"identity"},{file:"2018-t-shirt.webp",title:"Member's shirt",kind:"img",group:"identity"},{file:"2018-2018-game.webp",title:"Screenplay",kind:"img",group:"art"},{file:"2018-roller.mp4",title:"Cup roller 2018",kind:"vid",group:"video"},{file:"2018-remagic.mp4",title:"Panorama of the room 360°",kind:"vid",group:"video"},{file:"2018-2018-01.webp",title:"Finals. 2018 · snapshot 1",kind:"img",group:"photo"},{file:"2018-2018-02.webp",title:"Finals. 2018 · snapshot 2",kind:"img",group:"photo"},{file:"2018-2018-03.webp",title:"Finals. 2018 · snapshot 3",kind:"img",group:"photo"},{file:"2018-2018-04.webp",title:"Finals. 2018 · snapshot 4",kind:"img",group:"photo"},{file:"2018-2018-06.webp",title:"Finals. 2018 · snapshot 6",kind:"img",group:"photo"},{file:"2018-2018-07.webp",title:"Finals. 2018 · snapshot 7",kind:"img",group:"photo"},{file:"2018-2018-08.webp",title:"Finals. 2018 · snapshot 8",kind:"img",group:"photo"},{file:"2018-2018-09.webp",title:"Finals. 2018 · snapshot 9",kind:"img",group:"photo"},{file:"2018-2018-10.webp",title:"Finals. 2018 · snapshot 10",kind:"img",group:"photo"},{file:"2018-2018-11.webp",title:"Finals. 2018 · snapshot 11",kind:"img",group:"photo"},{file:"2018-2018-12.webp",title:"Finals. 2018 · snapshot 12",kind:"img",group:"photo"},{file:"2018-2018-13.webp",title:"Finals. 2018 · snapshot 13",kind:"img",group:"photo"},{file:"2018-2018-14.webp",title:"Finals. 2018 · snapshot 14",kind:"img",group:"photo"},{file:"2018-2018-15.webp",title:"Finals. 2018 · snapshot 15",kind:"img",group:"photo"}],2019:[{file:"2019-footballer.webp",title:"Participants' T-shirts",kind:"img",group:"identity"},{file:"2019-winners.webp",title:"Hood the winners",kind:"img",group:"identity"},{file:"2019-banner.webp",title:"Main banner",kind:"img",group:"art"},{file:"2019-wall_facade.webp",title:"Wall and facade",kind:"img",group:"art"},{file:"2019-legend",title:"Legend. 2019 · KZFland and Metra Veehkim",kind:"doc",pages:19,group:"legend"},{file:"2019-survey.mp4",title:"Overview video",kind:"vid",group:"video"},{file:"2019-photo-01.webp",title:"Finals. 2019 · snapshot 1",kind:"img",group:"photo"},{file:"2019-photo-02.webp",title:"Finals. 2019 · snapshot 2",kind:"img",group:"photo"},{file:"2019-photo-03.webp",title:"Finals. 2019 · snapshot 3",kind:"img",group:"photo"},{file:"2019-photo-04.webp",title:"Finals. 2019 · snapshot 4",kind:"img",group:"photo"},{file:"2019-photo-05.webp",title:"Finals. 2019 · snapshot 5",kind:"img",group:"photo"},{file:"2019-photo-06.webp",title:"Finals. 2019 · snapshot 6",kind:"img",group:"photo"},{file:"2019-photo-07.webp",title:"Finals. 2019 · snapshot 7",kind:"img",group:"photo"},{file:"2019-photo-08.webp",title:"Finals. 2019 · snapshot 8",kind:"img",group:"photo"},{file:"2019-photo-09.webp",title:"Finals. 2019 · snapshot 9",kind:"img",group:"photo"}],2020:[{file:"2020-alys.webp",title:"Banner · Alice's concept",kind:"img",group:"identity"},{file:"2020-ctf2020.webp",title:"Screensaver of the final",kind:"img",group:"identity"},{file:"2020-sticker-watch.webp",title:"Clock stickers",kind:"img",group:"identity"},{file:"2020-wwwbanner.webp",title:"Website banner",kind:"img",group:"art"},{file:"2020-cat-a76c6619.webp",title:"Cheshire cat",kind:"img",group:"art"},{file:"2020-jury_page_001.webp",title:"Jury reversal",kind:"img",group:"art"},{file:"2020-translation_page_001.webp",title:"Broadcast reversal",kind:"img",group:"art"},{file:"2020-img_2699.webp",title:"Illustration of the legend",kind:"img",group:"art"},{file:"2020-legend",title:"Legend. 2020 · Alice.",kind:"doc",pages:24,group:"legend"},{file:"2020-roller.mp4",title:"Cup roller",kind:"vid",group:"video"},{file:"2020-reward.mp4",title:"Reward",kind:"vid",group:"video"},{file:"2020-photo-01.webp",title:"Finals. 2020 · snapshot 1",kind:"img",group:"photo"},{file:"2020-photo-02.webp",title:"Finals. 2020 · snapshot 2",kind:"img",group:"photo"},{file:"2020-photo-03.webp",title:"Finals. 2020 · snapshot 3",kind:"img",group:"photo"},{file:"2020-photo-04.webp",title:"Finals. 2020 · snapshot 4",kind:"img",group:"photo"},{file:"2020-photo-05.webp",title:"Finals. 2020 · snapshot 5",kind:"img",group:"photo"},{file:"2020-photo-06.webp",title:"Finals. 2020 · snapshot 6",kind:"img",group:"photo"},{file:"2020-photo-07.webp",title:"Finals. 2020 · snapshot 7",kind:"img",group:"photo"},{file:"2020-photo-08.webp",title:"Finals. 2020 · snapshot 8",kind:"img",group:"photo"},{file:"2020-photo-09.webp",title:"Finals. 2020 · snapshot 9",kind:"img",group:"photo"},{file:"2020-photo-10.webp",title:"Finals. 2020 · snapshot 10",kind:"img",group:"photo"},{file:"2020-photo-11.webp",title:"Finals. 2020 · snapshot 11",kind:"img",group:"photo"},{file:"2020-photo-12.webp",title:"Finals. 2020 · snapshot 12",kind:"img",group:"photo"},{file:"2020-photo-13.webp",title:"Finals. 2020 · snapshot 13",kind:"img",group:"photo"},{file:"2020-photo-14.webp",title:"Finals. 2020 · snapshot 14",kind:"img",group:"photo"},{file:"2020-photo-15.webp",title:"Finals. 2020 · snapshot 15",kind:"img",group:"photo"}],2021:[{file:"2021-finale.webp",title:"Map of the city from the sadord",kind:"img",group:"art"},{file:"2021-ATM.mp4",title:"ATM · work",kind:"vid",group:"art"},{file:"2021-broken-down ATM.mp4",title:"ATM · broken",kind:"vid",group:"art"},{file:"2021-ATM.mp4",title:"ATM · attacked",kind:"vid",group:"art"},{file:"2021-factory.mp4",title:"Factory · work",kind:"vid",group:"art"},{file:"2021-broken-down.mp4",title:"Factory · broken",kind:"vid",group:"art"},{file:"2021-plant-attack.mp4",title:"Factory · attacked",kind:"vid",group:"art"},{file:"2021-shop-house.mp4",title:"Electronics store · work",kind:"vid",group:"art"},{file:"2021-broken-down.mp4",title:"Electronics store · broken",kind:"vid",group:"art"},{file:"2021-shop-attack.mp4",title:"Electronics store · attacked",kind:"vid",group:"art"},{file:"2021-park-work.mp4",title:"Theme park · work",kind:"vid",group:"art"},{file:"2021-park-broken.mp4",title:"Theme park · broken",kind:"vid",group:"art"},{file:"2021-park-attack.mp4",title:"Theme park · attacked",kind:"vid",group:"art"},{file:"2021-booth.mp4",title:"Transformer booth · work",kind:"vid",group:"art"},{file:"2021-broken-house.mp4",title:"Transformer booth · broken",kind:"vid",group:"art"},{file:"2021-booth.mp4",title:"Transformer booth · attacked",kind:"vid",group:"art"},{file:"2021-survey.mp4",title:"Overview video",kind:"vid",group:"video"},{file:"2021-photo-01.webp",title:"Finals. 2021 · snapshot 1",kind:"img",group:"photo"},{file:"2021-photo-02.webp",title:"Finals. 2021 · snapshot 2",kind:"img",group:"photo"},{file:"2021-photo-03.webp",title:"Finals. 2021 · snapshot 3",kind:"img",group:"photo"},{file:"2021-photo-04.webp",title:"Finals. 2021 · snapshot 4",kind:"img",group:"photo"},{file:"2021-photo-05.webp",title:"Finals. 2021 · snapshot 5",kind:"img",group:"photo"},{file:"2021-photo-06.webp",title:"Finals. 2021 · snapshot 6",kind:"img",group:"photo"},{file:"2021-photo-07.webp",title:"Finals. 2021 · snapshot 7",kind:"img",group:"photo"},{file:"2021-photo-08.webp",title:"Finals. 2021 · snapshot 8",kind:"img",group:"photo"}],2022:[{file:"2022-2022cup.webp",title:"Cup 2022",kind:"img",group:"identity"},{file:"2022-jurist.webp",title:"Jury, turnover",kind:"img",group:"identity"},{file:"2022-jury.webp",title:"Jury T-shirt",kind:"img",group:"identity"},{file:"2022-merch.webp",title:"merch",kind:"img",group:"identity"},{file:"2022-sticker.webp",title:"Stickers.",kind:"img",group:"identity"},{file:"2022-t-shirt.webp",title:"T-shirt",kind:"img",group:"identity"},{file:"2022-merchants.webp",title:"Merchants",kind:"img",group:"identity"},{file:"2022-whole-town.mp4",title:"City facilities: work and ruin",kind:"vid",group:"art"},{file:"2022-render-town.webp",title:"City rendering",kind:"img",group:"art"},{file:"2022-finale.mp4",title:"A film about the end",kind:"vid",group:"video"},{file:"2022-photo-01.webp",title:"Finals. 2022 · snapshot 1",kind:"img",group:"photo"},{file:"2022-photo-02.webp",title:"Finals. 2022 · snapshot 2",kind:"img",group:"photo"},{file:"2022-photo-03.webp",title:"Finals. 2022 · snapshot 3",kind:"img",group:"photo"},{file:"2022-photo-04.webp",title:"Finals. 2022 · snapshot 4",kind:"img",group:"photo"},{file:"2022-photo-05.webp",title:"Finals. 2022 · snapshot 5",kind:"img",group:"photo"},{file:"2022-photo-06.webp",title:"Finals. 2022 · snapshot 6",kind:"img",group:"photo"},{file:"2022-photo-07.webp",title:"Finals. 2022 · snapshot 7",kind:"img",group:"photo"},{file:"2022-photo-08.webp",title:"Finals. 2022 · snapshot 8",kind:"img",group:"photo"},{file:"2022-photo-09.webp",title:"Finals. 2022 · snapshot 9",kind:"img",group:"photo"},{file:"2022-photo-10.webp",title:"Finals. 2022 · snapshot 10",kind:"img",group:"photo"},{file:"2022-photo-11.webp",title:"Finals. 2022 · snapshot 11",kind:"img",group:"photo"},{file:"2022-photo-12.webp",title:"Finals. 2022 · snapshot 12",kind:"img",group:"photo"},{file:"2022-photo-13.webp",title:"Finals. 2022 · snapshot 13",kind:"img",group:"photo"}],2023:[{file:"2023-sweatshirts.webp",title:"Thicks",kind:"img",group:"identity"},{file:"2023-print-jury.webp",title:"Jury sweatshirt print",kind:"img",group:"identity"},{file:"2023-print organizing committee.webp",title:"Print of the organizing committee sweatshirt",kind:"img",group:"identity"},{file:"2023-printgroup.webp",title:"Tech group sweatshirt print",kind:"img",group:"identity"},{file:"2023-figure-1.webp",title:"Growth figure 1",kind:"img",group:"art"},{file:"2023-figure-2.webp",title:"Growth figure 2",kind:"img",group:"art"},{file:"2023-figure-3.webp",title:"Growth figure 3",kind:"img",group:"art"},{file:"2023-metravehkeem.webp",title:"Metra Veehkim",kind:"img",group:"art"},{file:"2023-visual-1.webp",title:"Visualization 1",kind:"img",group:"art"},{file:"2023-visual-2.webp",title:"Visualization 2",kind:"img",group:"art"},{file:"2023-visual-3.webp",title:"Visualization 3",kind:"img",group:"art"},{file:"2023-visual-4.webp",title:"Visualization 4",kind:"img",group:"art"},{file:"2023-lighthouse.webp",title:"Lighthouse",kind:"img",group:"art"},{file:"2023-fly-around.mp4",title:"Flying over the city",kind:"vid",group:"art"},{file:"2023-banner.webp",title:"Main banner",kind:"img",group:"art"},{file:"2023-finale.mp4",title:"Finals., visualization",kind:"vid",group:"art"},{file:"2023-legend",title:"Legend. 2023 · icy Metra Veehkim",kind:"doc",pages:24,group:"legend"},{file:"2023-result.mp4",title:"The final video",kind:"vid",group:"video"},{file:"2023-photo-01.webp",title:"Finals. 2023 · snapshot 1",kind:"img",group:"photo"},{file:"2023-photo-02.webp",title:"Finals. 2023 · snapshot 2",kind:"img",group:"photo"},{file:"2023-photo-03.webp",title:"Finals. 2023 · snapshot 3",kind:"img",group:"photo"},{file:"2023-photo-04.webp",title:"Finals. 2023 · snapshot 4",kind:"img",group:"photo"},{file:"2023-photo-05.webp",title:"Finals. 2023 · snapshot 5",kind:"img",group:"photo"},{file:"2023-photo-06.webp",title:"Finals. 2023 · snapshot 6",kind:"img",group:"photo"},{file:"2023-photo-07.webp",title:"Finals. 2023 · snapshot 7",kind:"img",group:"photo"},{file:"2023-photo-08.webp",title:"Finals. 2023 · snapshot 8",kind:"img",group:"photo"},{file:"2023-photo-09.webp",title:"Finals. 2023 · snapshot 9",kind:"img",group:"photo"},{file:"2023-photo-10.webp",title:"Finals. 2023 · snapshot 10",kind:"img",group:"photo"},{file:"2023-photo-11.webp",title:"Finals. 2023 · snapshot 11",kind:"img",group:"photo"},{file:"2023-photo-12.webp",title:"Finals. 2023 · snapshot 12",kind:"img",group:"photo"},{file:"2023-photo-13.webp",title:"Finals. 2023 · snapshot 13",kind:"img",group:"photo"}],2024:[{file:"2024-hoodie.webp",title:"Tolstoy, blue",kind:"img",group:"identity"},{file:"2024-hoodie.webp",title:"Tolstoy, red",kind:"img",group:"identity"},{file:"2024-volunteer shirts-2.webp",title:"Volunteer T-shirts, turnover",kind:"img",group:"identity"},{file:"2024-volunteer shirts.webp",title:"Volunteer T-shirts",kind:"img",group:"identity"},{file:"2024-hoodie.webp",title:"VIP-sweatshirt",kind:"img",group:"identity"},{file:"2024-t-shirt.webp",title:"Member's shirt",kind:"img",group:"identity"},{file:"2024-shape.webp",title:"Growth figure · Ave.",kind:"img",group:"art"},{file:"2024-sophi.webp",title:"Growth figure · Sophie",kind:"img",group:"art"},{file:"2024-tail-piece.webp",title:"Growth figure · Tails",kind:"img",group:"art"},{file:"2024-demo_full.mp4",title:"demo",kind:"vid",group:"art"},{file:"2024-visual-1.webp",title:"Visualization 1",kind:"img",group:"art"},{file:"2024-visual-3.webp",title:"Visualization 3",kind:"img",group:"art"},{file:"2024-visual-4.webp",title:"Visualization 4",kind:"img",group:"art"},{file:"2024-visual-5.webp",title:"Visualization 5",kind:"img",group:"art"},{file:"2024-visual-6.webp",title:"Visualization 6",kind:"img",group:"art"},{file:"2024-visual-7.webp",title:"Visualization 7",kind:"img",group:"art"},{file:"2024-legend",title:"Legend. 2024 · manga",kind:"doc",pages:78,group:"legend"},{file:"2024-cup_ctf_8_prologue_20-12_sound_design-1.mp4",title:"Prologue VIII Cup",kind:"vid",group:"video"},{file:"2024-photo-01.webp",title:"Finals. 2024 · snapshot 1",kind:"img",group:"photo"},{file:"2024-photo-02.webp",title:"Finals. 2024 · snapshot 2",kind:"img",group:"photo"},{file:"2024-photo-03.webp",title:"Finals. 2024 · snapshot 3",kind:"img",group:"photo"},{file:"2024-photo-04.webp",title:"Finals. 2024 · snapshot 4",kind:"img",group:"photo"},{file:"2024-photo-05.webp",title:"Finals. 2024 · snapshot 5",kind:"img",group:"photo"},{file:"2024-photo-06.webp",title:"Finals. 2024 · snapshot 6",kind:"img",group:"photo"},{file:"2024-photo-07.webp",title:"Finals. 2024 · snapshot 7",kind:"img",group:"photo"},{file:"2024-photo-08.webp",title:"Finals. 2024 · snapshot 8",kind:"img",group:"photo"},{file:"2024-photo-09.webp",title:"Finals. 2024 · snapshot 9",kind:"img",group:"photo"},{file:"2024-photo-10.webp",title:"Finals. 2024 · snapshot 10",kind:"img",group:"photo"},{file:"2024-photo-11.webp",title:"Finals. 2024 · snapshot 11",kind:"img",group:"photo"},{file:"2024-photo-12.webp",title:"Finals. 2024 · snapshot 12",kind:"img",group:"photo"},{file:"2024-photo-13.webp",title:"Finals. 2024 · snapshot 13",kind:"img",group:"photo"},{file:"2024-photo-14.webp",title:"Finals. 2024 · snapshot 14",kind:"img",group:"photo"},{file:"2024-photo-15.webp",title:"Finals. 2024 · snapshot 15",kind:"img",group:"photo"},{file:"2024-photo-16.webp",title:"Finals. 2024 · snapshot 16",kind:"img",group:"photo"},{file:"2024-photo-17.webp",title:"Finals. 2024 · snapshot 17",kind:"img",group:"photo"},{file:"2024-photo-18.webp",title:"Finals. 2024 · snapshot 18",kind:"img",group:"photo"}],2025:[{file:"2025-merch.webp",title:"season-merch",kind:"img",group:"identity"},{file:"2025-print-thick.webp",title:"A hoodie print",kind:"img",group:"identity"},{file:"2025-badge.webp",title:"Baigi",kind:"img",group:"identity"},{file:"2025-figure.webp",title:"Growth figure · Asya",kind:"img",group:"art"},{file:"2025-visual-1.webp",title:"Visualization 1",kind:"img",group:"art"},{file:"2025-visual-2.webp",title:"Visualization 2",kind:"img",group:"art"},{file:"2025-visual-3.webp",title:"Visualization 3",kind:"img",group:"art"},{file:"2025-sophie-1.webp",title:"Sophie · frame 1",kind:"img",group:"art"},{file:"2025-sophie-2.webp",title:"Sophie · frame 2",kind:"img",group:"art"},{file:"2025-sophie-3.webp",title:"Sophie · frame 3",kind:"img",group:"art"},{file:"2025-play-stage.mp4",title:"Playing scene",kind:"vid",group:"art"},{file:"2025-legend",title:"Legend. 2025",kind:"doc",pages:36,group:"legend"},{file:"2025-prologue-1.mp4",title:"Prologue · selection",kind:"vid",group:"video"},{file:"2025-prologue-2.mp4",title:"Prologue · finale",kind:"vid",group:"video"},{file:"2025-prologue-3.mp4",title:"Prologue · superfinal",kind:"vid",group:"video"},{file:"2025-photo-01.webp",title:"Finals. 2025 · snapshot 1",kind:"img",group:"photo"},{file:"2025-photo-02.webp",title:"Finals. 2025 · snapshot 2",kind:"img",group:"photo"},{file:"2025-photo-03.webp",title:"Finals. 2025 · snapshot 3",kind:"img",group:"photo"},{file:"2025-photo-04.webp",title:"Finals. 2025 · snapshot 4",kind:"img",group:"photo"},{file:"2025-photo-05.webp",title:"Finals. 2025 · snapshot 5",kind:"img",group:"photo"},{file:"2025-photo-06.webp",title:"Finals. 2025 · snapshot 6",kind:"img",group:"photo"},{file:"2025-photo-07.webp",title:"Finals. 2025 · snapshot 7",kind:"img",group:"photo"},{file:"2025-photo-08.webp",title:"Finals. 2025 · snapshot 8",kind:"img",group:"photo"},{file:"2025-photo-09.webp",title:"Finals. 2025 · snapshot 9",kind:"img",group:"photo"},{file:"2025-photo-10.webp",title:"Finals. 2025 · snapshot 10",kind:"img",group:"photo"},{file:"2025-photo-11.webp",title:"Finals. 2025 · snapshot 11",kind:"img",group:"photo"},{file:"2025-photo-12.webp",title:"Finals. 2025 · snapshot 12",kind:"img",group:"photo"},{file:"2025-photo-13.webp",title:"Finals. 2025 · snapshot 13",kind:"img",group:"photo"},{file:"2025-photo-14.webp",title:"Finals. 2025 · snapshot 14",kind:"img",group:"photo"},{file:"2025-photo-15.webp",title:"Finals. 2025 · snapshot 15",kind:"img",group:"photo"},{file:"2025-photo-16.webp",title:"Finals. 2025 · snapshot 16",kind:"img",group:"photo"}]},Ba=[{id:"identity",name:"Identity."},{id:"art",name:"Visualization"},{id:"legend",name:"Legend."},{id:"report",name:"Report."},{id:"video",name:"Rollers."},{id:"photo",name:"Photographs"}],oi=Wa,Ua=470,Ya=300,Ga=16,ri=45,Ka=3,di="126, 214, 255";function Xa(){const e=document.querySelector('[data-room="vault"]'),o=e?.querySelector("[data-vault]"),l=e?.querySelector("[data-vault-rail]"),S=e?.querySelector("[data-vault-chips]"),m=e?.querySelector("[data-vault-act]"),g=e?.querySelector("[data-vault-count]"),L=e?.querySelector("[data-vault-card]"),z=e?.querySelector("[data-vault-prev]"),$=e?.querySelector("[data-vault-next]");if(!e||!o||!l||!S||!m||!L||!z||!$)return;const q=document.createElement("div");q.className="doc-wrap",q.hidden=!0,o.append(q);let O=null,U=null;const p=document.createElement("div");p.className="bay bay--intro",p.style.setProperty("--t",di),p.innerHTML=`
+     </figure>`,
+    z = Math.min(2, Pt.length - 1);
+  ((l.innerHTML = Pt.map(
+    ($, q) =>
+      `<h3>${$.title}</h3>${$.body.map((O) => `<p>${O}</p>`).join("")}` +
+      (q === z ? L : ""),
+  ).join("")),
+    (S.innerHTML = [
+      `<div><h3>Game worlds</h3><p class="mono">${yt.map(($) => `${$.index} · ${$.name.replace(/\n/g, " ")}`).join("<br />")}</p></div>`,
+      ...ji.map(
+        ($) =>
+          `<div><h3>${$.title}</h3><p class="mono">${$.lines.join("<br />")}</p></div>`,
+      ),
+    ].join("")),
+    (m.innerHTML = ci
+      .map(($) => `<span><i>${$.label}</i> ${$.value}</span>`)
+      .join("")),
+    Ee(($) => {
+      $ === "legend" && (g.scrollTop = 0);
+    }));
+}
+const ti = 620,
+  Ta = 232,
+  ii = 4,
+  Ia = 30,
+  Pa = 116;
+function Ca() {
+  const e = document.querySelector('[data-room="partners"]'),
+    o = e?.querySelector("[data-rot]"),
+    l = e?.querySelector("[data-rot-shaft]"),
+    S = e?.querySelector("[data-rot-name]"),
+    m = e?.querySelector("[data-rot-hint]"),
+    g = e?.querySelector("[data-rot-chips]"),
+    L = e?.querySelector("[data-rot-up]"),
+    z = e?.querySelector("[data-rot-down]");
+  if (!e || !o || !l || !S || !g || !L || !z) return;
+  const $ = pt.map((n, k) => {
+      const C = document.createElement("div");
+      ((C.className = "rot__tier"), C.style.setProperty("--y", `${k * ti}px`));
+      const G = [];
+      for (let b = 0; b < n.logos.length; b += ii)
+        G.push(n.logos.slice(b, b + ii));
+      return (
+        G.forEach((b, u) => {
+          const _ = Math.min(Pa, b.length * Ia),
+            N = (u - (G.length - 1) / 2) * Ta;
+          b.forEach((ie, J) => {
+            const s = b.length === 1 ? 0 : -_ / 2 + (_ * J) / (b.length - 1),
+              v = document.createElement("figure");
+            ((v.className = "rot__plate"),
+              v.style.setProperty("--a", `${s.toFixed(2)}deg`),
+              v.style.setProperty("--dy", `${N.toFixed(0)}px`),
+              (v.innerHTML = `<img src="${ie}" alt="Partner logo" loading="lazy" decoding="async" />`),
+              C.append(v));
+          });
+        }),
+        l.append(C),
+        C
+      );
+    }),
+    q = pt.map((n, k) => {
+      const C = document.createElement("button");
+      return (
+        (C.type = "button"),
+        (C.textContent = n.tier),
+        C.addEventListener("click", () => w(k)),
+        g.append(C),
+        C
+      );
+    }),
+    O = () => {
+      for (const n of l.querySelectorAll("img"))
+        $e() || n.decode().catch(() => {});
+    },
+    U = window.requestIdleCallback;
+  U ? U(O, { timeout: 2500 }) : window.setTimeout(O, 900);
+  let p = 0,
+    R = [];
+  const K = () => {
+      (l.style.setProperty("--fit", "1"),
+        (R = $.map((n) => {
+          const k = [...n.querySelectorAll(".rot__plate")].map((_) =>
+            _.getBoundingClientRect(),
+          );
+          if (!k.length) return { w: 0, h: 0 };
+          const C = Math.min(...k.map((_) => _.top)),
+            G = Math.max(...k.map((_) => _.bottom)),
+            b = Math.min(...k.map((_) => _.left));
+          return { w: Math.max(...k.map((_) => _.right)) - b, h: G - C };
+        })));
+    },
+    X = () => {
+      const n = R[p],
+        k = g.getBoundingClientRect().top;
+      m && (m.style.bottom = `${(window.innerHeight - k + 8).toFixed(0)}px`);
+      const C = S.getBoundingClientRect().bottom + 16,
+        G = (m ? m.getBoundingClientRect().top : k) - 12;
+      if (((l.style.top = `${((C + G) / 2).toFixed(0)}px`), !n || !n.h)) {
+        l.style.setProperty("--fit", "1");
+        return;
+      }
+      const b = Math.min(1, (G - C) / n.h, (window.innerWidth - 64) / n.w);
+      l.style.setProperty("--fit", Math.max(0.4, b).toFixed(3));
+    },
+    h = () => {
+      (l.style.setProperty("--lift", (p * ti).toFixed(1)),
+        $.forEach((n, k) => n.classList.toggle("is-here", k === p)),
+        q.forEach((n, k) =>
+          n.setAttribute("aria-current", k === p ? "true" : "false"),
+        ),
+        (S.textContent = pt[p]?.tier ?? ""),
+        (L.disabled = p === 0),
+        (z.disabled = p === $.length - 1),
+        X());
+    },
+    w = (n, k = !1) => {
+      ((p = Math.max(0, Math.min($.length - 1, n))),
+        l.classList.toggle("is-snapped", k),
+        h(),
+        k && requestAnimationFrame(() => l.classList.remove("is-snapped")));
+    };
+  let j = 0,
+    t = 0;
+  o.addEventListener(
+    "wheel",
+    (n) => {
+      (n.preventDefault(),
+        !(Date.now() < t) &&
+          ((j += n.deltaY),
+          Math.abs(j) > 90 &&
+            (w(p + (j > 0 ? 1 : -1)), (j = 0), (t = Date.now() + 420))));
+    },
+    { passive: !1 },
+  );
+  let c = null;
+  (o.addEventListener("pointerdown", (n) => {
+    n.target.closest("button") ||
+      (n.preventDefault(), (c = { y: n.clientY, at: p }));
+  }),
+    window.addEventListener("pointermove", (n) => {
+      if (!c) return;
+      const k = Math.round((c.y - n.clientY) / 120);
+      k !== 0 && c.at + k !== p && w(c.at + k);
+    }),
+    window.addEventListener("pointerup", () => {
+      c = null;
+    }),
+    window.addEventListener("keydown", (n) => {
+      document.body.dataset.openRoom === "partners" &&
+        ((n.key === "ArrowDown" || n.key === "ArrowRight") &&
+          (n.preventDefault(), w(p + 1)),
+        (n.key === "ArrowUp" || n.key === "ArrowLeft") &&
+          (n.preventDefault(), w(p - 1)),
+        n.key === "Home" && (n.preventDefault(), w(0)),
+        n.key === "End" && (n.preventDefault(), w($.length - 1)));
+    }),
+    window.addEventListener("resize", () => {
+      document.body.dataset.openRoom === "partners" && (K(), X());
+    }),
+    L.addEventListener("click", () => w(p - 1)),
+    z.addEventListener("click", () => w(p + 1)),
+    Ee((n) => {
+      n === "partners" && (K(), w(0, !0));
+    }),
+    h());
+}
+const Ra = [
+    [0, 0.51157, 0.24792, 0.09028],
+    [0.00217, 0.51042, 0.24792, 0.09144],
+    [0.00434, 0.51042, 0.24792, 0.09144],
+    [0.00651, 0.51157, 0.24583, 0.09144],
+    [0.00868, 0.51157, 0.24583, 0.09144],
+    [0.01085, 0.51157, 0.24375, 0.09144],
+    [0.01302, 0.51157, 0.24167, 0.09144],
+    [0.01518, 0.51157, 0.24167, 0.09259],
+    [0.01735, 0.51157, 0.2375, 0.09259],
+    [0.01952, 0.51157, 0.23542, 0.09259],
+    [0.02169, 0.51157, 0.23333, 0.09375],
+    [0.02386, 0.51157, 0.22917, 0.09375],
+    [0.02603, 0.51157, 0.225, 0.09491],
+    [0.0282, 0.51157, 0.22083, 0.09491],
+    [0.03037, 0.51157, 0.21667, 0.09606],
+    [0.03254, 0.51157, 0.2125, 0.09606],
+    [0.03471, 0.51157, 0.20625, 0.09722],
+    [0.03688, 0.51157, 0.2, 0.09838],
+    [0.03905, 0.51157, 0.19375, 0.09838],
+    [0.04121, 0.51157, 0.1875, 0.09954],
+    [0.04338, 0.51157, 0.18125, 0.09954],
+    [0.04555, 0.51273, 0.175, 0.10069],
+    [0.04772, 0.51273, 0.16875, 0.10069],
+    [0.04989, 0.51273, 0.16458, 0.09954],
+    [0.05206, 0.51273, 0.15833, 0.09954],
+    [0.05423, 0.51273, 0.15417, 0.09838],
+    [0.0564, 0.51273, 0.14792, 0.09722],
+    [0.05857, 0.51273, 0.14167, 0.09606],
+    [0.06074, 0.51273, 0.1375, 0.09375],
+    [0.06291, 0.51273, 0.13125, 0.09259],
+    [0.06508, 0.51273, 0.125, 0.08912],
+    [0.06725, 0.51389, 0.11667, 0.08796],
+    [0.06941, 0.51273, 0.10833, 0.08565],
+    [0.07158, 0.51389, 0.09792, 0.08218],
+    [0.07375, 0.51389, 0.0875, 0.07986],
+    [0.07592, 0.51389, 0.07708, 0.07407],
+    [0.07809, 0.51505, 0.06667, 0.06829],
+  ],
+  He = Ra,
+  Da = 1.32,
+  ai = 864,
+  ni = 480,
+  Ha = 2e4,
+  ut = 96,
+  za = ["/media/club_room.webp", "/media/cellar.webp"].map(V),
+  Fa = 90,
+  ja = 700,
+  Oa = 1500,
+  Ne = [...gt.map((e) => e.at), 1];
+function Na(e) {
+  const o = document.querySelector('[data-room="home"]'),
+    l = o?.querySelector("[data-town]"),
+    S = o?.querySelector("[data-town-camera]");
+  if (!o || !l || !S) return;
+  const m = o.querySelector("[data-cue]"),
+    g = o.querySelector("[data-step-up]"),
+    L = o.querySelector("[data-step-down]"),
+    z = o.querySelector("[data-flight]"),
+    $ = o.querySelector("[data-beacon]");
+  let q = !1;
+  const O = o.querySelector("[data-beats]");
+  if (O)
+    for (const y of gt) {
+      const B = document.createElement("article");
+      ((B.className = "beat"),
+        (B.innerHTML = `<h2>${y.title}</h2><p>${y.body}</p>`),
+        O.append(B));
+    }
+  const U = Array.from(o.querySelectorAll(".beat"));
+  let p = 0,
+    R = 0,
+    K = 0,
+    X = !1;
+  const h = (y) => Math.max(0, Math.min(1, y)),
+    w = () => Math.max(1, S.scrollHeight - l.clientHeight),
+    j = () => {
+      if (!$) return;
+      const y = He[0],
+        B = He[He.length - 1];
+      if (!y || !B || !q || p < y[0] || p > B[0]) {
+        $.removeAttribute("data-on");
+        return;
+      }
+      let Q = 0;
+      for (; Q < He.length - 2 && He[Q + 1][0] < p;) Q += 1;
+      const ae = He[Q],
+        Z = He[Q + 1] ?? ae,
+        ne = Z[0] - ae[0],
+        be = ne > 0 ? (p - ae[0]) / ne : 0,
+        le = ae[1] + (Z[1] - ae[1]) * be,
+        _e = ae[2] + (Z[2] - ae[2]) * be,
+        Te = ae[3] + (Z[3] - ae[3]) * be,
+        ye = Math.max(c.w / ai, c.h / ni),
+        re = ai * ye,
+        Le = ni * ye,
+        Ie = (c.w - re) / 2,
+        we = (c.h - Le) / 2,
+        qe = `${(Ie + le * re).toFixed(1)}|${(we + _e * Le).toFixed(1)}|${(Te * re * Da).toFixed(1)}`;
+      if (qe !== G) {
+        G = qe;
+        const [Pe, fe, ke] = qe.split("|");
+        ($.style.setProperty("--bx", `${Pe}px`),
+          $.style.setProperty("--by", `${fe}px`),
+          $.style.setProperty("--bw", `${ke}px`));
+      }
+      (($.hidden = !1), ($.dataset.on = ""));
+    },
+    t = new Array(ut).fill(null);
+  let c = { w: 0, h: 0 },
+    n = -1,
+    k = -1,
+    C = -1,
+    G = "";
+  const b = () => {
+    const y = l.getBoundingClientRect();
+    c = { w: y.width, h: y.height };
+  };
+  b();
+  const u = (y) => {
+      for (let B = 0; B < t.length; B++) {
+        const Q = t[y - B];
+        if (Q) return { img: Q, exact: B === 0 };
+        const ae = t[y + B];
+        if (ae) return { img: ae, exact: !1 };
+      }
+      return null;
+    },
+    _ = () => {
+      if (!z) return;
+      const y = Math.min(2, window.devicePixelRatio || 1),
+        B = Math.round(c.w * y),
+        Q = Math.round(c.h * y);
+      if (!B || !Q) return;
+      const ae = p * (t.length - 1),
+        Z = Math.max(0, Math.min(t.length - 1, Math.floor(ae))),
+        ne = Math.round((ae - Z) * 20) / 20,
+        be = z.width === B && z.height === Q;
+      if (be && Z === n && ne === k) return;
+      const le = u(Z);
+      if (!le) return;
+      be || ((z.width = B), (z.height = Q));
+      const _e = z.getContext("2d");
+      if (!_e) return;
+      ((n = Z), (k = ne));
+      const Te = (re) => {
+        const Le = Math.max(B / re.naturalWidth, Q / re.naturalHeight),
+          Ie = re.naturalWidth * Le,
+          we = re.naturalHeight * Le;
+        _e.drawImage(re, (B - Ie) / 2, (Q - we) / 2, Ie, we);
+      };
+      ((_e.globalAlpha = 1), Te(le.img));
+      const ye = t[Z + 1];
+      le.exact &&
+        ne > 0 &&
+        ye &&
+        ((_e.globalAlpha = ne), Te(ye), (_e.globalAlpha = 1));
+    },
+    N = () => {
+      (q && _(),
+        j(),
+        q || (S.style.transform = `translate3d(0, ${-p * w()}px, 0)`),
+        o.classList.toggle("is-underground", p > 0.72),
+        m && (m.style.opacity = p > 0.04 ? "0" : "1"));
+      let y = 0;
+      (gt.forEach((B, Q) => {
+        p >= B.at - 0.08 && (y = Q);
+      }),
+        y !== C &&
+          ((C = y),
+          U.forEach((B, Q) => B.classList.toggle("is-here", Q === y))),
+        g && (g.disabled = R <= Ne[0]),
+        p > 0.995 && !X && ((X = !0), Ve("cellar")));
+    };
+  let ie = 0,
+    J = 0;
+  const s = (y) => (y < 0.5 ? 4 * y * y * y : 1 - (-2 * y + 2) ** 3 / 2),
+    v = () => {
+      const y = Math.min(1, (performance.now() - J) / Oa);
+      ((p = ie + (R - ie) * s(y)),
+        N(),
+        (K = y < 1 ? requestAnimationFrame(v) : 0));
+    },
+    I = (y) => {
+      const B = h(y);
+      if (Math.abs(B - p) < 5e-4) {
+        ((R = B), (p = B), N());
+        return;
+      }
+      ((ie = p),
+        (R = B),
+        (J = performance.now()),
+        K || (K = requestAnimationFrame(v)));
+    },
+    T = () => {
+      let y = 0,
+        B = 1 / 0;
+      return (
+        Ne.forEach((Q, ae) => {
+          const Z = Math.abs(Q - R);
+          Z < B && ((B = Z), (y = ae));
+        }),
+        y
+      );
+    },
+    E = (y) => {
+      const B = Math.max(0, Math.min(Ne.length - 1, T() + y));
+      I(Ne[B] ?? 0);
+    };
+  let te = 0,
+    oe = 0;
+  (o.addEventListener(
+    "wheel",
+    (y) => {
+      if ((y.preventDefault(), Date.now() < oe)) {
+        te = 0;
+        return;
+      }
+      ((te += y.deltaY),
+        !(Math.abs(te) < Fa) &&
+          (E(te > 0 ? 1 : -1), (te = 0), (oe = Date.now() + ja)));
+    },
+    { passive: !1 },
+  ),
+    o.addEventListener("keydown", (y) => {
+      ((y.key === "ArrowDown" || y.key === "PageDown") &&
+        (y.preventDefault(), E(1)),
+        (y.key === "ArrowUp" || y.key === "PageUp") &&
+          (y.preventDefault(), E(-1)),
+        y.key === "Home" && (y.preventDefault(), I(0)),
+        y.key === "End" && (y.preventDefault(), I(1)));
+    }));
+  let se = null,
+    ve = 0;
+  if (
+    (o.addEventListener("pointerdown", (y) => {
+      y.target.closest("button, a") || ((se = y.clientY), (ve = 0));
+    }),
+    window.addEventListener("pointermove", (y) => {
+      if (se === null) return;
+      const B = (se - y.clientY) / (l.clientHeight * 4);
+      ((ve += B),
+        (R = h(R + B)),
+        (se = y.clientY),
+        K || (K = requestAnimationFrame(v)));
+    }),
+    window.addEventListener("pointerup", () => {
+      se !== null &&
+        ((se = null),
+        Math.abs(ve) > 0.004 ? E(ve > 0 ? 1 : -1) : I(Ne[T()] ?? 0));
+    }),
+    g?.addEventListener("click", () => E(-1)),
+    L?.addEventListener("click", () => E(1)),
+    window.addEventListener("resize", () => {
+      (b(), (n = -1), N());
+    }),
+    !z)
+  )
+    e.done();
+  else {
+    const y = () => {
+      q || (o.classList.remove("is-cine"), e.done());
+    };
+    window.setTimeout(y, Ha);
+    const B = (Z) => V(`/media/descent/${String(Z).padStart(3, "0")}.webp`),
+      Q = $e() ? [0] : Ne.map((Z) => Math.round(Z * (ut - 1))),
+      ae = () => {
+        if (!$e())
+          for (let Z = 0; Z < ut; Z++)
+            t[Z] ||
+              Ke(B(Z)).then((ne) => {
+                ((t[Z] = ne), q && Math.abs(Z - n) <= 1 && ((n = -1), N()));
+              });
+      };
+    qi([...Q.map(B), ...za], e.set)
+      .then((Z) => {
+        if (
+          (Q.forEach((ne, be) => {
+            t[ne] = Z[be] ?? null;
+          }),
+          !t.some(Boolean))
+        ) {
+          y();
+          return;
+        }
+        ((q = !0), o.classList.add("is-cine"), N(), e.done(), ae());
+      })
+      .catch(y);
+  }
+  (Ee((y) => {
+    y === "home" &&
+      ((X = !1), (p = 0), (R = 0), (n = -1), (k = -1), (C = -1), b(), N());
+  }),
+    N());
+}
+const Wa = {
+    2017: [
+      {
+        file: "2017-2017-01.webp",
+        title: "Finals. 2017 · snapshot 1",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2017-2017-02.webp",
+        title: "Finals. 2017 · snapshot 2",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2017-2017-03.webp",
+        title: "Finals. 2017 · snapshot 3",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2017-2017-04.webp",
+        title: "Finals. 2017 · snapshot 4",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2017-2017-05.webp",
+        title: "Finals. 2017 · snapshot 5",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2017-2017-06.webp",
+        title: "Finals. 2017 · snapshot 6",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2017-2017-07.webp",
+        title: "Finals. 2017 · snapshot 7",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2017-2017-08.webp",
+        title: "Finals. 2017 · snapshot 8",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2017-2017-09.webp",
+        title: "Finals. 2017 · snapshot 9",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2017-2017-10.webp",
+        title: "Finals. 2017 · snapshot 10",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2017-2017-11.webp",
+        title: "Finals. 2017 · snapshot 11",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2017-2017-12.webp",
+        title: "Finals. 2017 · snapshot 12",
+        kind: "img",
+        group: "photo",
+      },
+    ],
+    2018: [
+      {
+        file: "2018-screensaver.webp",
+        title: "Cup screensaver",
+        kind: "img",
+        group: "identity",
+      },
+      {
+        file: "2018-t-shirt.webp",
+        title: "Member's shirt",
+        kind: "img",
+        group: "identity",
+      },
+      {
+        file: "2018-2018-game.webp",
+        title: "Screenplay",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2018-roller.mp4",
+        title: "Cup roller 2018",
+        kind: "vid",
+        group: "video",
+      },
+      {
+        file: "2018-remagic.mp4",
+        title: "Panorama of the room 360°",
+        kind: "vid",
+        group: "video",
+      },
+      {
+        file: "2018-2018-01.webp",
+        title: "Finals. 2018 · snapshot 1",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2018-2018-02.webp",
+        title: "Finals. 2018 · snapshot 2",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2018-2018-03.webp",
+        title: "Finals. 2018 · snapshot 3",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2018-2018-04.webp",
+        title: "Finals. 2018 · snapshot 4",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2018-2018-06.webp",
+        title: "Finals. 2018 · snapshot 6",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2018-2018-07.webp",
+        title: "Finals. 2018 · snapshot 7",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2018-2018-08.webp",
+        title: "Finals. 2018 · snapshot 8",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2018-2018-09.webp",
+        title: "Finals. 2018 · snapshot 9",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2018-2018-10.webp",
+        title: "Finals. 2018 · snapshot 10",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2018-2018-11.webp",
+        title: "Finals. 2018 · snapshot 11",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2018-2018-12.webp",
+        title: "Finals. 2018 · snapshot 12",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2018-2018-13.webp",
+        title: "Finals. 2018 · snapshot 13",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2018-2018-14.webp",
+        title: "Finals. 2018 · snapshot 14",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2018-2018-15.webp",
+        title: "Finals. 2018 · snapshot 15",
+        kind: "img",
+        group: "photo",
+      },
+    ],
+    2019: [
+      {
+        file: "2019-footballer.webp",
+        title: "Participants' T-shirts",
+        kind: "img",
+        group: "identity",
+      },
+      {
+        file: "2019-winners.webp",
+        title: "Hood the winners",
+        kind: "img",
+        group: "identity",
+      },
+      {
+        file: "2019-banner.webp",
+        title: "Main banner",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2019-wall_facade.webp",
+        title: "Wall and facade",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2019-legend",
+        title: "Legend. 2019 · KZFland and Metra Veehkim",
+        kind: "doc",
+        pages: 19,
+        group: "legend",
+      },
+      {
+        file: "2019-survey.mp4",
+        title: "Overview video",
+        kind: "vid",
+        group: "video",
+      },
+      {
+        file: "2019-photo-01.webp",
+        title: "Finals. 2019 · snapshot 1",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2019-photo-02.webp",
+        title: "Finals. 2019 · snapshot 2",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2019-photo-03.webp",
+        title: "Finals. 2019 · snapshot 3",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2019-photo-04.webp",
+        title: "Finals. 2019 · snapshot 4",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2019-photo-05.webp",
+        title: "Finals. 2019 · snapshot 5",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2019-photo-06.webp",
+        title: "Finals. 2019 · snapshot 6",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2019-photo-07.webp",
+        title: "Finals. 2019 · snapshot 7",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2019-photo-08.webp",
+        title: "Finals. 2019 · snapshot 8",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2019-photo-09.webp",
+        title: "Finals. 2019 · snapshot 9",
+        kind: "img",
+        group: "photo",
+      },
+    ],
+    2020: [
+      {
+        file: "2020-alys.webp",
+        title: "Banner · Alice's concept",
+        kind: "img",
+        group: "identity",
+      },
+      {
+        file: "2020-ctf2020.webp",
+        title: "Screensaver of the final",
+        kind: "img",
+        group: "identity",
+      },
+      {
+        file: "2020-sticker-watch.webp",
+        title: "Clock stickers",
+        kind: "img",
+        group: "identity",
+      },
+      {
+        file: "2020-wwwbanner.webp",
+        title: "Website banner",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2020-cat-a76c6619.webp",
+        title: "Cheshire cat",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2020-jury_page_001.webp",
+        title: "Jury reversal",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2020-translation_page_001.webp",
+        title: "Broadcast reversal",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2020-img_2699.webp",
+        title: "Illustration of the legend",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2020-legend",
+        title: "Legend. 2020 · Alice.",
+        kind: "doc",
+        pages: 24,
+        group: "legend",
+      },
+      {
+        file: "2020-roller.mp4",
+        title: "Cup roller",
+        kind: "vid",
+        group: "video",
+      },
+      { file: "2020-reward.mp4", title: "Reward", kind: "vid", group: "video" },
+      {
+        file: "2020-photo-01.webp",
+        title: "Finals. 2020 · snapshot 1",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2020-photo-02.webp",
+        title: "Finals. 2020 · snapshot 2",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2020-photo-03.webp",
+        title: "Finals. 2020 · snapshot 3",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2020-photo-04.webp",
+        title: "Finals. 2020 · snapshot 4",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2020-photo-05.webp",
+        title: "Finals. 2020 · snapshot 5",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2020-photo-06.webp",
+        title: "Finals. 2020 · snapshot 6",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2020-photo-07.webp",
+        title: "Finals. 2020 · snapshot 7",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2020-photo-08.webp",
+        title: "Finals. 2020 · snapshot 8",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2020-photo-09.webp",
+        title: "Finals. 2020 · snapshot 9",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2020-photo-10.webp",
+        title: "Finals. 2020 · snapshot 10",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2020-photo-11.webp",
+        title: "Finals. 2020 · snapshot 11",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2020-photo-12.webp",
+        title: "Finals. 2020 · snapshot 12",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2020-photo-13.webp",
+        title: "Finals. 2020 · snapshot 13",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2020-photo-14.webp",
+        title: "Finals. 2020 · snapshot 14",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2020-photo-15.webp",
+        title: "Finals. 2020 · snapshot 15",
+        kind: "img",
+        group: "photo",
+      },
+    ],
+    2021: [
+      {
+        file: "2021-finale.webp",
+        title: "Map of the city from the sadord",
+        kind: "img",
+        group: "art",
+      },
+      { file: "2021-ATM.mp4", title: "ATM · work", kind: "vid", group: "art" },
+      {
+        file: "2021-broken-down ATM.mp4",
+        title: "ATM · broken",
+        kind: "vid",
+        group: "art",
+      },
+      {
+        file: "2021-ATM.mp4",
+        title: "ATM · attacked",
+        kind: "vid",
+        group: "art",
+      },
+      {
+        file: "2021-factory.mp4",
+        title: "Factory · work",
+        kind: "vid",
+        group: "art",
+      },
+      {
+        file: "2021-broken-down.mp4",
+        title: "Factory · broken",
+        kind: "vid",
+        group: "art",
+      },
+      {
+        file: "2021-plant-attack.mp4",
+        title: "Factory · attacked",
+        kind: "vid",
+        group: "art",
+      },
+      {
+        file: "2021-shop-house.mp4",
+        title: "Electronics store · work",
+        kind: "vid",
+        group: "art",
+      },
+      {
+        file: "2021-broken-down.mp4",
+        title: "Electronics store · broken",
+        kind: "vid",
+        group: "art",
+      },
+      {
+        file: "2021-shop-attack.mp4",
+        title: "Electronics store · attacked",
+        kind: "vid",
+        group: "art",
+      },
+      {
+        file: "2021-park-work.mp4",
+        title: "Theme park · work",
+        kind: "vid",
+        group: "art",
+      },
+      {
+        file: "2021-park-broken.mp4",
+        title: "Theme park · broken",
+        kind: "vid",
+        group: "art",
+      },
+      {
+        file: "2021-park-attack.mp4",
+        title: "Theme park · attacked",
+        kind: "vid",
+        group: "art",
+      },
+      {
+        file: "2021-booth.mp4",
+        title: "Transformer booth · work",
+        kind: "vid",
+        group: "art",
+      },
+      {
+        file: "2021-broken-house.mp4",
+        title: "Transformer booth · broken",
+        kind: "vid",
+        group: "art",
+      },
+      {
+        file: "2021-booth.mp4",
+        title: "Transformer booth · attacked",
+        kind: "vid",
+        group: "art",
+      },
+      {
+        file: "2021-survey.mp4",
+        title: "Overview video",
+        kind: "vid",
+        group: "video",
+      },
+      {
+        file: "2021-photo-01.webp",
+        title: "Finals. 2021 · snapshot 1",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2021-photo-02.webp",
+        title: "Finals. 2021 · snapshot 2",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2021-photo-03.webp",
+        title: "Finals. 2021 · snapshot 3",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2021-photo-04.webp",
+        title: "Finals. 2021 · snapshot 4",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2021-photo-05.webp",
+        title: "Finals. 2021 · snapshot 5",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2021-photo-06.webp",
+        title: "Finals. 2021 · snapshot 6",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2021-photo-07.webp",
+        title: "Finals. 2021 · snapshot 7",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2021-photo-08.webp",
+        title: "Finals. 2021 · snapshot 8",
+        kind: "img",
+        group: "photo",
+      },
+    ],
+    2022: [
+      {
+        file: "2022-2022cup.webp",
+        title: "Cup 2022",
+        kind: "img",
+        group: "identity",
+      },
+      {
+        file: "2022-jurist.webp",
+        title: "Jury, turnover",
+        kind: "img",
+        group: "identity",
+      },
+      {
+        file: "2022-jury.webp",
+        title: "Jury T-shirt",
+        kind: "img",
+        group: "identity",
+      },
+      {
+        file: "2022-merch.webp",
+        title: "merch",
+        kind: "img",
+        group: "identity",
+      },
+      {
+        file: "2022-sticker.webp",
+        title: "Stickers.",
+        kind: "img",
+        group: "identity",
+      },
+      {
+        file: "2022-t-shirt.webp",
+        title: "T-shirt",
+        kind: "img",
+        group: "identity",
+      },
+      {
+        file: "2022-merchants.webp",
+        title: "Merchants",
+        kind: "img",
+        group: "identity",
+      },
+      {
+        file: "2022-whole-town.mp4",
+        title: "City facilities: work and ruin",
+        kind: "vid",
+        group: "art",
+      },
+      {
+        file: "2022-render-town.webp",
+        title: "City rendering",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2022-finale.mp4",
+        title: "A film about the end",
+        kind: "vid",
+        group: "video",
+      },
+      {
+        file: "2022-photo-01.webp",
+        title: "Finals. 2022 · snapshot 1",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2022-photo-02.webp",
+        title: "Finals. 2022 · snapshot 2",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2022-photo-03.webp",
+        title: "Finals. 2022 · snapshot 3",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2022-photo-04.webp",
+        title: "Finals. 2022 · snapshot 4",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2022-photo-05.webp",
+        title: "Finals. 2022 · snapshot 5",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2022-photo-06.webp",
+        title: "Finals. 2022 · snapshot 6",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2022-photo-07.webp",
+        title: "Finals. 2022 · snapshot 7",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2022-photo-08.webp",
+        title: "Finals. 2022 · snapshot 8",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2022-photo-09.webp",
+        title: "Finals. 2022 · snapshot 9",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2022-photo-10.webp",
+        title: "Finals. 2022 · snapshot 10",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2022-photo-11.webp",
+        title: "Finals. 2022 · snapshot 11",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2022-photo-12.webp",
+        title: "Finals. 2022 · snapshot 12",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2022-photo-13.webp",
+        title: "Finals. 2022 · snapshot 13",
+        kind: "img",
+        group: "photo",
+      },
+    ],
+    2023: [
+      {
+        file: "2023-sweatshirts.webp",
+        title: "Thicks",
+        kind: "img",
+        group: "identity",
+      },
+      {
+        file: "2023-print-jury.webp",
+        title: "Jury sweatshirt print",
+        kind: "img",
+        group: "identity",
+      },
+      {
+        file: "2023-print organizing committee.webp",
+        title: "Print of the organizing committee sweatshirt",
+        kind: "img",
+        group: "identity",
+      },
+      {
+        file: "2023-printgroup.webp",
+        title: "Tech group sweatshirt print",
+        kind: "img",
+        group: "identity",
+      },
+      {
+        file: "2023-figure-1.webp",
+        title: "Growth figure 1",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2023-figure-2.webp",
+        title: "Growth figure 2",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2023-figure-3.webp",
+        title: "Growth figure 3",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2023-metravehkeem.webp",
+        title: "Metra Veehkim",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2023-visual-1.webp",
+        title: "Visualization 1",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2023-visual-2.webp",
+        title: "Visualization 2",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2023-visual-3.webp",
+        title: "Visualization 3",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2023-visual-4.webp",
+        title: "Visualization 4",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2023-lighthouse.webp",
+        title: "Lighthouse",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2023-fly-around.mp4",
+        title: "Flying over the city",
+        kind: "vid",
+        group: "art",
+      },
+      {
+        file: "2023-banner.webp",
+        title: "Main banner",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2023-finale.mp4",
+        title: "Finals., visualization",
+        kind: "vid",
+        group: "art",
+      },
+      {
+        file: "2023-legend",
+        title: "Legend. 2023 · icy Metra Veehkim",
+        kind: "doc",
+        pages: 24,
+        group: "legend",
+      },
+      {
+        file: "2023-result.mp4",
+        title: "The final video",
+        kind: "vid",
+        group: "video",
+      },
+      {
+        file: "2023-photo-01.webp",
+        title: "Finals. 2023 · snapshot 1",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2023-photo-02.webp",
+        title: "Finals. 2023 · snapshot 2",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2023-photo-03.webp",
+        title: "Finals. 2023 · snapshot 3",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2023-photo-04.webp",
+        title: "Finals. 2023 · snapshot 4",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2023-photo-05.webp",
+        title: "Finals. 2023 · snapshot 5",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2023-photo-06.webp",
+        title: "Finals. 2023 · snapshot 6",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2023-photo-07.webp",
+        title: "Finals. 2023 · snapshot 7",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2023-photo-08.webp",
+        title: "Finals. 2023 · snapshot 8",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2023-photo-09.webp",
+        title: "Finals. 2023 · snapshot 9",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2023-photo-10.webp",
+        title: "Finals. 2023 · snapshot 10",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2023-photo-11.webp",
+        title: "Finals. 2023 · snapshot 11",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2023-photo-12.webp",
+        title: "Finals. 2023 · snapshot 12",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2023-photo-13.webp",
+        title: "Finals. 2023 · snapshot 13",
+        kind: "img",
+        group: "photo",
+      },
+    ],
+    2024: [
+      {
+        file: "2024-hoodie.webp",
+        title: "Tolstoy, blue",
+        kind: "img",
+        group: "identity",
+      },
+      {
+        file: "2024-hoodie.webp",
+        title: "Tolstoy, red",
+        kind: "img",
+        group: "identity",
+      },
+      {
+        file: "2024-volunteer shirts-2.webp",
+        title: "Volunteer T-shirts, turnover",
+        kind: "img",
+        group: "identity",
+      },
+      {
+        file: "2024-volunteer shirts.webp",
+        title: "Volunteer T-shirts",
+        kind: "img",
+        group: "identity",
+      },
+      {
+        file: "2024-hoodie.webp",
+        title: "VIP-sweatshirt",
+        kind: "img",
+        group: "identity",
+      },
+      {
+        file: "2024-t-shirt.webp",
+        title: "Member's shirt",
+        kind: "img",
+        group: "identity",
+      },
+      {
+        file: "2024-shape.webp",
+        title: "Growth figure · Ave.",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2024-sophi.webp",
+        title: "Growth figure · Sophie",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2024-tail-piece.webp",
+        title: "Growth figure · Tails",
+        kind: "img",
+        group: "art",
+      },
+      { file: "2024-demo_full.mp4", title: "demo", kind: "vid", group: "art" },
+      {
+        file: "2024-visual-1.webp",
+        title: "Visualization 1",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2024-visual-3.webp",
+        title: "Visualization 3",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2024-visual-4.webp",
+        title: "Visualization 4",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2024-visual-5.webp",
+        title: "Visualization 5",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2024-visual-6.webp",
+        title: "Visualization 6",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2024-visual-7.webp",
+        title: "Visualization 7",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2024-legend",
+        title: "Legend. 2024 · manga",
+        kind: "doc",
+        pages: 78,
+        group: "legend",
+      },
+      {
+        file: "2024-cup_ctf_8_prologue_20-12_sound_design-1.mp4",
+        title: "Prologue VIII Cup",
+        kind: "vid",
+        group: "video",
+      },
+      {
+        file: "2024-photo-01.webp",
+        title: "Finals. 2024 · snapshot 1",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2024-photo-02.webp",
+        title: "Finals. 2024 · snapshot 2",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2024-photo-03.webp",
+        title: "Finals. 2024 · snapshot 3",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2024-photo-04.webp",
+        title: "Finals. 2024 · snapshot 4",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2024-photo-05.webp",
+        title: "Finals. 2024 · snapshot 5",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2024-photo-06.webp",
+        title: "Finals. 2024 · snapshot 6",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2024-photo-07.webp",
+        title: "Finals. 2024 · snapshot 7",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2024-photo-08.webp",
+        title: "Finals. 2024 · snapshot 8",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2024-photo-09.webp",
+        title: "Finals. 2024 · snapshot 9",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2024-photo-10.webp",
+        title: "Finals. 2024 · snapshot 10",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2024-photo-11.webp",
+        title: "Finals. 2024 · snapshot 11",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2024-photo-12.webp",
+        title: "Finals. 2024 · snapshot 12",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2024-photo-13.webp",
+        title: "Finals. 2024 · snapshot 13",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2024-photo-14.webp",
+        title: "Finals. 2024 · snapshot 14",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2024-photo-15.webp",
+        title: "Finals. 2024 · snapshot 15",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2024-photo-16.webp",
+        title: "Finals. 2024 · snapshot 16",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2024-photo-17.webp",
+        title: "Finals. 2024 · snapshot 17",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2024-photo-18.webp",
+        title: "Finals. 2024 · snapshot 18",
+        kind: "img",
+        group: "photo",
+      },
+    ],
+    2025: [
+      {
+        file: "2025-merch.webp",
+        title: "season-merch",
+        kind: "img",
+        group: "identity",
+      },
+      {
+        file: "2025-print-thick.webp",
+        title: "A hoodie print",
+        kind: "img",
+        group: "identity",
+      },
+      {
+        file: "2025-badge.webp",
+        title: "Baigi",
+        kind: "img",
+        group: "identity",
+      },
+      {
+        file: "2025-figure.webp",
+        title: "Growth figure · Asya",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2025-visual-1.webp",
+        title: "Visualization 1",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2025-visual-2.webp",
+        title: "Visualization 2",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2025-visual-3.webp",
+        title: "Visualization 3",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2025-sophie-1.webp",
+        title: "Sophie · frame 1",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2025-sophie-2.webp",
+        title: "Sophie · frame 2",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2025-sophie-3.webp",
+        title: "Sophie · frame 3",
+        kind: "img",
+        group: "art",
+      },
+      {
+        file: "2025-play-stage.mp4",
+        title: "Playing scene",
+        kind: "vid",
+        group: "art",
+      },
+      {
+        file: "2025-legend",
+        title: "Legend. 2025",
+        kind: "doc",
+        pages: 36,
+        group: "legend",
+      },
+      {
+        file: "2025-prologue-1.mp4",
+        title: "Prologue · selection",
+        kind: "vid",
+        group: "video",
+      },
+      {
+        file: "2025-prologue-2.mp4",
+        title: "Prologue · finale",
+        kind: "vid",
+        group: "video",
+      },
+      {
+        file: "2025-prologue-3.mp4",
+        title: "Prologue · superfinal",
+        kind: "vid",
+        group: "video",
+      },
+      {
+        file: "2025-photo-01.webp",
+        title: "Finals. 2025 · snapshot 1",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2025-photo-02.webp",
+        title: "Finals. 2025 · snapshot 2",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2025-photo-03.webp",
+        title: "Finals. 2025 · snapshot 3",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2025-photo-04.webp",
+        title: "Finals. 2025 · snapshot 4",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2025-photo-05.webp",
+        title: "Finals. 2025 · snapshot 5",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2025-photo-06.webp",
+        title: "Finals. 2025 · snapshot 6",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2025-photo-07.webp",
+        title: "Finals. 2025 · snapshot 7",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2025-photo-08.webp",
+        title: "Finals. 2025 · snapshot 8",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2025-photo-09.webp",
+        title: "Finals. 2025 · snapshot 9",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2025-photo-10.webp",
+        title: "Finals. 2025 · snapshot 10",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2025-photo-11.webp",
+        title: "Finals. 2025 · snapshot 11",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2025-photo-12.webp",
+        title: "Finals. 2025 · snapshot 12",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2025-photo-13.webp",
+        title: "Finals. 2025 · snapshot 13",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2025-photo-14.webp",
+        title: "Finals. 2025 · snapshot 14",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2025-photo-15.webp",
+        title: "Finals. 2025 · snapshot 15",
+        kind: "img",
+        group: "photo",
+      },
+      {
+        file: "2025-photo-16.webp",
+        title: "Finals. 2025 · snapshot 16",
+        kind: "img",
+        group: "photo",
+      },
+    ],
+  },
+  Ba = [
+    { id: "identity", name: "Identity." },
+    { id: "art", name: "Visualization" },
+    { id: "legend", name: "Legend." },
+    { id: "report", name: "Report." },
+    { id: "video", name: "Rollers." },
+    { id: "photo", name: "Photographs" },
+  ],
+  oi = Wa,
+  Ua = 470,
+  Ya = 300,
+  Ga = 16,
+  ri = 45,
+  Ka = 3,
+  di = "126, 214, 255";
+function Xa() {
+  const e = document.querySelector('[data-room="vault"]'),
+    o = e?.querySelector("[data-vault]"),
+    l = e?.querySelector("[data-vault-rail]"),
+    S = e?.querySelector("[data-vault-chips]"),
+    m = e?.querySelector("[data-vault-act]"),
+    g = e?.querySelector("[data-vault-count]"),
+    L = e?.querySelector("[data-vault-card]"),
+    z = e?.querySelector("[data-vault-prev]"),
+    $ = e?.querySelector("[data-vault-next]");
+  if (!e || !o || !l || !S || !m || !L || !z || !$) return;
+  const q = document.createElement("div");
+  ((q.className = "doc-wrap"), (q.hidden = !0), o.append(q));
+  let O = null,
+    U = null;
+  const p = document.createElement("div");
+  ((p.className = "bay bay--intro"),
+    p.style.setProperty("--t", di),
+    (p.innerHTML = `
     <div class="bay__arch">
       <div class="bay__name">${st.title}</div>
-      ${st.parts.map(s=>`<div class="bay__text">${s}</div>`).join("")}
+      ${st.parts.map((s) => `<div class="bay__text">${s}</div>`).join("")}
       <div class="bay__go">${st.go}</div>
-    </div>`,l.append(p);const R=s=>{const v=oi[s]??[];if(!v.length)return"";const I=v.filter(te=>te.kind==="vid").length,T=v.length-I,E=[];return T&&E.push(`${T} ${T===1?"frame":T<5?"frame":"staff"}`),I&&E.push(`${I} ${I===1?"roller":I<5?"roller":"roller"}`),E.join(" · ")},K=Ue.map(s=>{const v=document.createElement("div");v.className=`bay bay--${s.pattern}`,v.style.setProperty("--t",s.tint);const I=R(s.year);return v.innerHTML=`
+    </div>`),
+    l.append(p));
+  const R = (s) => {
+      const v = oi[s] ?? [];
+      if (!v.length) return "";
+      const I = v.filter((te) => te.kind === "vid").length,
+        T = v.length - I,
+        E = [];
+      return (
+        T && E.push(`${T} ${T === 1 ? "frame" : T < 5 ? "frame" : "staff"}`),
+        I && E.push(`${I} ${I === 1 ? "roller" : I < 5 ? "roller" : "roller"}`),
+        E.join(" · ")
+      );
+    },
+    K = Ue.map((s) => {
+      const v = document.createElement("div");
+      ((v.className = `bay bay--${s.pattern}`),
+        v.style.setProperty("--t", s.tint));
+      const I = R(s.year);
+      return (
+        (v.innerHTML = `
       <button class="bay__arch" type="button">
         <div class="bay__num">${s.numeral}</div>
         <div class="bay__year">${s.year}</div>
         <div class="bay__name">${s.title}</div>
         <div class="bay__text">${s.body}</div>
-        ${I?`<div class="bay__more">${I}</div>`:""}
-      </button>`,v.querySelector("button")?.addEventListener("click",()=>C(s)),l.append(v),v}),X=[p,...K],h=Ue.map((s,v)=>{const I=document.createElement("button");return I.type="button",I.textContent=s.year,I.addEventListener("click",()=>n(v+1)),S.append(I),I});let w=0,j=null;const t=s=>{const v=Ci.find(E=>E.numeral===s);if(!v){m.classList.add("is-fading"),j=null;return}if(s===j){m.classList.remove("is-fading");return}const I=j===null;j=s??null;const T=()=>{m.style.setProperty("--ct",Ue[w-1]?.tint??di),m.innerHTML=`
+        ${I ? `<div class="bay__more">${I}</div>` : ""}
+      </button>`),
+        v.querySelector("button")?.addEventListener("click", () => C(s)),
+        l.append(v),
+        v
+      );
+    }),
+    X = [p, ...K],
+    h = Ue.map((s, v) => {
+      const I = document.createElement("button");
+      return (
+        (I.type = "button"),
+        (I.textContent = s.year),
+        I.addEventListener("click", () => n(v + 1)),
+        S.append(I),
+        I
+      );
+    });
+  let w = 0,
+    j = null;
+  const t = (s) => {
+      const v = Ci.find((E) => E.numeral === s);
+      if (!v) {
+        (m.classList.add("is-fading"), (j = null));
+        return;
+      }
+      if (s === j) {
+        m.classList.remove("is-fading");
+        return;
+      }
+      const I = j === null;
+      j = s ?? null;
+      const T = () => {
+        (m.style.setProperty("--ct", Ue[w - 1]?.tint ?? di),
+          (m.innerHTML = `
         <p class="vault__act-head"><b>act ${v.numeral} ·</b><span>${v.name}</span><i>${v.years}</i></p>
-        <p class="vault__act-body">${v.body}</p>`};if(I){T(),m.classList.remove("is-fading");return}m.classList.add("is-fading"),window.setTimeout(()=>{T(),m.classList.remove("is-fading")},350)},c=()=>{X.forEach((s,v)=>{const I=v-w,T=Math.abs(I);s.style.setProperty("--x",`${I*Ua}px`),s.style.setProperty("--z",`${-T*Ya}px`),s.style.setProperty("--ry",`${-Math.max(-ri,Math.min(ri,I*Ga))}deg`),s.style.setProperty("--dim",T===1?".62":T===2?".4":".22"),s.classList.toggle("is-here",I===0),s.classList.toggle("is-near",T<=Ka)}),h.forEach((s,v)=>s.setAttribute("aria-current",v+1===w?"true":"false")),g&&(g.textContent=w===0?"":`niche ${w} / ${Ue.length}`),z.disabled=w===0,$.disabled=w===X.length-1,t(Ue[w-1]?.act)},n=(s,v=!1)=>{w=Math.max(0,Math.min(X.length-1,s)),l.classList.toggle("is-snapped",v),c(),v&&requestAnimationFrame(()=>l.classList.remove("is-snapped"))},k=()=>{_(),delete document.body.dataset.season;for(const s of L.querySelectorAll("video"))s.pause();L.hidden=!0},C=s=>{const v=oi[s.year]??[],I=(E,te)=>{if(E.kind==="doc"){const y=V(`/media/archive/${E.file}-01.webp`);return`<button class="relic relic--doc" type="button" data-doc="${te}">
+        <p class="vault__act-body">${v.body}</p>`));
+      };
+      if (I) {
+        (T(), m.classList.remove("is-fading"));
+        return;
+      }
+      (m.classList.add("is-fading"),
+        window.setTimeout(() => {
+          (T(), m.classList.remove("is-fading"));
+        }, 350));
+    },
+    c = () => {
+      (X.forEach((s, v) => {
+        const I = v - w,
+          T = Math.abs(I);
+        (s.style.setProperty("--x", `${I * Ua}px`),
+          s.style.setProperty("--z", `${-T * Ya}px`),
+          s.style.setProperty(
+            "--ry",
+            `${-Math.max(-ri, Math.min(ri, I * Ga))}deg`,
+          ),
+          s.style.setProperty(
+            "--dim",
+            T === 1 ? ".62" : T === 2 ? ".4" : ".22",
+          ),
+          s.classList.toggle("is-here", I === 0),
+          s.classList.toggle("is-near", T <= Ka));
+      }),
+        h.forEach((s, v) =>
+          s.setAttribute("aria-current", v + 1 === w ? "true" : "false"),
+        ),
+        g && (g.textContent = w === 0 ? "" : `niche ${w} / ${Ue.length}`),
+        (z.disabled = w === 0),
+        ($.disabled = w === X.length - 1),
+        t(Ue[w - 1]?.act));
+    },
+    n = (s, v = !1) => {
+      ((w = Math.max(0, Math.min(X.length - 1, s))),
+        l.classList.toggle("is-snapped", v),
+        c(),
+        v && requestAnimationFrame(() => l.classList.remove("is-snapped")));
+    },
+    k = () => {
+      (_(), delete document.body.dataset.season);
+      for (const s of L.querySelectorAll("video")) s.pause();
+      L.hidden = !0;
+    },
+    C = (s) => {
+      const v = oi[s.year] ?? [],
+        I = (E, te) => {
+          if (E.kind === "doc") {
+            const y = V(`/media/archive/${E.file}-01.webp`);
+            return `<button class="relic relic--doc" type="button" data-doc="${te}">
           <img src="${y}" alt="${E.title}" loading="lazy" decoding="async" />
-          <span class="relic__cap"><b>${E.title}</b><i>${E.pages??0} page · leaf out</i></span>
-        </button>`}const oe=V(`/media/archive/${E.file}`),se=E.group==="video"||$e(),ve=E.kind==="vid"?se?`<video src="${oe}#t=2" muted playsinline preload="metadata"></video>`:`<video data-lazy="${oe}" muted loop playsinline preload="none"></video>`:`<img src="${oe}" alt="${E.title}" loading="lazy" decoding="async" />`;return`<button class="relic relic--open" type="button" data-open="${te}">${ve}
-        <span class="relic__cap"><b>${E.title}</b><i>${E.kind==="vid"?"look":"open"}</i></span>
-      </button>`},T=Ba.map(E=>{const te=v.map((oe,se)=>({relic:oe,i:se})).filter(oe=>(oe.relic.group??"art")===E.id);return te.length?`<section class="shelf">
+          <span class="relic__cap"><b>${E.title}</b><i>${E.pages ?? 0} page · leaf out</i></span>
+        </button>`;
+          }
+          const oe = V(`/media/archive/${E.file}`),
+            se = E.group === "video" || $e(),
+            ve =
+              E.kind === "vid"
+                ? se
+                  ? `<video src="${oe}#t=2" muted playsinline preload="metadata"></video>`
+                  : `<video data-lazy="${oe}" muted loop playsinline preload="none"></video>`
+                : `<img src="${oe}" alt="${E.title}" loading="lazy" decoding="async" />`;
+          return `<button class="relic relic--open" type="button" data-open="${te}">${ve}
+        <span class="relic__cap"><b>${E.title}</b><i>${E.kind === "vid" ? "look" : "open"}</i></span>
+      </button>`;
+        },
+        T = Ba.map((E) => {
+          const te = v
+            .map((oe, se) => ({ relic: oe, i: se }))
+            .filter((oe) => (oe.relic.group ?? "art") === E.id);
+          return te.length
+            ? `<section class="shelf">
           <p class="shelf__head">${E.name}<i>${te.length}</i></p>
-          <div class="shelf__row">${te.map(oe=>I(oe.relic,oe.i)).join("")}</div>
-        </section>`:""}).join("");L.style.setProperty("--t",s.tint),L.innerHTML=`
+          <div class="shelf__row">${te.map((oe) => I(oe.relic, oe.i)).join("")}</div>
+        </section>`
+            : "";
+        }).join("");
+      (L.style.setProperty("--t", s.tint),
+        (L.innerHTML = `
       <div class="season">
         <div class="season__top">
           <span class="season__num">${s.numeral}</span>
@@ -49,8 +5699,53 @@ The Universe`,body:"Sophie's consciousness — here. More doubles., needle, And 
           <button class="btn" type="button">← Back to the vault.</button>
         </div>
         <p class="season__text">${s.body}</p>
-        ${T?`<div class="shelves">${T}</div>`:""}
-      </div>`,L.hidden=!1,Xe(L),document.body.dataset.season="1";for(const E of L.querySelectorAll("video[data-lazy]"))E.src=E.dataset.lazy??"",E.play().catch(()=>{});L.querySelector(".btn")?.addEventListener("click",k);for(const E of L.querySelectorAll("[data-doc]"))E.addEventListener("click",()=>{const te=v[Number(E.dataset.doc)];te&&b(te)});for(const E of L.querySelectorAll("[data-open]"))E.addEventListener("click",()=>{const te=v[Number(E.dataset.open)];te&&G(v,te)})},G=(s,v)=>{const I=s.filter(E=>E.kind!=="doc"),T=Math.max(0,I.indexOf(v));u(I.map(E=>({src:V(`/media/archive/${E.file}`),cap:E.title,vid:E.kind==="vid"})),T,"What's left")},b=s=>{const v=s.pages??1,I=Array.from({length:v},(T,E)=>({src:V(`/media/archive/${s.file}-${String(E+1).padStart(2,"0")}.webp`),cap:"",vid:!1}));u(I,0,s.title)},u=(s,v,I)=>{if(!s.length)return;let T=0;q.innerHTML=`
+        ${T ? `<div class="shelves">${T}</div>` : ""}
+      </div>`),
+        (L.hidden = !1),
+        Xe(L),
+        (document.body.dataset.season = "1"));
+      for (const E of L.querySelectorAll("video[data-lazy]"))
+        ((E.src = E.dataset.lazy ?? ""), E.play().catch(() => {}));
+      L.querySelector(".btn")?.addEventListener("click", k);
+      for (const E of L.querySelectorAll("[data-doc]"))
+        E.addEventListener("click", () => {
+          const te = v[Number(E.dataset.doc)];
+          te && b(te);
+        });
+      for (const E of L.querySelectorAll("[data-open]"))
+        E.addEventListener("click", () => {
+          const te = v[Number(E.dataset.open)];
+          te && G(v, te);
+        });
+    },
+    G = (s, v) => {
+      const I = s.filter((E) => E.kind !== "doc"),
+        T = Math.max(0, I.indexOf(v));
+      u(
+        I.map((E) => ({
+          src: V(`/media/archive/${E.file}`),
+          cap: E.title,
+          vid: E.kind === "vid",
+        })),
+        T,
+        "What's left",
+      );
+    },
+    b = (s) => {
+      const v = s.pages ?? 1,
+        I = Array.from({ length: v }, (T, E) => ({
+          src: V(
+            `/media/archive/${s.file}-${String(E + 1).padStart(2, "0")}.webp`,
+          ),
+          cap: "",
+          vid: !1,
+        }));
+      u(I, 0, s.title);
+    },
+    u = (s, v, I) => {
+      if (!s.length) return;
+      let T = 0;
+      q.innerHTML = `
       <div class="doc">
         <div class="doc__top">
           <b data-doc-title>${I}</b>
@@ -60,4 +5755,155 @@ The Universe`,body:"Sophie's consciousness — here. More doubles., needle, And 
         <div class="doc__sheet" data-doc-sheet></div>
         <button class="doc__side doc__side--prev" type="button" data-doc-prev aria-label="Previous">‹</button>
         <button class="doc__side doc__side--next" type="button" data-doc-next aria-label="Next Next post">›</button>
-      </div>`;const E=q.querySelector("[data-doc-sheet]"),te=q.querySelector("[data-doc-count]"),oe=q.querySelector("[data-doc-title]"),se=q.querySelector("[data-doc-prev]"),ve=q.querySelector("[data-doc-next]"),y=B=>{T=Math.max(0,Math.min(s.length-1,B));const Q=s[T];E&&(E.innerHTML=Q.vid?`<video src="${Q.src}" controls autoplay loop playsinline></video>`:`<img src="${Q.src}" alt="${Q.cap||I}" decoding="async" />`),oe&&(oe.textContent=Q.cap||I),te&&(te.textContent=`${T+1} / ${s.length}`),se&&(se.disabled=T===0),ve&&(ve.disabled=T===s.length-1);const ae=s[T+1];ae&&!ae.vid&&(new Image().src=ae.src)};O=y,U=()=>T,se?.addEventListener("click",()=>y(T-1)),ve?.addEventListener("click",()=>y(T+1)),q.querySelector("[data-doc-close]")?.addEventListener("click",_),q.addEventListener("click",B=>{B.target===q&&_()}),q.hidden=!1,document.body.dataset.doc="1",y(v),Xe(q)},_=()=>{delete document.body.dataset.doc,q.hidden=!0,q.innerHTML="",O=null,U=null};let N=0,ie=0;o.addEventListener("wheel",s=>{L.hidden&&(s.preventDefault(),!(Date.now()<ie)&&(N+=s.deltaY,Math.abs(N)>90&&(n(w+(N>0?1:-1)),N=0,ie=Date.now()+440)))},{passive:!1});let J=null;o.addEventListener("pointerdown",s=>{s.target.closest("button")||!L.hidden||(s.preventDefault(),J={x:s.clientX,at:w})}),window.addEventListener("pointermove",s=>{if(!J)return;const v=Math.round((J.x-s.clientX)/150);v!==0&&J.at+v!==w&&n(J.at+v)}),window.addEventListener("pointerup",()=>{J=null}),window.addEventListener("keydown",s=>{if(document.body.dataset.openRoom==="vault"){if(!q.hidden){s.key==="Escape"&&_(),s.key==="ArrowRight"&&O&&U&&O(U()+1),s.key==="ArrowLeft"&&O&&U&&O(U()-1),s.preventDefault();return}if(!L.hidden){s.key==="Escape"&&k();return}(s.key==="ArrowRight"||s.key==="ArrowDown")&&(s.preventDefault(),n(w+1)),(s.key==="ArrowLeft"||s.key==="ArrowUp")&&(s.preventDefault(),n(w-1)),s.key==="Home"&&(s.preventDefault(),n(0)),s.key==="End"&&(s.preventDefault(),n(X.length-1))}}),z.addEventListener("click",()=>n(w-1)),$.addEventListener("click",()=>n(w+1)),Ee(s=>{s==="vault"&&(k(),n(0,!0))}),c()}const Va=900;function Za(){const e=()=>document.body.classList.add("is-revealed"),o=document.fonts?.ready??Promise.resolve(),l=new Promise(S=>setTimeout(S,Va));return Promise.race([o.then(()=>{}),l]).then(e)}function Ja(){for(const e of document.querySelectorAll("[data-src]")){const o=e.dataset.src;o&&e.setAttribute("src",V(o))}for(const e of document.querySelectorAll("[data-poster]")){const o=e.dataset.poster;o&&e.setAttribute("poster",V(o))}for(const e of document.querySelectorAll("[data-doc]")){const o=e.dataset.doc;o&&e.setAttribute("href",V(o))}}function Qa(){const e=document.querySelector("[data-clock]");if(!e)return;const o=()=>{e.textContent=`${new Date().toISOString().slice(11,19)} UTC`};o(),setInterval(o,1e3)}function en(){document.documentElement.classList.remove("no-js"),Ja(),Na($i()),Ui(),Aa(),Ma(),Ki(),ha(),ka(),ya(),Ca(),$a(),qa(),Xa(),Qa(),$e()||wa([V("/media/club_room.webp"),V("/media/world_signal.mp4"),V("/media/world_city.mp4"),V("/media/world_hex.mp4"),V("/media/world_mirror.mp4")]),Za()}en();
+      </div>`;
+      const E = q.querySelector("[data-doc-sheet]"),
+        te = q.querySelector("[data-doc-count]"),
+        oe = q.querySelector("[data-doc-title]"),
+        se = q.querySelector("[data-doc-prev]"),
+        ve = q.querySelector("[data-doc-next]"),
+        y = (B) => {
+          T = Math.max(0, Math.min(s.length - 1, B));
+          const Q = s[T];
+          (E &&
+            (E.innerHTML = Q.vid
+              ? `<video src="${Q.src}" controls autoplay loop playsinline></video>`
+              : `<img src="${Q.src}" alt="${Q.cap || I}" decoding="async" />`),
+            oe && (oe.textContent = Q.cap || I),
+            te && (te.textContent = `${T + 1} / ${s.length}`),
+            se && (se.disabled = T === 0),
+            ve && (ve.disabled = T === s.length - 1));
+          const ae = s[T + 1];
+          ae && !ae.vid && (new Image().src = ae.src);
+        };
+      ((O = y),
+        (U = () => T),
+        se?.addEventListener("click", () => y(T - 1)),
+        ve?.addEventListener("click", () => y(T + 1)),
+        q.querySelector("[data-doc-close]")?.addEventListener("click", _),
+        q.addEventListener("click", (B) => {
+          B.target === q && _();
+        }),
+        (q.hidden = !1),
+        (document.body.dataset.doc = "1"),
+        y(v),
+        Xe(q));
+    },
+    _ = () => {
+      (delete document.body.dataset.doc,
+        (q.hidden = !0),
+        (q.innerHTML = ""),
+        (O = null),
+        (U = null));
+    };
+  let N = 0,
+    ie = 0;
+  o.addEventListener(
+    "wheel",
+    (s) => {
+      L.hidden &&
+        (s.preventDefault(),
+        !(Date.now() < ie) &&
+          ((N += s.deltaY),
+          Math.abs(N) > 90 &&
+            (n(w + (N > 0 ? 1 : -1)), (N = 0), (ie = Date.now() + 440))));
+    },
+    { passive: !1 },
+  );
+  let J = null;
+  (o.addEventListener("pointerdown", (s) => {
+    s.target.closest("button") ||
+      !L.hidden ||
+      (s.preventDefault(), (J = { x: s.clientX, at: w }));
+  }),
+    window.addEventListener("pointermove", (s) => {
+      if (!J) return;
+      const v = Math.round((J.x - s.clientX) / 150);
+      v !== 0 && J.at + v !== w && n(J.at + v);
+    }),
+    window.addEventListener("pointerup", () => {
+      J = null;
+    }),
+    window.addEventListener("keydown", (s) => {
+      if (document.body.dataset.openRoom === "vault") {
+        if (!q.hidden) {
+          (s.key === "Escape" && _(),
+            s.key === "ArrowRight" && O && U && O(U() + 1),
+            s.key === "ArrowLeft" && O && U && O(U() - 1),
+            s.preventDefault());
+          return;
+        }
+        if (!L.hidden) {
+          s.key === "Escape" && k();
+          return;
+        }
+        ((s.key === "ArrowRight" || s.key === "ArrowDown") &&
+          (s.preventDefault(), n(w + 1)),
+          (s.key === "ArrowLeft" || s.key === "ArrowUp") &&
+            (s.preventDefault(), n(w - 1)),
+          s.key === "Home" && (s.preventDefault(), n(0)),
+          s.key === "End" && (s.preventDefault(), n(X.length - 1)));
+      }
+    }),
+    z.addEventListener("click", () => n(w - 1)),
+    $.addEventListener("click", () => n(w + 1)),
+    Ee((s) => {
+      s === "vault" && (k(), n(0, !0));
+    }),
+    c());
+}
+const Va = 900;
+function Za() {
+  const e = () => document.body.classList.add("is-revealed"),
+    o = document.fonts?.ready ?? Promise.resolve(),
+    l = new Promise((S) => setTimeout(S, Va));
+  return Promise.race([o.then(() => {}), l]).then(e);
+}
+function Ja() {
+  for (const e of document.querySelectorAll("[data-src]")) {
+    const o = e.dataset.src;
+    o && e.setAttribute("src", V(o));
+  }
+  for (const e of document.querySelectorAll("[data-poster]")) {
+    const o = e.dataset.poster;
+    o && e.setAttribute("poster", V(o));
+  }
+  for (const e of document.querySelectorAll("[data-doc]")) {
+    const o = e.dataset.doc;
+    o && e.setAttribute("href", V(o));
+  }
+}
+function Qa() {
+  const e = document.querySelector("[data-clock]");
+  if (!e) return;
+  const o = () => {
+    e.textContent = `${new Date().toISOString().slice(11, 19)} UTC`;
+  };
+  (o(), setInterval(o, 1e3));
+}
+function en() {
+  (document.documentElement.classList.remove("no-js"),
+    Ja(),
+    Na($i()),
+    Ui(),
+    Aa(),
+    Ma(),
+    Ki(),
+    ha(),
+    ka(),
+    ya(),
+    Ca(),
+    $a(),
+    qa(),
+    Xa(),
+    Qa(),
+    $e() ||
+      wa([
+        V("/media/club_room.webp"),
+        V("/media/world_signal.mp4"),
+        V("/media/world_city.mp4"),
+        V("/media/world_hex.mp4"),
+        V("/media/world_mirror.mp4"),
+      ]),
+    Za());
+}
+en();
