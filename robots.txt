@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /m-14a433c11b037b5d/
+
+Sitemap: https://ctfcup.ru/sitemap.xml
+Host: https://ctfcup.ru
